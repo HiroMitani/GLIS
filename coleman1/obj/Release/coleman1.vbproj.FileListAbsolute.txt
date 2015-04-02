@@ -1,0 +1,32 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\bin\Release\Pure Fishing Japan.exe.config
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\bin\Release\Pure Fishing Japan.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\bin\Release\Pure Fishing Japan.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\bin\Release\Pure Fishing Japan.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\bin\Release\MySQLDriverCS.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\bin\Release\Interop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Release\Interop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Release\coleman1.vbproj.ResolveComReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Release\PureFishingJapan.LoginForm1.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Release\PureFishingJapan.nhenkou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Release\PureFishingJapan.nkakutei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Release\PureFishingJapan.nkensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Release\PureFishingJapan.nyotei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Release\PureFishingJapan.syukohenkou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Release\PureFishingJapan.syukokakutei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Release\PureFishingJapan.syukokensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Release\PureFishingJapan.syukoshiji.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Release\PureFishingJapan.topmenu.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Release\PureFishingJapan.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Release\PureFishingJapan.zhenpin.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Release\PureFishingJapan.zkensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Release\PureFishingJapan.zkubun.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Release\PureFishingJapan.zrireki.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Release\PureFishingJapan.zset.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Release\PureFishingJapan.zset_conf.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Release\PureFishingJapan.ztanaoroshi.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Release\PureFishingJapan.ztyousei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Release\coleman1.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Release\Pure Fishing Japan.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Release\Pure Fishing Japan.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Release\Pure Fishing Japan.pdb

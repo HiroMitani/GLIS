@@ -1,0 +1,370 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\bin\x86\Debug\Pure Fishing Japan.exe.config
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\Interop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\AxInterop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\coleman1.vbproj.ResolveComReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\bin\x86\Debug\Pure Fishing Japan.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\bin\x86\Debug\Pure Fishing Japan.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\bin\x86\Debug\Pure Fishing Japan.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\bin\x86\Debug\Interop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\bin\x86\Debug\AxInterop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.IO_balance.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.LoginForm1.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.mcustomer.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.mcustomer_modify.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.mitem.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.mitem_modify.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.nhenkou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.nkakutei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.nkensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.nyotei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.PO_cancel.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.po_import.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.PO_kensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.PO_Monthly_Report.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.PO_nyuukoyotei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.syukohenkou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.syukokakutei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.syukokensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.syukoshiji.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.topmenu.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.zdisman_conf.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.zset.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.zhenpin.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.zkensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.zkubun.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.zrireki.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.zdisman.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.zset_conf.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.ztanaoroshi.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.ztyousei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.syukodenpyou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\coleman1.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\Pure Fishing Japan.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\Pure Fishing Japan.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\x86\Debug\Pure Fishing Japan.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\bin\x86\Debug\Pure Fishing Japan.exe.config
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\Interop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\AxInterop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\coleman1.vbproj.ResolveComReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\Pure Fishing Japan.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\Pure Fishing Japan.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\Pure Fishing Japan.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\bin\x86\Debug\Pure Fishing Japan.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\bin\x86\Debug\Pure Fishing Japan.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\bin\x86\Debug\Pure Fishing Japan.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\bin\x86\Debug\Interop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\bin\x86\Debug\AxInterop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.IO_balance.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.IO_Graph.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.LoginForm1.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.mcustomer.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.mcustomer_modify.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.mitem.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.mitem_modify.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.mitem_standardnum_Import.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.nhenkou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.nkakutei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.nkensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.nyotei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.PO_cancel.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.PO_help.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.po_import.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.PO_kensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.PO_Monthly_Report.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.PO_nyuukoyotei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.PO_Prediction.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.Processing.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.StandardNum_modify.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.syukohenkou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.syukokakutei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.syukokensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.syukoshiji.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.topmenu.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.zdisman_conf.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.zset.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.zhenpin.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.zkensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.zkubun.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.zrireki.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.zdisman.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.zset_conf.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.ztanaoroshi.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.ztyousei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.syukodenpyou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\x86\Debug\coleman1.vbproj.GenerateResource.Cache
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\Pure Fishing Japan.exe.config
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\Interop.COREPOXLib.dll
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\AxInterop.COREPOXLib.dll
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\coleman1.vbproj.ResolveComReference.cache
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\Pure Fishing Japan.exe
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\Pure Fishing Japan.xml
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\Pure Fishing Japan.pdb
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\Pure Fishing Japan.exe
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\Pure Fishing Japan.pdb
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\Pure Fishing Japan.xml
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\Interop.COREPOXLib.dll
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\AxInterop.COREPOXLib.dll
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.IO_balance.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.IO_Graph.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.LoginForm1.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.mcustomer.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.mcustomer_modify.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.mitem.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.mitem_modify.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.mitem_standardnum_Import.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.nhenkou.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.nkakutei.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.nkensaku.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.nyotei.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.PO_cancel.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.PO_help.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.po_import.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.PO_kensaku.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.PO_Monthly_Report.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.PO_nyuukoyotei.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.PO_Prediction.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.Processing.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.StandardNum_modify.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.syukohenkou.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.syukokakutei.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.syukokensaku.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.syukoshiji.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.topmenu.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.Resources.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.zdisman_conf.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.zset.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.zhenpin.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.zkensaku.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.zkubun.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.zrireki.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.zdisman.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.zset_conf.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.ztanaoroshi.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.ztyousei.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\PureFishingJapan.syukodenpyou.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\coleman1.vbproj.GenerateResource.Cache
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\Interop.COREPOXLib.dll
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\AxInterop.COREPOXLib.dll
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\coleman1.vbproj.ResolveComReference.cache
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\Interop.COREPOXLib.dll
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\AxInterop.COREPOXLib.dll
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\coleman1.vbproj.GenerateResource.Cache
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\発注・在庫管理システム.exe.config
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\発注・在庫管理システム.exe
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\発注・在庫管理システム.pdb
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\発注・在庫管理システム.xml
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.IO_balance.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.IO_Graph.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.LoginForm1.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.mcustomer.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.mcustomer_modify.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.mitem.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.mitem_modify.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.mitem_standardnum_Import.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.nhenkou.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.nkakutei.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.nkensaku.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.nyotei.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.PO_cancel.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.PO_help.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.po_import.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.PO_kensaku.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.PO_Monthly_Report.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.PO_nyuukoyotei.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.PO_Prediction.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.Processing.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.StandardNum_modify.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.syukohenkou.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.syukokakutei.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.syukokensaku.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.syukoshiji.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.topmenu.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.Resources.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.zdisman_conf.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.zset.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.zhenpin.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.zkensaku.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.zkubun.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.zrireki.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.zdisman.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.zset_conf.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.ztanaoroshi.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.ztyousei.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LIveCruster.syukodenpyou.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\発注・在庫管理システム.exe
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\発注・在庫管理システム.xml
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\発注・在庫管理システム.pdb
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\office.dll
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\Microsoft.Vbe.Interop.dll
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\発注・在庫管理システム.exe.config
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\Interop.COREPOXLib.dll
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\AxInterop.COREPOXLib.dll
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\coleman1.vbproj.ResolveComReference.cache
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\発注・在庫管理システム.exe
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\発注・在庫管理システム.xml
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\発注・在庫管理システム.pdb
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\発注・在庫管理システム.exe
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\発注・在庫管理システム.pdb
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\発注・在庫管理システム.xml
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\Microsoft.Office.Interop.Excel.dll
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\office.dll
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\Microsoft.Vbe.Interop.dll
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\Interop.COREPOXLib.dll
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\AxInterop.COREPOXLib.dll
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.IO_balance.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.IO_Graph.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.LoginForm1.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.mcustomer.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.mcustomer_modify.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.mitem.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.mitem_modify.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.mitem_standardnum_Import.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.nhenkou.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.nkakutei.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.nkensaku.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.nyotei.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.PO_cancel.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.PO_help.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.po_import.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.PO_kensaku.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.PO_Monthly_Report.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.PO_nyuukoyotei.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.PO_Prediction.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.Processing.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.StandardNum_modify.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.syukohenkou.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.syukokakutei.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.syukokensaku.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.syukoshiji.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.topmenu.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.Resources.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.zdisman_conf.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.zset.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.zhenpin.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.zkensaku.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.zkubun.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.zrireki.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.zdisman.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.zset_conf.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.ztanaoroshi.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.ztyousei.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.syukodenpyou.resources
+F:\LiveCruster_System関連\ソース\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\coleman1.vbproj.GenerateResource.Cache
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\発注・在庫管理システム.exe.config
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\Interop.COREPOXLib.dll
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\AxInterop.COREPOXLib.dll
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\coleman1.vbproj.ResolveComReference.cache
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\発注・在庫管理システム.exe
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\発注・在庫管理システム.xml
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\発注・在庫管理システム.pdb
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\発注・在庫管理システム.exe
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\発注・在庫管理システム.pdb
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\発注・在庫管理システム.xml
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\Microsoft.Office.Interop.Excel.dll
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\office.dll
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\Microsoft.Vbe.Interop.dll
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\Interop.COREPOXLib.dll
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\x86\Debug\AxInterop.COREPOXLib.dll
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.IO_balance.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.IO_Graph.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.LoginForm1.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.mcustomer.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.mcustomer_modify.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.mitem.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.mitem_modify.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.mitem_standardnum_Import.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.nhenkou.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.nkakutei.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.nkensaku.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.nyotei.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.PO_cancel.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.PO_help.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.po_import.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.PO_kensaku.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.PO_Monthly_Report.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.PO_nyuukoyotei.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.PO_Prediction.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.Processing.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.StandardNum_modify.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.syukohenkou.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.syukokakutei.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.syukokensaku.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.syukoshiji.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.topmenu.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.Resources.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.zdisman_conf.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.zset.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.zhenpin.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.zkensaku.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.zkubun.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.zrireki.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.zdisman.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.zset_conf.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.ztanaoroshi.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.ztyousei.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.syukodenpyou.resources
+F:\LiveCruster_System関連\ソース\LC-LG\LiveCruster発注・在庫管理システム20141218_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\x86\Debug\coleman1.vbproj.GenerateResource.Cache
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\bin\x86\Debug\発注・在庫管理システム.exe.config
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\Interop.COREPOXLib.dll
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\AxInterop.COREPOXLib.dll
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\coleman1.vbproj.ResolveComReference.cache
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\発注・在庫管理システム.exe
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\発注・在庫管理システム.xml
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\発注・在庫管理システム.pdb
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\bin\x86\Debug\発注・在庫管理システム.exe
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\bin\x86\Debug\発注・在庫管理システム.pdb
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\bin\x86\Debug\発注・在庫管理システム.xml
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\bin\x86\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\bin\x86\Debug\office.dll
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\bin\x86\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\bin\x86\Debug\Interop.COREPOXLib.dll
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\bin\x86\Debug\AxInterop.COREPOXLib.dll
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.IO_balance.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.IO_Graph.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.LoginForm1.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.mcustomer.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.mcustomer_modify.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.mitem.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.mitem_modify.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.mitem_standardnum_Import.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.nhenkou.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.nkakutei.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.nkensaku.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.nyotei.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.PO_cancel.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.PO_help.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.po_import.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.PO_kensaku.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.PO_Monthly_Report.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.PO_nyuukoyotei.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.PO_Prediction.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.Processing.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.StandardNum_modify.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.syukohenkou.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.syukokakutei.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.syukokensaku.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.syukoshiji.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.topmenu.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.Resources.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.zdisman_conf.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.zset.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.zhenpin.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.zkensaku.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.zkubun.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.zrireki.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.zdisman.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.zset_conf.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.ztanaoroshi.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.ztyousei.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\LiveCruster.syukodenpyou.resources
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20141225_Ver1.1.1（ベース）\Pure Fishing Japan2\coleman1\obj\x86\Debug\coleman1.vbproj.GenerateResource.Cache

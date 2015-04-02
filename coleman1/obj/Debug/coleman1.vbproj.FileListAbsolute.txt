@@ -1,0 +1,561 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\bin\Debug\coleman1.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\bin\Debug\coleman1.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\bin\Debug\coleman1.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\obj\Debug\coleman1.nyukomenu.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\obj\Debug\coleman1.topmenu.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\obj\Debug\coleman1.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\obj\Debug\coleman1.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\obj\Debug\coleman1.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\obj\Debug\coleman1.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\obj\Debug\coleman1.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\obj\Debug\coleman1.nyotei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\obj\Debug\coleman1.nkensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\obj\Debug\coleman1.nkakutei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\obj\Debug\coleman1.syukokensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\obj\Debug\coleman1.syukomenu.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\obj\Debug\coleman1.syukoshiji.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\obj\Debug\coleman1.zhenpin.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\obj\Debug\coleman1.zkensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\obj\Debug\coleman1.zkubun.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\obj\Debug\coleman1.zset.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\obj\Debug\coleman1.zset_conf.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\obj\Debug\coleman1.ztanaoroshi.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\obj\Debug\coleman1.ztyousei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\obj\Debug\coleman1.syukokakutei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\obj\Debug\coleman1.syukohenkou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\obj\Debug\coleman1.syukoshijiDialog1.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\obj\Debug\coleman1.zmenu.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\obj\Debug\coleman1.logiｎ.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\coleman1\coleman1\obj\Debug\coleman1.LoginForm1.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\bin\Debug\Pure Fishing Japan.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\bin\Debug\Pure Fishing Japan.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\bin\Debug\Pure Fishing Japan.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.LoginForm1.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.nkakutei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.nkensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.nyotei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.syukohenkou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.syukokakutei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.syukokensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.syukoshiji.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.topmenu.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.zhenpin.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.zkensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.zkubun.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.zset.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.zset_conf.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.ztanaoroshi.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.ztyousei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\coleman1.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\Pure Fishing Japan.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\Pure Fishing Japan.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\Pure Fishing Japan.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.zrireki.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\bin\Debug\Pure Fishing Japan.exe.config
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\bin\Debug\MySQLDriverCS.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.nhenkou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\bin\Debug\Interop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\Interop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\coleman1.vbproj.ResolveComReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.mitem.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.mcustomer.resources
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\bin\Debug\Pure Fishing Japan.exe.config
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\Interop.COREPOXLib.dll
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\coleman1.vbproj.ResolveComReference.cache
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\Pure Fishing Japan.exe
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\Pure Fishing Japan.xml
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\Pure Fishing Japan.pdb
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.LoginForm1.resources
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.mcustomer.resources
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.mitem.resources
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.nhenkou.resources
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.nkakutei.resources
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.nkensaku.resources
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.nyotei.resources
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.syukohenkou.resources
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.syukokakutei.resources
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.syukokensaku.resources
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.syukoshiji.resources
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.topmenu.resources
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.Resources.resources
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.zhenpin.resources
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.zkensaku.resources
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.zkubun.resources
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.zrireki.resources
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.zset.resources
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.zset_conf.resources
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.ztanaoroshi.resources
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.ztyousei.resources
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\coleman1.vbproj.GenerateResource.Cache
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\bin\Debug\Pure Fishing Japan.exe
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\bin\Debug\Pure Fishing Japan.pdb
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\bin\Debug\Pure Fishing Japan.xml
+C:\Users\PFJ\Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\bin\Debug\Interop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.zdisman.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.zdisman_conf.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.syukodenpyou.resources
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\bin\Debug\Pure Fishing Japan.exe.config
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\Interop.COREPOXLib.dll
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\coleman1.vbproj.ResolveComReference.cache
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\Pure Fishing Japan.exe
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\Pure Fishing Japan.xml
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\Pure Fishing Japan.pdb
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\ResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.LoginForm1.resources
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.mcustomer.resources
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.mitem.resources
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.nhenkou.resources
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.nkakutei.resources
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.nkensaku.resources
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.nyotei.resources
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.syukohenkou.resources
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.syukokakutei.resources
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.syukokensaku.resources
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.syukoshiji.resources
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.topmenu.resources
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.Resources.resources
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.zdisman_conf.resources
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.zset.resources
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.zhenpin.resources
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.zkensaku.resources
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.zkubun.resources
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.zrireki.resources
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.zdisman.resources
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.zset_conf.resources
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.ztanaoroshi.resources
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.ztyousei.resources
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\PureFishingJapan.syukodenpyou.resources
+\\vmware-host\Shared Folders\この デスクトップ\Pure Fishing Japan\coleman1\obj\Debug\coleman1.vbproj.GenerateResource.Cache
+Z:\デスクトップ 2\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.exe.config
+Z:\デスクトップ 2\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\Interop.COREPOXLib.dll
+Z:\デスクトップ 2\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\coleman1.vbproj.ResolveComReference.cache
+Z:\デスクトップ 2\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.exe
+Z:\デスクトップ 2\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.xml
+Z:\デスクトップ 2\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.exe.config
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\Interop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\coleman1.vbproj.ResolveComReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.LoginForm1.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mcustomer.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mitem.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nhenkou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nkakutei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nkensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nyotei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.po_import.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_kensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_nyuukoyotei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukohenkou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukokakutei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukokensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukoshiji.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.topmenu.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zdisman_conf.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zset.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zhenpin.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zkensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zkubun.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zrireki.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zdisman.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zset_conf.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.ztanaoroshi.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.ztyousei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukodenpyou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\coleman1.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\bin\Debug\Interop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mcustomer_modify.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mitem_modify.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_cancel.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_Monthly_Report.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.IO_balance.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_20120509-02\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.exe.config
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_20120509-02\Pure Fishing Japan2\coleman1\obj\Debug\Interop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_20120509-02\Pure Fishing Japan2\coleman1\obj\Debug\coleman1.vbproj.ResolveComReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_20120509-02\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_20120509-02\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_20120509-02\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\bin\Debug\AxInterop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2\Pure Fishing Japan2\coleman1\obj\Debug\AxInterop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.exe.config
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\Interop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\AxInterop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\coleman1.vbproj.ResolveComReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\bin\Debug\Interop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\bin\Debug\AxInterop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.IO_balance.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.IO_Graph.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.LoginForm1.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mcustomer.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mcustomer_modify.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mitem.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mitem_modify.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nhenkou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nkakutei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nkensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nyotei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_cancel.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.po_import.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_kensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_Monthly_Report.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_nyuukoyotei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukohenkou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukokakutei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukokensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukoshiji.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.topmenu.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zdisman_conf.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zset.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zhenpin.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zkensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zkubun.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zrireki.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zdisman.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zset_conf.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.ztanaoroshi.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.ztyousei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukodenpyou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\coleman1.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.Processing.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_Prediction.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.StandardNum_modify.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_help.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mitem_standardnum_Import.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.exe.config
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\Interop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\AxInterop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\coleman1.vbproj.ResolveComReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\bin\Debug\Interop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\bin\Debug\AxInterop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.IO_balance.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.IO_Graph.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.LoginForm1.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mcustomer.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mcustomer_modify.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mitem.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mitem_modify.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mitem_standardnum_Import.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nhenkou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nkakutei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nkensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nyotei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_cancel.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_help.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.po_import.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_kensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_Monthly_Report.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_nyuukoyotei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_Prediction.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.Processing.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.StandardNum_modify.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukohenkou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukokakutei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukokensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukoshiji.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.topmenu.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zdisman_conf.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zset.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zhenpin.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zkensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zkubun.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zrireki.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zdisman.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zset_conf.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.ztanaoroshi.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.ztyousei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukodenpyou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.7\Pure Fishing Japan2\coleman1\obj\Debug\coleman1.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.8\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.exe.config
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.8\Pure Fishing Japan2\coleman1\obj\Debug\Interop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.8\Pure Fishing Japan2\coleman1\obj\Debug\AxInterop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.8\Pure Fishing Japan2\coleman1\obj\Debug\coleman1.vbproj.ResolveComReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.8\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.8\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130102_Ver1.0.8\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.exe.config
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\Interop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\AxInterop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\coleman1.vbproj.ResolveComReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\bin\Debug\Interop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\bin\Debug\AxInterop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.IO_balance.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.IO_Graph.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.LoginForm1.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mcustomer.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mcustomer_modify.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mitem.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mitem_modify.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mitem_standardnum_Import.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nhenkou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nkakutei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nkensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nyotei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_cancel.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_help.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.po_import.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_kensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_Monthly_Report.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_nyuukoyotei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_Prediction.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.Processing.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.StandardNum_modify.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukohenkou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukokakutei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukokensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukoshiji.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.topmenu.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zdisman_conf.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zset.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zhenpin.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zkensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zkubun.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zrireki.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zdisman.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zset_conf.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.ztanaoroshi.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.ztyousei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukodenpyou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\coleman1.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.exe.config
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\Interop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\AxInterop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\coleman1.vbproj.ResolveComReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\bin\Debug\Interop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\bin\Debug\AxInterop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.IO_balance.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.IO_Graph.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.LoginForm1.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mcustomer.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mcustomer_modify.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mitem.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mitem_modify.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mitem_standardnum_Import.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nhenkou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nkakutei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nkensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nyotei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_cancel.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_help.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.po_import.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_kensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_Monthly_Report.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_nyuukoyotei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_Prediction.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.Processing.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.StandardNum_modify.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukohenkou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukokakutei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukokensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukoshiji.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.topmenu.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zdisman_conf.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zset.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zhenpin.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zkensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zkubun.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zrireki.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zdisman.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zset_conf.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.ztanaoroshi.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.ztyousei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukodenpyou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\コピー ～ Pure Fishing Japan2_グラフ勉強用20130301_Ver1.0.9\Pure Fishing Japan2\coleman1\obj\Debug\coleman1.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.exe.config
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\Interop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\AxInterop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\coleman1.vbproj.ResolveComReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\bin\Debug\Interop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\bin\Debug\AxInterop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.IO_balance.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.IO_Graph.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.LoginForm1.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mcustomer.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mcustomer_modify.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mitem.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mitem_modify.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mitem_standardnum_Import.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nhenkou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nkakutei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nkensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nyotei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_cancel.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_help.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.po_import.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_kensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_Monthly_Report.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_nyuukoyotei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_Prediction.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.Processing.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.StandardNum_modify.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukohenkou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukokakutei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukokensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukoshiji.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.topmenu.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zdisman_conf.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zset.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zhenpin.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zkensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zkubun.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zrireki.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zdisman.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zset_conf.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.ztanaoroshi.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.ztyousei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukodenpyou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.0\Pure Fishing Japan2\coleman1\obj\Debug\coleman1.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.exe.config
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\Interop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\AxInterop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\coleman1.vbproj.ResolveComReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\Debug\Interop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\Debug\AxInterop.COREPOXLib.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.IO_balance.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.IO_Graph.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.LoginForm1.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mcustomer.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mcustomer_modify.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mitem.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mitem_modify.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mitem_standardnum_Import.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nhenkou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nkakutei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nkensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nyotei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_cancel.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_help.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.po_import.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_kensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_Monthly_Report.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_nyuukoyotei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_Prediction.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.Processing.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.StandardNum_modify.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukohenkou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukokakutei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukokensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukoshiji.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.topmenu.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zdisman_conf.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zset.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zhenpin.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zkensaku.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zkubun.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zrireki.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zdisman.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zset_conf.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.ztanaoroshi.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.ztyousei.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukodenpyou.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Pure Fishing Japan2_グラフ勉強用20130308_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\coleman1.vbproj.GenerateResource.Cache
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.exe.config
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\Interop.COREPOXLib.dll
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\AxInterop.COREPOXLib.dll
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\coleman1.vbproj.ResolveComReference.cache
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.exe
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.xml
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\Pure Fishing Japan.pdb
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.exe
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.pdb
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\Debug\Pure Fishing Japan.xml
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\Debug\Interop.COREPOXLib.dll
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\bin\Debug\AxInterop.COREPOXLib.dll
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.IO_balance.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.IO_Graph.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.LoginForm1.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mcustomer.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mcustomer_modify.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mitem.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mitem_modify.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.mitem_standardnum_Import.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nhenkou.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nkakutei.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nkensaku.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.nyotei.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_cancel.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_help.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.po_import.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_kensaku.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_Monthly_Report.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_nyuukoyotei.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.PO_Prediction.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.Processing.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.StandardNum_modify.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukohenkou.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukokakutei.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukokensaku.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukoshiji.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.topmenu.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.Resources.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zdisman_conf.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zset.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zhenpin.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zkensaku.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zkubun.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zrireki.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zdisman.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.zset_conf.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.ztanaoroshi.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.ztyousei.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukodenpyou.resources
+C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\coleman1.vbproj.GenerateResource.Cache

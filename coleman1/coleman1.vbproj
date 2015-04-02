@@ -1,0 +1,671 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6758F8DD-06DD-412B-B25E-3B96AA846893}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>System.My.MyApplication</StartupObject>
+    <RootNamespace>System</RootNamespace>
+    <AssemblyName>GLIS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationIcon>LClogo.ico</ApplicationIcon>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>GLIS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>GLIS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>GLIS.xml</DocumentationFile>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>GLIS.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="MySql.Data, Version=6.4.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySQLDriverCS, Version=3.0.1735.36021, Culture=neutral, PublicKeyToken=172f94dfb0faf263, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\MySQLDriverCS\dll\MySQLDriverCS.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="AxCOREPOXLib" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CHKMOB.vb" />
+    <Compile Include="GraphModule.vb" />
+    <Compile Include="IO_balance.Designer.vb">
+      <DependentUpon>IO_balance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IO_balance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IO_Graph.Designer.vb">
+      <DependentUpon>IO_Graph.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IO_Graph.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm1.Designer.vb">
+      <DependentUpon>LoginForm1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBMOB.vb" />
+    <Compile Include="mcustomer.Designer.vb">
+      <DependentUpon>mcustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mcustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mcustomer_modify.Designer.vb">
+      <DependentUpon>mcustomer_modify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mcustomer_modify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mitem.Designer.vb">
+      <DependentUpon>mitem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mitem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mitem_modify.Designer.vb">
+      <DependentUpon>mitem_modify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mitem_modify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mitem_standardnum_Import.Designer.vb">
+      <DependentUpon>mitem_standardnum_Import.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mitem_standardnum_Import.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nhenkou.Designer.vb">
+      <DependentUpon>nhenkou.vb</DependentUpon>
+    </Compile>
+    <Compile Include="nhenkou.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pfjDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pfjDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="nkakutei.Designer.vb">
+      <DependentUpon>nkakutei.vb</DependentUpon>
+    </Compile>
+    <Compile Include="nkakutei.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nkensaku.Designer.vb">
+      <DependentUpon>nkensaku.vb</DependentUpon>
+    </Compile>
+    <Compile Include="nkensaku.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nyotei.Designer.vb">
+      <DependentUpon>nyotei.vb</DependentUpon>
+    </Compile>
+    <Compile Include="nyotei.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PO_cancel.Designer.vb">
+      <DependentUpon>PO_cancel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PO_cancel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PO_help.Designer.vb">
+      <DependentUpon>PO_help.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PO_help.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="po_import.Designer.vb">
+      <DependentUpon>po_import.vb</DependentUpon>
+    </Compile>
+    <Compile Include="po_import.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PO_kensaku.Designer.vb">
+      <DependentUpon>PO_kensaku.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PO_kensaku.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PO_Monthly_Report.Designer.vb">
+      <DependentUpon>PO_Monthly_Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PO_Monthly_Report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PO_nyuukoyotei.Designer.vb">
+      <DependentUpon>PO_nyuukoyotei.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PO_nyuukoyotei.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PO_Prediction.Designer.vb">
+      <DependentUpon>PO_Prediction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PO_Prediction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Processing.Designer.vb">
+      <DependentUpon>Processing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Processing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="slot.Designer.vb">
+      <DependentUpon>slot.vb</DependentUpon>
+    </Compile>
+    <Compile Include="slot.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardNum_modify.Designer.vb">
+      <DependentUpon>StandardNum_modify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StandardNum_modify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="syukohenko2.Designer.vb">
+      <DependentUpon>syukohenko2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="syukohenko2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="syukohenkou.Designer.vb">
+      <DependentUpon>syukohenkou.vb</DependentUpon>
+    </Compile>
+    <Compile Include="syukohenkou.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="syukojyuchuhenkou.Designer.vb">
+      <DependentUpon>syukojyuchuhenkou.vb</DependentUpon>
+    </Compile>
+    <Compile Include="syukojyuchuhenkou.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="syukojyuchukensaku.Designer.vb">
+      <DependentUpon>syukojyuchukensaku.vb</DependentUpon>
+    </Compile>
+    <Compile Include="syukojyuchukensaku.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="syukokakutei.Designer.vb">
+      <DependentUpon>syukokakutei.vb</DependentUpon>
+    </Compile>
+    <Compile Include="syukokakutei.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="syukokensaku.Designer.vb">
+      <DependentUpon>syukokensaku.vb</DependentUpon>
+    </Compile>
+    <Compile Include="syukokensaku.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="syukoshiji.Designer.vb">
+      <DependentUpon>syukoshiji.vb</DependentUpon>
+    </Compile>
+    <Compile Include="syukoshiji.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="syukoshiji2.Designer.vb">
+      <DependentUpon>syukoshiji2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="syukoshiji2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="syukoyotei.Designer.vb">
+      <DependentUpon>syukoyotei.vb</DependentUpon>
+    </Compile>
+    <Compile Include="syukoyotei.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="topmenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="topmenu.Designer.vb">
+      <DependentUpon>topmenu.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="zdisman_conf.Designer.vb">
+      <DependentUpon>zdisman_conf.vb</DependentUpon>
+    </Compile>
+    <Compile Include="zdisman_conf.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zlocation.Designer.vb">
+      <DependentUpon>zlocation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="zlocation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zset.Designer.vb">
+      <DependentUpon>zset.vb</DependentUpon>
+    </Compile>
+    <Compile Include="zset.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zhenpin.designer.vb">
+      <DependentUpon>zhenpin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="zhenpin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zkensaku.designer.vb">
+      <DependentUpon>zkensaku.vb</DependentUpon>
+    </Compile>
+    <Compile Include="zkensaku.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zkubun.designer.vb">
+      <DependentUpon>zkubun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="zkubun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zrireki.Designer.vb">
+      <DependentUpon>zrireki.vb</DependentUpon>
+    </Compile>
+    <Compile Include="zrireki.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zdisman.designer.vb">
+      <DependentUpon>zdisman.vb</DependentUpon>
+    </Compile>
+    <Compile Include="zdisman.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zset_conf.designer.vb">
+      <DependentUpon>zset_conf.vb</DependentUpon>
+    </Compile>
+    <Compile Include="zset_conf.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ztanaoroshi.designer.vb">
+      <DependentUpon>ztanaoroshi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ztanaoroshi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ztyousei.designer.vb">
+      <DependentUpon>ztyousei.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ztyousei.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="syukodenpyou.Designer.vb">
+      <DependentUpon>syukodenpyou.vb</DependentUpon>
+    </Compile>
+    <Compile Include="syukodenpyou.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="IO_balance.resx">
+      <DependentUpon>IO_balance.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IO_Graph.resx">
+      <DependentUpon>IO_Graph.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm1.resx">
+      <DependentUpon>LoginForm1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mcustomer.resx">
+      <DependentUpon>mcustomer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mcustomer_modify.resx">
+      <DependentUpon>mcustomer_modify.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mitem.resx">
+      <DependentUpon>mitem.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mitem_modify.resx">
+      <DependentUpon>mitem_modify.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mitem_standardnum_Import.resx">
+      <DependentUpon>mitem_standardnum_Import.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nhenkou.resx">
+      <DependentUpon>nhenkou.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nkakutei.resx">
+      <DependentUpon>nkakutei.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nkensaku.resx">
+      <DependentUpon>nkensaku.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nyotei.resx">
+      <DependentUpon>nyotei.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PO_cancel.resx">
+      <DependentUpon>PO_cancel.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PO_help.resx">
+      <DependentUpon>PO_help.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="po_import.resx">
+      <DependentUpon>po_import.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PO_kensaku.resx">
+      <DependentUpon>PO_kensaku.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PO_Monthly_Report.resx">
+      <DependentUpon>PO_Monthly_Report.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PO_nyuukoyotei.resx">
+      <DependentUpon>PO_nyuukoyotei.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PO_Prediction.resx">
+      <DependentUpon>PO_Prediction.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Processing.resx">
+      <DependentUpon>Processing.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="slot.resx">
+      <DependentUpon>slot.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StandardNum_modify.resx">
+      <DependentUpon>StandardNum_modify.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="syukohenko2.resx">
+      <DependentUpon>syukohenko2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="syukohenkou.resx">
+      <DependentUpon>syukohenkou.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="syukojyuchuhenkou.resx">
+      <DependentUpon>syukojyuchuhenkou.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="syukojyuchukensaku.resx">
+      <DependentUpon>syukojyuchukensaku.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="syukokakutei.resx">
+      <DependentUpon>syukokakutei.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="syukokensaku.resx">
+      <DependentUpon>syukokensaku.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="syukoshiji.resx">
+      <DependentUpon>syukoshiji.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="syukoshiji2.resx">
+      <DependentUpon>syukoshiji2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="syukoyotei.resx">
+      <DependentUpon>syukoyotei.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="topmenu.resx">
+      <DependentUpon>topmenu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zdisman_conf.resx">
+      <DependentUpon>zdisman_conf.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zlocation.resx">
+      <DependentUpon>zlocation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zset.resx">
+      <DependentUpon>zset.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zhenpin.resx">
+      <DependentUpon>zhenpin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zkensaku.resx">
+      <DependentUpon>zkensaku.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zkubun.resx">
+      <DependentUpon>zkubun.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zrireki.resx">
+      <DependentUpon>zrireki.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zdisman.resx">
+      <DependentUpon>zdisman.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zset_conf.resx">
+      <DependentUpon>zset_conf.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ztanaoroshi.resx">
+      <DependentUpon>ztanaoroshi.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ztyousei.resx">
+      <DependentUpon>ztyousei.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="syukodenpyou.resx">
+      <DependentUpon>syukodenpyou.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="pfjDataSet.xsc">
+      <DependentUpon>pfjDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="pfjDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>pfjDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="pfjDataSet.xss">
+      <DependentUpon>pfjDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows インストーラ 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxCOREPOXLib">
+      <Guid>{022E2867-96CE-4601-81C9-50AB909C1AE3}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="COREPOXLib">
+      <Guid>{022E2867-96CE-4601-81C9-50AB909C1AE3}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="54924db5b9372.ico" />
+    <Content Include="LClogo.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

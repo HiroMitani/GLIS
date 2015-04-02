@@ -1,0 +1,220 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+発注・在庫管理システム
+</name>
+</assembly>
+<members>
+<member name="T:LiveCruster.pfjDataSet.INDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet.IN_DETAILDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet.M_CUSTOMERDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet.M_ITEMDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet.M_PLINEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet.M_USERDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet.OUTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet.OUT_DETAILDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet.STOCKDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet.STOCK_LOGDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet.INRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet.IN_DETAILRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet.M_CUSTOMERRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet.M_ITEMRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet.M_PLINERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet.M_USERRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet.OUTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet.OUT_DETAILRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet.STOCKRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet.STOCK_LOGRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet.INRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet.IN_DETAILRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet.M_CUSTOMERRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet.M_ITEMRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet.M_PLINERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet.M_USERRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet.OUTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet.OUT_DETAILRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet.STOCKRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet.STOCK_LOGRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:LiveCruster.pfjDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSetTableAdapters.INTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSetTableAdapters.IN_DETAILTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSetTableAdapters.M_CUSTOMERTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSetTableAdapters.M_ITEMTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSetTableAdapters.M_PLINETableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSetTableAdapters.M_USERTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSetTableAdapters.OUTTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSetTableAdapters.OUT_DETAILTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSetTableAdapters.STOCKTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSetTableAdapters.STOCK_LOGTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:LiveCruster.pfjDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(LiveCruster.pfjDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:LiveCruster.pfjDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(LiveCruster.pfjDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:LiveCruster.pfjDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(LiveCruster.pfjDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:LiveCruster.pfjDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:LiveCruster.pfjDataSetTableAdapters.TableAdapterManager.UpdateAll(LiveCruster.pfjDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:LiveCruster.pfjDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:LiveCruster.pfjDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:LiveCruster.pfjDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:LiveCruster.My.Resources.Resources.ResourceManager">
+	<summary>
+  このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+</summary>
+</member><member name="P:LiveCruster.My.Resources.Resources.Culture">
+	<summary>
+  厳密に型指定されたこのリソース クラスを使用して、すべての検索リソースに対し、
+  現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+</summary>
+</member><member name="T:LiveCruster.My.Resources.Resources">
+	<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member>
+</members>
+</doc>
