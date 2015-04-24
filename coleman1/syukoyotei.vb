@@ -1,6 +1,7 @@
 ﻿Public Class syukoyotei
 
     Dim C_Id As String
+    Dim C_DISCOUNT_RATE As String
     Dim PLACE_ID As String
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
@@ -64,6 +65,7 @@
         '出荷先情報取得
         Dim CustomerTable As New DataTable()
         CustomerTable.Columns.Add("ID", GetType(String))
+        CustomerTable.Columns.Add("C_DISCOUNT_RATE", GetType(String))
         CustomerTable.Columns.Add("NAME", GetType(String))
         '出荷先（M_CUSTOMER)情報の取得
         Result = GetCustomerNameList(CustomerData, Result, ErrorMessage)
@@ -78,6 +80,7 @@
 
             '各列に値をセット
             row("ID") = CustomerData(Count).ID
+            row("C_DISCOUNT_RATE") = CustomerData(Count).DISCOUNT_RATE
             row("NAME") = CustomerData(Count).NAME
 
             'DataTableに行を追加
@@ -93,8 +96,10 @@
         '対応する値はDataTableのID列
         ComboBox1.ValueMember = "ID"
         '初期値をセット(1件目にあわせる）
-        ComboBox1.SelectedIndex = 1
+        ComboBox1.SelectedIndex = 0
         C_Id = ComboBox1.SelectedValue.ToString()
+        C_DISCOUNT_RATE = CustomerData(0).DISCOUNT_RATE
+        Label14.Text = CustomerData(0).DISCOUNT_RATE
 
 
         '倉庫情報取得
@@ -146,6 +151,7 @@
         Dim Cid As Integer = 0
         Dim C_Code As String = Nothing
         Dim Customer_List() As C_List = Nothing
+        Dim Discount_rate As Decimal
 
         'Enterキーが押されているか確認
         If e.KeyCode = Keys.Enter Then
@@ -165,7 +171,7 @@
 
             '入力された入庫元コードを元に商品名を取得する。
             '納入元名取得Function
-            Result = GetCustomerName(Trim(TextBox1.Text), 1, C_Name, Cid, C_Code, Result, ErrorMessage)
+            Result = GetCustomerName(Trim(TextBox1.Text), 1, C_Name, Cid, C_Code, Discount_rate, Result, ErrorMessage)
             If Result = "True" Then
                 'topmenu.Show()
                 'Me.Hide()
@@ -198,7 +204,7 @@
     Private Sub TextBox5_KeyDown(ByVal sender As Object, ByVal e As Windows.Forms.KeyEventArgs) Handles TextBox5.KeyDown
         Dim ErrorMessage As String = Nothing
         Dim Result As Boolean = True
-        Dim ItemName() As Item_List = Nothing
+        Dim ItemData() As Item_List = Nothing
 
         TextBox6.Text = ""
 
@@ -220,20 +226,24 @@
 
             '入力された商品コードを元に商品名を取得する。
             '商品名称取得Function
-            Result = GetItemName(Trim(TextBox5.Text), 1, ItemName, Result, ErrorMessage)
+            Result = GetItemName(Trim(TextBox5.Text), 1, ItemData, Result, ErrorMessage)
             If Result = "True" Then
                 'topmenu.Show()
                 'Me.Hide()
                 TextBox5.BackColor = Color.White
-                TextBox6.Text = ItemName(0).I_NAME
+                TextBox6.Text = ItemData(0).I_NAME
                 '納品単価
-                TextBox7.Text = ItemName(0).PURCHASE_PRICE
+                ' TextBox7.Text = ItemData(0).PURCHASE_PRICE
+                '価格*M_CUSTOMERの掛け率を算出（結果を四捨五入）
+
+                TextBox7.Text = Math.Round(ItemData(0).PRICE * Label14.Text)
+
                 '免責金額
-                TextBox10.Text = ItemName(0).IMMUNITY_PRICE
+                TextBox10.Text = ItemData(0).IMMUNITY_PRICE
                 '修理金額
-                TextBox9.Text = ItemName(0).REPAIR_PRICE
+                TextBox9.Text = ItemData(0).REPAIR_PRICE
                 '納品金額
-                Label16.Text = ItemName(0).ID
+                Label16.Text = ItemData(0).ID
 
                 TextBox7.Focus()
             ElseIf Result = "False" Then
@@ -287,7 +297,7 @@
                     TextBox6.Text = ItemName(0).I_NAME
 
                     '納品単価
-                    TextBox7.Text = ItemName(0).PURCHASE_PRICE
+                    TextBox7.Text = Math.Round(ItemName(0).PRICE * Label14.Text)
                     '免責金額
                     TextBox10.Text = ItemName(0).IMMUNITY_PRICE
                     '修理金額
@@ -381,7 +391,8 @@
                     .Cells(5).Value = Label16.Text
 
                 End With
-                DataGridView1.Rows.Add(item)
+                '先頭行に追加
+                DataGridView1.Rows.Insert(0, item)
 
                 '最新の行を取得
                 Dim datacnt As Integer
@@ -516,7 +527,7 @@
             dt(Count).I_CODE = DataGridView1(0, Count).Value
             '納品単価
             dt(Count).UNIT_PRICE = DataGridView1(2, Count).Value
-            '出荷希望数
+            '受注数
             dt(Count).NUM = DataGridView1(3, Count).Value
             '納品金額
             dt(Count).PURCHASE_PRICE = DataGridView1(4, Count).Value
@@ -530,8 +541,6 @@
             MsgBox(Order_NO_ErrorMessage)
             Exit Sub
         End If
-
-
 
         '登録処理
         '出荷予定予定データ登録
@@ -678,7 +687,7 @@
             dt(Count).I_CODE = DataGridView1(0, Count).Value
             '納品単価
             dt(Count).UNIT_PRICE = DataGridView1(2, Count).Value
-            '出荷希望数
+            '受注数
             dt(Count).NUM = DataGridView1(3, Count).Value
             '納品金額
             dt(Count).PURCHASE_PRICE = DataGridView1(4, Count).Value
@@ -764,12 +773,43 @@
 
             '選択されたプルダウンの企業名から取得された企業IDを元に企業コードを取得する。
             '納入元名取得Function
-            Result = GetCustomerName(C_Id, 2, C_Name, Cid, C_Code, Result, ErrorMessage)
+            Result = GetCustomerName(C_Id, 2, C_Name, Cid, C_Code, C_DISCOUNT_RATE, Result, ErrorMessage)
 
             TextBox1.BackColor = Color.White
             TextBox1.Text = C_Code
+            Label14.Text = C_DISCOUNT_RATE
+
+            'DataGridや入力欄をクリアする。
+            TextBox5.Text = ""
+            TextBox6.Text = ""
+            TextBox7.Text = ""
+            TextBox8.Text = ""
+            TextBox9.Text = ""
+            TextBox10.Text = ""
+
+            'DataGridViewのクリア
+            DataGridView1.Rows.Clear()
+        End If
+    End Sub
+
+    Private Sub TextBox7_KeyDown(ByVal sender As Object, ByVal e As Windows.Forms.KeyEventArgs) Handles TextBox7.KeyDown
+
+        'Enterキーが押されているか確認
+        If e.KeyCode = Keys.Enter Then
+
+            'あたかもTabキーが押されたかのようにする
+            'Shiftが押されている時は前のコントロールのフォーカスを移動
+            Me.ProcessTabKey(Not e.Shift)
+            e.Handled = True
 
         End If
     End Sub
 
+    Private Sub TextBox5_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox5.TextChanged
+
+    End Sub
+
+    Private Sub TextBox8_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox8.TextChanged
+
+    End Sub
 End Class

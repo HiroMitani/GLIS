@@ -174,6 +174,8 @@
         Dim Doc_Result As Boolean = True
         Dim DocNo As String = Nothing
 
+        Dim Discount_rate As Decimal
+
         '入力、文字数チェック
         'ドキュメント№
         ChkDocNoString = Trim(TextBox1.Text)
@@ -265,7 +267,7 @@
         ComboBox1.SelectedIndex = 1
         C_Id = ComboBox1.SelectedValue.ToString()
 
-        Result = GetCustomerName(C_Id, 2, C_Name, CId, C_Code, Result, ErrorMessage)
+        Result = GetCustomerName(C_Id, 2, C_Name, CId, C_Code, Discount_rate, Result, ErrorMessage)
 
         'C_IDを元にC_Codeを取得しセットする。
         TextBox5.Text = C_Code
@@ -407,8 +409,9 @@
                     .Cells(3).Value = Label11.Text
 
                 End With
-                DataGridView1.Rows.Add(item)
-
+                'DataGridView1.Rows.Add(item)
+                '先頭行に追加
+                DataGridView1.Rows.Insert(0, item)
                 '最新の行を取得
                 Dim datacnt As Integer
                 datacnt = DataGridView1.Rows.Count - 1
@@ -479,6 +482,7 @@
         Dim C_Name As String = Nothing
         Dim Cid As Integer = 0
         Dim C_Code As String = Nothing
+        Dim Discount_rate As Decimal
 
         '選択されていればSelectedValueに入っている
         If ComboBox1.SelectedIndex <> -1 Then
@@ -487,7 +491,7 @@
 
             '選択されたプルダウンの企業名から取得された企業IDを元に企業コードを取得する。
             '納入元名取得Function
-            Result = GetCustomerName(C_Id, 2, C_Name, Cid, C_Code, Result, ErrorMessage)
+            Result = GetCustomerName(C_Id, 2, C_Name, Cid, C_Code, Discount_rate, Result, ErrorMessage)
 
             TextBox5.BackColor = Color.White
             TextBox5.Text = C_Code
@@ -505,6 +509,8 @@
         Dim C_Name As String = Nothing
         Dim Cid As Integer = 0
         Dim C_Code As String = Nothing
+        Dim Discount_rate As Decimal
+
         Dim Customer_List() As C_List = Nothing
 
         'TextBox3.Text = ""
@@ -527,7 +533,7 @@
 
             '入力された入庫元コードを元に商品名を取得する。
             '納入元名取得Function
-            Result = GetCustomerName(Trim(TextBox5.Text), 1, C_Name, Cid, C_Code, Result, ErrorMessage)
+            Result = GetCustomerName(Trim(TextBox5.Text), 1, C_Name, Cid, C_Code, Discount_rate, Result, ErrorMessage)
             If Result = "True" Then
                 'topmenu.Show()
                 'Me.Hide()
@@ -557,7 +563,6 @@
         End If
     End Sub
 
-
     Private Sub DataGridView1_RowHeaderMouseClick(ByVal sender As Object, ByVal e As System.Windows.Forms.DataGridViewCellMouseEventArgs) Handles DataGridView1.RowHeaderMouseClick
         Dim Row As Integer = 0
         '選択されている行を取得
@@ -583,11 +588,4 @@
         End If
     End Sub
 
-    Private Sub TextBox5_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox5.TextChanged
-
-    End Sub
-
-    Private Sub TextBox2_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox2.TextChanged
-
-    End Sub
 End Class

@@ -22,10 +22,10 @@ Partial Class syukoyotei
     'コード エディタを使って変更しないでください。
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
         Me.Label1 = New System.Windows.Forms.Label
         Me.Label2 = New System.Windows.Forms.Label
         Me.TextBox1 = New System.Windows.Forms.TextBox
@@ -44,12 +44,6 @@ Partial Class syukoyotei
         Me.ComboBox3 = New System.Windows.Forms.ComboBox
         Me.Label9 = New System.Windows.Forms.Label
         Me.DataGridView1 = New System.Windows.Forms.DataGridView
-        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Column6 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Column7 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Column9 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.Button1 = New System.Windows.Forms.Button
         Me.Button2 = New System.Windows.Forms.Button
         Me.Button3 = New System.Windows.Forms.Button
@@ -66,6 +60,13 @@ Partial Class syukoyotei
         Me.Label19 = New System.Windows.Forms.Label
         Me.TextBox9 = New System.Windows.Forms.TextBox
         Me.TextBox10 = New System.Windows.Forms.TextBox
+        Me.Label14 = New System.Windows.Forms.Label
+        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.Column6 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.Column7 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.Column9 = New System.Windows.Forms.DataGridViewTextBoxColumn
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -223,57 +224,6 @@ Partial Class syukoyotei
         Me.DataGridView1.Size = New System.Drawing.Size(769, 286)
         Me.DataGridView1.TabIndex = 12
         '
-        'Column1
-        '
-        DataGridViewCellStyle9.BackColor = System.Drawing.Color.White
-        Me.Column1.DefaultCellStyle = DataGridViewCellStyle9
-        Me.Column1.HeaderText = "商品コード"
-        Me.Column1.Name = "Column1"
-        Me.Column1.ReadOnly = True
-        Me.Column1.Width = 85
-        '
-        'Column2
-        '
-        Me.Column2.HeaderText = "商品名"
-        Me.Column2.Name = "Column2"
-        Me.Column2.ReadOnly = True
-        Me.Column2.Width = 250
-        '
-        'Column3
-        '
-        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle10.BackColor = System.Drawing.Color.White
-        Me.Column3.DefaultCellStyle = DataGridViewCellStyle10
-        Me.Column3.HeaderText = "納品単価"
-        Me.Column3.Name = "Column3"
-        Me.Column3.ReadOnly = True
-        Me.Column3.Width = 90
-        '
-        'Column6
-        '
-        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle11.BackColor = System.Drawing.Color.White
-        Me.Column6.DefaultCellStyle = DataGridViewCellStyle11
-        Me.Column6.HeaderText = "出荷希望数"
-        Me.Column6.Name = "Column6"
-        Me.Column6.ReadOnly = True
-        Me.Column6.Width = 95
-        '
-        'Column7
-        '
-        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.Column7.DefaultCellStyle = DataGridViewCellStyle12
-        Me.Column7.HeaderText = "納品金額"
-        Me.Column7.Name = "Column7"
-        Me.Column7.ReadOnly = True
-        Me.Column7.Width = 85
-        '
-        'Column9
-        '
-        Me.Column9.HeaderText = "I_ID"
-        Me.Column9.Name = "Column9"
-        Me.Column9.ReadOnly = True
-        '
         'Button1
         '
         Me.Button1.Location = New System.Drawing.Point(457, 525)
@@ -332,11 +282,11 @@ Partial Class syukoyotei
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(491, 190)
+        Me.Label13.Location = New System.Drawing.Point(496, 190)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(65, 12)
+        Me.Label13.Size = New System.Drawing.Size(41, 12)
         Me.Label13.TabIndex = 21
-        Me.Label13.Text = "出荷希望数"
+        Me.Label13.Text = "受注数"
         '
         'TextBox5
         '
@@ -414,11 +364,78 @@ Partial Class syukoyotei
         Me.TextBox10.Size = New System.Drawing.Size(80, 19)
         Me.TextBox10.TabIndex = 31
         '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.ForeColor = System.Drawing.SystemColors.Control
+        Me.Label14.Location = New System.Drawing.Point(159, 13)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(0, 12)
+        Me.Label14.TabIndex = 32
+        '
+        'Column1
+        '
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.White
+        Me.Column1.DefaultCellStyle = DataGridViewCellStyle1
+        Me.Column1.HeaderText = "商品コード"
+        Me.Column1.Name = "Column1"
+        Me.Column1.ReadOnly = True
+        Me.Column1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        Me.Column1.Width = 85
+        '
+        'Column2
+        '
+        Me.Column2.HeaderText = "商品名"
+        Me.Column2.Name = "Column2"
+        Me.Column2.ReadOnly = True
+        Me.Column2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        Me.Column2.Width = 250
+        '
+        'Column3
+        '
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.White
+        Me.Column3.DefaultCellStyle = DataGridViewCellStyle2
+        Me.Column3.HeaderText = "納品単価"
+        Me.Column3.Name = "Column3"
+        Me.Column3.ReadOnly = True
+        Me.Column3.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        Me.Column3.Width = 90
+        '
+        'Column6
+        '
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
+        Me.Column6.DefaultCellStyle = DataGridViewCellStyle3
+        Me.Column6.HeaderText = "受注数"
+        Me.Column6.Name = "Column6"
+        Me.Column6.ReadOnly = True
+        Me.Column6.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        Me.Column6.Width = 95
+        '
+        'Column7
+        '
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column7.DefaultCellStyle = DataGridViewCellStyle4
+        Me.Column7.HeaderText = "納品金額"
+        Me.Column7.Name = "Column7"
+        Me.Column7.ReadOnly = True
+        Me.Column7.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        Me.Column7.Width = 85
+        '
+        'Column9
+        '
+        Me.Column9.HeaderText = "I_ID"
+        Me.Column9.Name = "Column9"
+        Me.Column9.ReadOnly = True
+        Me.Column9.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        '
         'syukoyotei
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(806, 562)
+        Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.TextBox10)
         Me.Controls.Add(Me.TextBox9)
         Me.Controls.Add(Me.Label19)
@@ -493,6 +510,7 @@ Partial Class syukoyotei
     Friend WithEvents Label19 As System.Windows.Forms.Label
     Friend WithEvents TextBox9 As System.Windows.Forms.TextBox
     Friend WithEvents TextBox10 As System.Windows.Forms.TextBox
+    Friend WithEvents Label14 As System.Windows.Forms.Label
     Friend WithEvents Column1 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Column2 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Column3 As System.Windows.Forms.DataGridViewTextBoxColumn

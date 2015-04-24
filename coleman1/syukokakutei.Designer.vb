@@ -131,6 +131,7 @@ Partial Class syukokakutei
         Me.Column1.HeaderText = "伝票番号"
         Me.Column1.Name = "Column1"
         Me.Column1.ReadOnly = True
+        Me.Column1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
         '
         'Column2
         '
@@ -139,6 +140,7 @@ Partial Class syukokakutei
         Me.Column2.HeaderText = "オーダー番号"
         Me.Column2.Name = "Column2"
         Me.Column2.ReadOnly = True
+        Me.Column2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
         '
         'Column3
         '
@@ -147,6 +149,7 @@ Partial Class syukokakutei
         Me.Column3.HeaderText = "商品コード"
         Me.Column3.Name = "Column3"
         Me.Column3.ReadOnly = True
+        Me.Column3.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
         '
         'Column4
         '
@@ -155,6 +158,7 @@ Partial Class syukokakutei
         Me.Column4.HeaderText = "商品名"
         Me.Column4.Name = "Column4"
         Me.Column4.ReadOnly = True
+        Me.Column4.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
         '
         'Column5
         '
@@ -163,6 +167,7 @@ Partial Class syukokakutei
         Me.Column5.HeaderText = "納品先コード"
         Me.Column5.Name = "Column5"
         Me.Column5.ReadOnly = True
+        Me.Column5.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
         '
         'Column6
         '
@@ -171,6 +176,7 @@ Partial Class syukokakutei
         Me.Column6.HeaderText = "納品先名"
         Me.Column6.Name = "Column6"
         Me.Column6.ReadOnly = True
+        Me.Column6.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
         '
         'Column7
         '
@@ -180,6 +186,7 @@ Partial Class syukokakutei
         Me.Column7.HeaderText = "予定数量"
         Me.Column7.Name = "Column7"
         Me.Column7.ReadOnly = True
+        Me.Column7.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
         '
         'Column8
         '
@@ -188,6 +195,7 @@ Partial Class syukokakutei
         Me.Column8.HeaderText = "出荷予定日"
         Me.Column8.Name = "Column8"
         Me.Column8.ReadOnly = True
+        Me.Column8.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
         '
         'Column9
         '
@@ -195,17 +203,20 @@ Partial Class syukokakutei
         Me.Column9.DefaultCellStyle = DataGridViewCellStyle9
         Me.Column9.HeaderText = "*出荷数量"
         Me.Column9.Name = "Column9"
+        Me.Column9.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
         '
         'Column22
         '
         Me.Column22.HeaderText = "*出荷日"
         Me.Column22.Name = "Column22"
+        Me.Column22.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
         '
         'Column21
         '
         Me.Column21.HeaderText = "出荷指示ファイル名"
         Me.Column21.Name = "Column21"
         Me.Column21.ReadOnly = True
+        Me.Column21.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
         Me.Column21.Width = 130
         '
         'Column10
@@ -216,6 +227,7 @@ Partial Class syukokakutei
         Me.Column10.HeaderText = "納入単価"
         Me.Column10.Name = "Column10"
         Me.Column10.ReadOnly = True
+        Me.Column10.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
         '
         'Column11
         '
@@ -225,54 +237,63 @@ Partial Class syukokakutei
         Me.Column11.HeaderText = "売単価"
         Me.Column11.Name = "Column11"
         Me.Column11.ReadOnly = True
+        Me.Column11.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
         '
         'Column18
         '
         Me.Column18.HeaderText = "ステータス"
         Me.Column18.Name = "Column18"
         Me.Column18.ReadOnly = True
+        Me.Column18.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
         '
         'Column19
         '
         Me.Column19.HeaderText = "カテゴリー"
         Me.Column19.Name = "Column19"
         Me.Column19.ReadOnly = True
+        Me.Column19.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
         '
         'Column20
         '
         Me.Column20.HeaderText = "不良区分"
         Me.Column20.Name = "Column20"
         Me.Column20.ReadOnly = True
+        Me.Column20.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
         '
         'Column16
         '
         Me.Column16.HeaderText = "印刷日"
         Me.Column16.Name = "Column16"
         Me.Column16.ReadOnly = True
+        Me.Column16.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
         '
         'Column12
         '
         Me.Column12.HeaderText = "コメント１"
         Me.Column12.Name = "Column12"
         Me.Column12.ReadOnly = True
+        Me.Column12.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
         '
         'Column13
         '
         Me.Column13.HeaderText = "コメント２"
         Me.Column13.Name = "Column13"
         Me.Column13.ReadOnly = True
+        Me.Column13.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
         '
         'Column14
         '
         Me.Column14.HeaderText = "備考"
         Me.Column14.Name = "Column14"
         Me.Column14.ReadOnly = True
+        Me.Column14.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
         '
         'Column23
         '
         Me.Column23.HeaderText = "倉庫"
         Me.Column23.Name = "Column23"
         Me.Column23.ReadOnly = True
+        Me.Column23.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
         '
         'Column15
         '
@@ -281,18 +302,21 @@ Partial Class syukokakutei
         Me.Column15.HeaderText = "ID"
         Me.Column15.Name = "Column15"
         Me.Column15.ReadOnly = True
+        Me.Column15.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
         '
         'Column17
         '
         Me.Column17.HeaderText = "I_ID"
         Me.Column17.Name = "Column17"
         Me.Column17.ReadOnly = True
+        Me.Column17.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
         '
         'Column24
         '
         Me.Column24.HeaderText = "P_ID"
         Me.Column24.Name = "Column24"
         Me.Column24.ReadOnly = True
+        Me.Column24.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
         '
         'syukokakutei
         '

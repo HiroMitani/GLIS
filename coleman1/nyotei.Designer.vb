@@ -27,10 +27,6 @@ Partial Class nyotei
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
         Me.DataGridView1 = New System.Windows.Forms.DataGridView
-        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.Label1 = New System.Windows.Forms.Label
         Me.Label2 = New System.Windows.Forms.Label
         Me.TextBox1 = New System.Windows.Forms.TextBox
@@ -56,6 +52,10 @@ Partial Class nyotei
         Me.Label12 = New System.Windows.Forms.Label
         Me.Label13 = New System.Windows.Forms.Label
         Me.ComboBox4 = New System.Windows.Forms.ComboBox
+        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -79,41 +79,6 @@ Partial Class nyotei
         Me.DataGridView1.Size = New System.Drawing.Size(659, 337)
         Me.DataGridView1.TabIndex = 11
         Me.DataGridView1.TabStop = False
-        '
-        'Column1
-        '
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.White
-        Me.Column1.DefaultCellStyle = DataGridViewCellStyle1
-        Me.Column1.HeaderText = "商品コード"
-        Me.Column1.Name = "Column1"
-        Me.Column1.ReadOnly = True
-        Me.Column1.Width = 90
-        '
-        'Column2
-        '
-        DataGridViewCellStyle2.BackColor = System.Drawing.Color.White
-        Me.Column2.DefaultCellStyle = DataGridViewCellStyle2
-        Me.Column2.HeaderText = "商品名"
-        Me.Column2.Name = "Column2"
-        Me.Column2.ReadOnly = True
-        Me.Column2.Width = 340
-        '
-        'Column3
-        '
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
-        Me.Column3.DefaultCellStyle = DataGridViewCellStyle3
-        Me.Column3.HeaderText = "数量"
-        Me.Column3.Name = "Column3"
-        Me.Column3.ReadOnly = True
-        Me.Column3.Width = 90
-        '
-        'Column4
-        '
-        Me.Column4.HeaderText = "I_ID"
-        Me.Column4.Name = "Column4"
-        Me.Column4.ReadOnly = True
-        Me.Column4.Width = 78
         '
         'Label1
         '
@@ -337,6 +302,45 @@ Partial Class nyotei
         Me.ComboBox4.Size = New System.Drawing.Size(150, 20)
         Me.ComboBox4.TabIndex = 110
         '
+        'Column1
+        '
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.White
+        Me.Column1.DefaultCellStyle = DataGridViewCellStyle1
+        Me.Column1.HeaderText = "商品コード"
+        Me.Column1.Name = "Column1"
+        Me.Column1.ReadOnly = True
+        Me.Column1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        Me.Column1.Width = 90
+        '
+        'Column2
+        '
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.White
+        Me.Column2.DefaultCellStyle = DataGridViewCellStyle2
+        Me.Column2.HeaderText = "商品名"
+        Me.Column2.Name = "Column2"
+        Me.Column2.ReadOnly = True
+        Me.Column2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        Me.Column2.Width = 340
+        '
+        'Column3
+        '
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
+        Me.Column3.DefaultCellStyle = DataGridViewCellStyle3
+        Me.Column3.HeaderText = "数量"
+        Me.Column3.Name = "Column3"
+        Me.Column3.ReadOnly = True
+        Me.Column3.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        Me.Column3.Width = 90
+        '
+        'Column4
+        '
+        Me.Column4.HeaderText = "I_ID"
+        Me.Column4.Name = "Column4"
+        Me.Column4.ReadOnly = True
+        Me.Column4.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        Me.Column4.Width = 78
+        '
         'nyotei
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
@@ -396,12 +400,12 @@ Partial Class nyotei
     Friend WithEvents ComboBox3 As System.Windows.Forms.ComboBox
     Friend WithEvents Label10 As System.Windows.Forms.Label
     Friend WithEvents Label11 As System.Windows.Forms.Label
-    Friend WithEvents Column1 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents Column2 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents Column3 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents Column4 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents TextBox5 As System.Windows.Forms.TextBox
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents Label13 As System.Windows.Forms.Label
     Friend WithEvents ComboBox4 As System.Windows.Forms.ComboBox
+    Friend WithEvents Column1 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column2 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column3 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column4 As System.Windows.Forms.DataGridViewTextBoxColumn
 End Class

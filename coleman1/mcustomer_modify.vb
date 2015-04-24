@@ -316,29 +316,33 @@
         'IDを格納
         Update_Data(0).ID = Trim(Label12.Text)
 
-        'FAXの場合、文字列が30文字以内かチェックをする。
-        If Trim(TextBox9.Text.Length) > 30 Then
-            'エラー内容を格納する。
-            TextBox9.BackColor = Color.Salmon
-            DataGridErrorMessage &= "FAXが正しくありません。" & vbCr
-            Error_Flg = False
+        'FAXが未入力なら空白を入れて登録
+        If Trim(TextBox9.Text) = "" Then
+            Update_Data(0).D_FAX = ""
         Else
-
-            '半角数値とハイフンのみかチェック
-            If System.Text.RegularExpressions.Regex.IsMatch(Trim(TextBox9.Text), "^[0-9-]+$", _
-                System.Text.RegularExpressions.RegexOptions.IgnoreCase) Then
-                'FAX番号格納
-                TextBox9.BackColor = Color.White
-                Update_Data(0).D_FAX = Trim(TextBox9.Text)
-            Else
+            'FAXの場合、文字列が30文字以内かチェックをする。
+            If Trim(TextBox9.Text.Length) > 30 Then
                 'エラー内容を格納する。
                 TextBox9.BackColor = Color.Salmon
                 DataGridErrorMessage &= "FAXが正しくありません。" & vbCr
                 Error_Flg = False
+            Else
+
+                '半角数値とハイフンのみかチェック
+                If System.Text.RegularExpressions.Regex.IsMatch(Trim(TextBox9.Text), "^[0-9-]+$", _
+                    System.Text.RegularExpressions.RegexOptions.IgnoreCase) Then
+                    'FAX番号格納
+                    TextBox9.BackColor = Color.White
+                    Update_Data(0).D_FAX = Trim(TextBox9.Text)
+                Else
+                    'エラー内容を格納する。
+                    TextBox9.BackColor = Color.Salmon
+                    DataGridErrorMessage &= "FAXが正しくありません。" & vbCr
+                    Error_Flg = False
+                End If
+
             End If
-
         End If
-
 
         '伝票タイプが選択されていなかったらエラー。
         If Trim(ComboBox1.Text) = "" Then
@@ -392,7 +396,7 @@
         End If
 
         '掛け率が半角数字のみかチェック
-        If System.Text.RegularExpressions.Regex.IsMatch(Trim(TextBox10.Text), "^[0-9]+$", _
+        If System.Text.RegularExpressions.Regex.IsMatch(Trim(TextBox10.Text), "^[0-9|.]+$", _
             System.Text.RegularExpressions.RegexOptions.IgnoreCase) Then
             '掛け率
             TextBox10.BackColor = Color.White

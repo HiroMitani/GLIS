@@ -35,6 +35,12 @@ Partial Class nkakutei
         Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
         Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
         Me.DataGridView1 = New System.Windows.Forms.DataGridView
+        Me.Button4 = New System.Windows.Forms.Button
+        Me.Button1 = New System.Windows.Forms.Button
+        Me.Label1 = New System.Windows.Forms.Label
+        Me.Label2 = New System.Windows.Forms.Label
+        Me.Label3 = New System.Windows.Forms.Label
+        Me.Button2 = New System.Windows.Forms.Button
         Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn
@@ -54,12 +60,6 @@ Partial Class nkakutei
         Me.Column14 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.Column15 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.Column19 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Button4 = New System.Windows.Forms.Button
-        Me.Button1 = New System.Windows.Forms.Button
-        Me.Label1 = New System.Windows.Forms.Label
-        Me.Label2 = New System.Windows.Forms.Label
-        Me.Label3 = New System.Windows.Forms.Label
-        Me.Button2 = New System.Windows.Forms.Button
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -74,149 +74,6 @@ Partial Class nkakutei
         Me.DataGridView1.RowTemplate.Height = 21
         Me.DataGridView1.Size = New System.Drawing.Size(1165, 248)
         Me.DataGridView1.TabIndex = 0
-        '
-        'Column4
-        '
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.White
-        Me.Column4.DefaultCellStyle = DataGridViewCellStyle1
-        Me.Column4.HeaderText = "ドキュメントNo"
-        Me.Column4.Name = "Column4"
-        Me.Column4.ReadOnly = True
-        Me.Column4.Width = 95
-        '
-        'Column2
-        '
-        DataGridViewCellStyle2.BackColor = System.Drawing.Color.White
-        Me.Column2.DefaultCellStyle = DataGridViewCellStyle2
-        Me.Column2.HeaderText = "商品コード"
-        Me.Column2.Name = "Column2"
-        Me.Column2.ReadOnly = True
-        Me.Column2.Width = 95
-        '
-        'Column5
-        '
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
-        Me.Column5.DefaultCellStyle = DataGridViewCellStyle3
-        Me.Column5.HeaderText = "予定数量"
-        Me.Column5.Name = "Column5"
-        Me.Column5.ReadOnly = True
-        Me.Column5.Width = 83
-        '
-        'Column6
-        '
-        DataGridViewCellStyle4.BackColor = System.Drawing.Color.White
-        Me.Column6.DefaultCellStyle = DataGridViewCellStyle4
-        Me.Column6.HeaderText = "入荷予定日"
-        Me.Column6.Name = "Column6"
-        Me.Column6.ReadOnly = True
-        Me.Column6.Width = 90
-        '
-        'Column7
-        '
-        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.Column7.DefaultCellStyle = DataGridViewCellStyle5
-        Me.Column7.HeaderText = "*入荷数量"
-        Me.Column7.Name = "Column7"
-        Me.Column7.Width = 83
-        '
-        'Column8
-        '
-        Me.Column8.HeaderText = "*入荷日"
-        Me.Column8.Name = "Column8"
-        Me.Column8.Width = 97
-        '
-        'Column9
-        '
-        Me.Column9.HeaderText = "*ロケーション"
-        Me.Column9.Name = "Column9"
-        '
-        'Column17
-        '
-        Me.Column17.HeaderText = "*入庫コメント"
-        Me.Column17.Name = "Column17"
-        '
-        'Column16
-        '
-        Me.Column16.HeaderText = "*在庫コメント"
-        Me.Column16.Name = "Column16"
-        '
-        'Column1
-        '
-        DataGridViewCellStyle6.BackColor = System.Drawing.Color.White
-        Me.Column1.DefaultCellStyle = DataGridViewCellStyle6
-        Me.Column1.HeaderText = "商品名"
-        Me.Column1.Name = "Column1"
-        Me.Column1.ReadOnly = True
-        '
-        'Column3
-        '
-        DataGridViewCellStyle7.BackColor = System.Drawing.Color.White
-        Me.Column3.DefaultCellStyle = DataGridViewCellStyle7
-        Me.Column3.HeaderText = "JANコード"
-        Me.Column3.Name = "Column3"
-        Me.Column3.ReadOnly = True
-        '
-        'Column10
-        '
-        DataGridViewCellStyle8.BackColor = System.Drawing.Color.White
-        Me.Column10.DefaultCellStyle = DataGridViewCellStyle8
-        Me.Column10.HeaderText = "ステータス"
-        Me.Column10.Name = "Column10"
-        Me.Column10.ReadOnly = True
-        '
-        'Column11
-        '
-        DataGridViewCellStyle9.BackColor = System.Drawing.Color.White
-        Me.Column11.DefaultCellStyle = DataGridViewCellStyle9
-        Me.Column11.HeaderText = "種別"
-        Me.Column11.Name = "Column11"
-        Me.Column11.ReadOnly = True
-        '
-        'Column12
-        '
-        DataGridViewCellStyle10.BackColor = System.Drawing.Color.White
-        Me.Column12.DefaultCellStyle = DataGridViewCellStyle10
-        Me.Column12.HeaderText = "不良区分"
-        Me.Column12.Name = "Column12"
-        Me.Column12.ReadOnly = True
-        '
-        'Column18
-        '
-        Me.Column18.HeaderText = "倉庫"
-        Me.Column18.Name = "Column18"
-        Me.Column18.ReadOnly = True
-        '
-        'Column13
-        '
-        DataGridViewCellStyle11.BackColor = System.Drawing.Color.White
-        Me.Column13.DefaultCellStyle = DataGridViewCellStyle11
-        Me.Column13.HeaderText = "ID"
-        Me.Column13.Name = "Column13"
-        Me.Column13.ReadOnly = True
-        Me.Column13.Width = 70
-        '
-        'Column14
-        '
-        DataGridViewCellStyle12.BackColor = System.Drawing.Color.White
-        Me.Column14.DefaultCellStyle = DataGridViewCellStyle12
-        Me.Column14.HeaderText = "Detail_ID"
-        Me.Column14.Name = "Column14"
-        Me.Column14.ReadOnly = True
-        Me.Column14.Width = 70
-        '
-        'Column15
-        '
-        Me.Column15.HeaderText = "I_ID"
-        Me.Column15.Name = "Column15"
-        Me.Column15.ReadOnly = True
-        Me.Column15.Width = 70
-        '
-        'Column19
-        '
-        Me.Column19.HeaderText = "P_ID"
-        Me.Column19.Name = "Column19"
-        Me.Column19.ReadOnly = True
         '
         'Button4
         '
@@ -272,6 +129,168 @@ Partial Class nkakutei
         Me.Button2.TabIndex = 33
         Me.Button2.Text = "現在の行以降に反映"
         Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Column4
+        '
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.White
+        Me.Column4.DefaultCellStyle = DataGridViewCellStyle1
+        Me.Column4.HeaderText = "ドキュメントNo"
+        Me.Column4.Name = "Column4"
+        Me.Column4.ReadOnly = True
+        Me.Column4.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        Me.Column4.Width = 95
+        '
+        'Column2
+        '
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.White
+        Me.Column2.DefaultCellStyle = DataGridViewCellStyle2
+        Me.Column2.HeaderText = "商品コード"
+        Me.Column2.Name = "Column2"
+        Me.Column2.ReadOnly = True
+        Me.Column2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        Me.Column2.Width = 95
+        '
+        'Column5
+        '
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
+        Me.Column5.DefaultCellStyle = DataGridViewCellStyle3
+        Me.Column5.HeaderText = "予定数量"
+        Me.Column5.Name = "Column5"
+        Me.Column5.ReadOnly = True
+        Me.Column5.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        Me.Column5.Width = 83
+        '
+        'Column6
+        '
+        DataGridViewCellStyle4.BackColor = System.Drawing.Color.White
+        Me.Column6.DefaultCellStyle = DataGridViewCellStyle4
+        Me.Column6.HeaderText = "入荷予定日"
+        Me.Column6.Name = "Column6"
+        Me.Column6.ReadOnly = True
+        Me.Column6.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        Me.Column6.Width = 90
+        '
+        'Column7
+        '
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column7.DefaultCellStyle = DataGridViewCellStyle5
+        Me.Column7.HeaderText = "*入荷数量"
+        Me.Column7.Name = "Column7"
+        Me.Column7.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        Me.Column7.Width = 83
+        '
+        'Column8
+        '
+        Me.Column8.HeaderText = "*入荷日"
+        Me.Column8.Name = "Column8"
+        Me.Column8.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        Me.Column8.Width = 97
+        '
+        'Column9
+        '
+        Me.Column9.HeaderText = "*ロケーション"
+        Me.Column9.Name = "Column9"
+        Me.Column9.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        '
+        'Column17
+        '
+        Me.Column17.HeaderText = "*入庫コメント"
+        Me.Column17.Name = "Column17"
+        Me.Column17.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        '
+        'Column16
+        '
+        Me.Column16.HeaderText = "*在庫コメント"
+        Me.Column16.Name = "Column16"
+        Me.Column16.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        '
+        'Column1
+        '
+        DataGridViewCellStyle6.BackColor = System.Drawing.Color.White
+        Me.Column1.DefaultCellStyle = DataGridViewCellStyle6
+        Me.Column1.HeaderText = "商品名"
+        Me.Column1.Name = "Column1"
+        Me.Column1.ReadOnly = True
+        Me.Column1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        '
+        'Column3
+        '
+        DataGridViewCellStyle7.BackColor = System.Drawing.Color.White
+        Me.Column3.DefaultCellStyle = DataGridViewCellStyle7
+        Me.Column3.HeaderText = "JANコード"
+        Me.Column3.Name = "Column3"
+        Me.Column3.ReadOnly = True
+        Me.Column3.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        '
+        'Column10
+        '
+        DataGridViewCellStyle8.BackColor = System.Drawing.Color.White
+        Me.Column10.DefaultCellStyle = DataGridViewCellStyle8
+        Me.Column10.HeaderText = "ステータス"
+        Me.Column10.Name = "Column10"
+        Me.Column10.ReadOnly = True
+        Me.Column10.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        '
+        'Column11
+        '
+        DataGridViewCellStyle9.BackColor = System.Drawing.Color.White
+        Me.Column11.DefaultCellStyle = DataGridViewCellStyle9
+        Me.Column11.HeaderText = "種別"
+        Me.Column11.Name = "Column11"
+        Me.Column11.ReadOnly = True
+        Me.Column11.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        '
+        'Column12
+        '
+        DataGridViewCellStyle10.BackColor = System.Drawing.Color.White
+        Me.Column12.DefaultCellStyle = DataGridViewCellStyle10
+        Me.Column12.HeaderText = "不良区分"
+        Me.Column12.Name = "Column12"
+        Me.Column12.ReadOnly = True
+        Me.Column12.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        '
+        'Column18
+        '
+        Me.Column18.HeaderText = "倉庫"
+        Me.Column18.Name = "Column18"
+        Me.Column18.ReadOnly = True
+        Me.Column18.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        '
+        'Column13
+        '
+        DataGridViewCellStyle11.BackColor = System.Drawing.Color.White
+        Me.Column13.DefaultCellStyle = DataGridViewCellStyle11
+        Me.Column13.HeaderText = "ID"
+        Me.Column13.Name = "Column13"
+        Me.Column13.ReadOnly = True
+        Me.Column13.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        Me.Column13.Width = 70
+        '
+        'Column14
+        '
+        DataGridViewCellStyle12.BackColor = System.Drawing.Color.White
+        Me.Column14.DefaultCellStyle = DataGridViewCellStyle12
+        Me.Column14.HeaderText = "Detail_ID"
+        Me.Column14.Name = "Column14"
+        Me.Column14.ReadOnly = True
+        Me.Column14.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        Me.Column14.Width = 70
+        '
+        'Column15
+        '
+        Me.Column15.HeaderText = "I_ID"
+        Me.Column15.Name = "Column15"
+        Me.Column15.ReadOnly = True
+        Me.Column15.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        Me.Column15.Width = 70
+        '
+        'Column19
+        '
+        Me.Column19.HeaderText = "P_ID"
+        Me.Column19.Name = "Column19"
+        Me.Column19.ReadOnly = True
+        Me.Column19.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
         '
         'nkakutei
         '

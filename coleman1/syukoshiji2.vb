@@ -118,13 +118,13 @@ Public Class syukoshiji2
                 .Cells(2).Value = SearchResult(Count).I_CODE
                 '商品名
                 .Cells(3).Value = SearchResult(Count).I_NAME
-                '現出荷希望数（確認用）
+                '受注数（確認用）
                 .Cells(4).Value = SearchResult(Count).NUM
-                '出荷希望数（変更用）
+                '受注数（変更用）
                 .Cells(5).Value = SearchResult(Count).NUM
-                '現出荷指示予定数（確認用）
+                '受注残数（確認用）
                 .Cells(6).Value = SearchResult(Count).PLAN_NUM
-                '出荷指示予定数（変更用）
+                '受注残数（変更用）
                 .Cells(7).Value = SearchResult(Count).PLAN_NUM
                 '出荷指示済数
                 .Cells(8).Value = SearchResult(Count).FIX_NUM
@@ -230,8 +230,8 @@ Public Class syukoshiji2
         ComboBox1.SelectedIndex = 0
         PLACE_ID = ComboBox1.SelectedValue.ToString()
 
-        '左1項目を固定(チェック)
-        DataGridView1.Columns(0).Frozen = True
+        '左3項目を固定(チェック、商品コード、商品名)
+        DataGridView1.Columns(2).Frozen = True
 
         ComboBox4.Text = "良品"
         ComboBox2.Text = "通常出荷"
@@ -669,7 +669,7 @@ Public Class syukoshiji2
         'CSVファイル名と、項目行の設定
         Dim Sheet1_Name As String = "出荷予定関連データ" & dtNow.ToString("yyyyMMddHHmm") & ".csv"
         'Header設定
-        Dim Sheet1_Header As String = "商品コード,商品名,出荷希望数,出荷指示予定数,出荷予定数,現在庫数,差引在庫数,出荷倉庫,区分,出荷ステータス,ステータス"
+        Dim Sheet1_Header As String = "商品コード,商品名,受注数,受注残数,出荷予定数,現在庫数,差引在庫数,出荷倉庫,区分,出荷ステータス,ステータス"
 
         '文字コード設定
         strEncoding = System.Text.Encoding.GetEncoding("Shift_JIS")

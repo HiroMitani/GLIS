@@ -140,4 +140,9 @@
         syukojyuchukensaku.Show()
         Me.Hide()
     End Sub
+
+    Private Sub Button23_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button23.Click
+        ClaimPrint.Show()
+        Me.Hide()
+    End Sub
 End Class

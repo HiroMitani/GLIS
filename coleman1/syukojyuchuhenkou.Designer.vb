@@ -24,6 +24,8 @@ Partial Class syukojyuchuhenkou
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label
         Me.DataGridView1 = New System.Windows.Forms.DataGridView
+        Me.Button2 = New System.Windows.Forms.Button
+        Me.Button5 = New System.Windows.Forms.Button
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn
@@ -45,8 +47,6 @@ Partial Class syukojyuchuhenkou
         Me.Column14 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.Column15 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.Column16 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Button2 = New System.Windows.Forms.Button
-        Me.Button5 = New System.Windows.Forms.Button
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -70,6 +70,24 @@ Partial Class syukojyuchuhenkou
         Me.DataGridView1.RowTemplate.Height = 21
         Me.DataGridView1.Size = New System.Drawing.Size(1006, 274)
         Me.DataGridView1.TabIndex = 32
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(783, 323)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(100, 30)
+        Me.Button2.TabIndex = 33
+        Me.Button2.Text = "変更"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(922, 323)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(100, 30)
+        Me.Button5.TabIndex = 36
+        Me.Button5.Text = "閉じる"
+        Me.Button5.UseVisualStyleBackColor = True
         '
         'Column2
         '
@@ -105,13 +123,13 @@ Partial Class syukojyuchuhenkou
         '
         'Column6
         '
-        Me.Column6.HeaderText = "*出荷希望数"
+        Me.Column6.HeaderText = "*受注数"
         Me.Column6.Name = "Column6"
         Me.Column6.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
         '
         'Column7
         '
-        Me.Column7.HeaderText = "出荷予定指示数"
+        Me.Column7.HeaderText = "受注残数"
         Me.Column7.Name = "Column7"
         Me.Column7.ReadOnly = True
         Me.Column7.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
@@ -214,24 +232,6 @@ Partial Class syukojyuchuhenkou
         Me.Column16.HeaderText = "I_ID"
         Me.Column16.Name = "Column16"
         Me.Column16.ReadOnly = True
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(783, 323)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(100, 30)
-        Me.Button2.TabIndex = 33
-        Me.Button2.Text = "変更"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button5
-        '
-        Me.Button5.Location = New System.Drawing.Point(922, 323)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(100, 30)
-        Me.Button5.TabIndex = 36
-        Me.Button5.Text = "閉じる"
-        Me.Button5.UseVisualStyleBackColor = True
         '
         'syukojyuchuhenkou
         '

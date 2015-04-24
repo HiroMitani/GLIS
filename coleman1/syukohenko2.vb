@@ -59,14 +59,14 @@
             If NumChkVal(Trim(DataGridView1.Rows(Count).Cells(5).Value()), "INTEGER", False, False, Minus_Check, NumChkResult, NumChkErrorMessage) = False Then
                 'MsgBox(NumChkErrorMessage)
                 DataGridView1(5, Count).Style.BackColor = Color.Salmon
-                DataGridErrorMessage &= Count + 1 & "行目の出荷希望数が正しくありません。" & vbCr
+                DataGridErrorMessage &= Count + 1 & "行目の受注数が正しくありません。" & vbCr
 
                 Error_Flg = False
             Else
                 '伝票のみ出力なら、出荷希望数がプラスだとエラー。
                 If Trim(DataGridView1.Rows(Count).Cells(5).Value()) > 0 And DataGridView1.Rows(Count).Cells(17).Value() = "伝票出力のみ" Then
                     DataGridView1(5, Count).Style.BackColor = Color.Salmon
-                    DataGridErrorMessage &= Count + 1 & "行目の出荷希望数が正しくありません。" & vbCr
+                    DataGridErrorMessage &= Count + 1 & "行目の受注数が正しくありません。" & vbCr
                     Error_Flg = False
                 Else
                     'チェックに問題がなければ背景色を白に戻す。
@@ -80,17 +80,17 @@
             '出荷指示予定数量の入力妥当性チェック
             '***チェック項目***
             ' 整数値、未入力NG、0の値NG、マイナス値NG
-            If NumChkVal(Trim(DataGridView1.Rows(Count).Cells(7).Value()), "INTEGER", False, False, Minus_Check, NumChkResult, NumChkErrorMessage) = False Then
+            If NumChkVal(Trim(DataGridView1.Rows(Count).Cells(7).Value()), "INTEGER", False, True, Minus_Check, NumChkResult, NumChkErrorMessage) = False Then
                 'MsgBox(NumChkErrorMessage)
                 DataGridView1(7, Count).Style.BackColor = Color.Salmon
-                DataGridErrorMessage &= Count + 1 & "行目の出荷指示予定数が正しくありません。" & vbCr
+                DataGridErrorMessage &= Count + 1 & "行目の受注残数が正しくありません。" & vbCr
 
                 Error_Flg = False
             Else
                 '伝票のみ出力なら、出荷指示予定数量がプラスだとエラー。
                 If Trim(DataGridView1.Rows(Count).Cells(7).Value()) > 0 And DataGridView1.Rows(Count).Cells(17).Value() = "伝票出力のみ" Then
                     DataGridView1(7, Count).Style.BackColor = Color.Salmon
-                    DataGridErrorMessage &= Count + 1 & "行目の出荷指示予定数量が正しくありません。" & vbCr
+                    DataGridErrorMessage &= Count + 1 & "行目の受注残数が正しくありません。" & vbCr
                     Error_Flg = False
                 Else
                     'チェックに問題がなければ背景色を白に戻す。
@@ -107,52 +107,38 @@
             Check_FIX_Num = Trim(DataGridView1.Rows(Count).Cells(8).Value())
             If Check_Num < Check_FIX_Num Then
                 DataGridView1(5, Count).Style.BackColor = Color.Salmon
-                DataGridErrorMessage &= Count + 1 & "行目の出荷希望数は出荷指示済み数より小さい数値を入力できません。" & vbCr
+                DataGridErrorMessage &= Count + 1 & "行目の受注数は出荷指示済み数より小さい数値を入力できません。" & vbCr
+                Error_Flg = False
+            End If
+
+            '出荷希望数より出荷指示予定数の方が大きかったらエラー
+            If Check_Num < Check_Plan_Num Then
+                DataGridView1(5, Count).Style.BackColor = Color.Salmon
+                DataGridErrorMessage &= Count + 1 & "行目の受注数は受注残数より小さい数値を入力できません。" & vbCr
                 Error_Flg = False
             End If
 
             'もし出荷指示済み数が0の場合は出荷希望数の増減に合わせて出荷予定指示数も変更
             '出荷予定指示数にも希望数と同じ数値を設定する
             If Check_FIX_Num = 0 Then
-                OutUpdate_Data(Count).PLAN_NUM = Check_Num
+                If Check_Num < Check_Plan_Num Then
+                    OutUpdate_Data(Count).PLAN_NUM = Check_Num
+                Else
+                    OutUpdate_Data(Count).PLAN_NUM = Check_Plan_Num
+                End If
+
             Else
                 '出荷指示済み数が0じゃなかったら出荷指示済み数と出荷希望数の差分を登録
-                OutUpdate_Data(Count).PLAN_NUM = Check_Num - Check_FIX_Num
+
+
+                If Check_Num < Check_Plan_Num Then
+                    OutUpdate_Data(Count).PLAN_NUM = Check_Num - Check_FIX_Num
+                Else
+                    OutUpdate_Data(Count).PLAN_NUM = Check_Plan_Num
+                End If
             End If
 
-
-            '出荷指示予定数量が出荷予定数より大きい数値ならエラー
-            'If Integer.Parse(DataGridView1.Rows(Count).Cells(5).Value()) < Integer.Parse(DataGridView1.Rows(Count).Cells(7).Value()) And DataGridView1.Rows(Count).Cells(17).Value() = "通常出荷" Then
-            '    DataGridView1(7, Count).Style.BackColor = Color.Salmon
-            '    DataGridErrorMessage &= Count + 1 & "行目の出荷指示予定数が出荷希望数より多くなっています。" & vbCr
-            '    Error_Flg = False
-            'ElseIf Integer.Parse(DataGridView1.Rows(Count).Cells(5).Value()) > Integer.Parse(DataGridView1.Rows(Count).Cells(7).Value()) And DataGridView1.Rows(Count).Cells(17).Value() = "伝票出力のみ" Then
-            '    DataGridView1(7, Count).Style.BackColor = Color.Salmon
-            '    DataGridErrorMessage &= Count + 1 & "行目の出荷指示予定数が出荷希望数より多くなっています。" & vbCr
-            '    Error_Flg = False
-            'End If
-
-            ''出荷予定数が出荷指示済数より小さい数値ならエラー
-            'If Integer.Parse(DataGridView1.Rows(Count).Cells(5).Value()) < Integer.Parse(DataGridView1.Rows(Count).Cells(8).Value()) And DataGridView1.Rows(Count).Cells(17).Value() = "通常出荷" Then
-            '    DataGridView1(7, Count).Style.BackColor = Color.Salmon
-            '    DataGridErrorMessage &= Count + 1 & "行目の出荷希望数が出荷指示済数より少なくなっています。" & vbCr
-            '    Error_Flg = False
-            'ElseIf Integer.Parse(DataGridView1.Rows(Count).Cells(5).Value()) > Integer.Parse(DataGridView1.Rows(Count).Cells(8).Value()) And DataGridView1.Rows(Count).Cells(17).Value() = "伝票出力のみ" Then
-            '    DataGridView1(7, Count).Style.BackColor = Color.Salmon
-            '    DataGridErrorMessage &= Count + 1 & "行目の出荷希望数が出荷指示済数より少なくなっています。" & vbCr
-            '    Error_Flg = False
-            'End If
-
-            ''出荷予定数が(出荷指示予定数量 + 出荷指示済数)より小さい数値ならエラー
-            'If Integer.Parse(DataGridView1.Rows(Count).Cells(5).Value()) < (Integer.Parse(DataGridView1.Rows(Count).Cells(7).Value()) + Integer.Parse(DataGridView1.Rows(Count).Cells(8).Value())) And DataGridView1.Rows(Count).Cells(17).Value() = "通常出荷" Then
-            '    DataGridView1(5, Count).Style.BackColor = Color.Salmon
-            '    DataGridErrorMessage &= Count + 1 & "行目の出荷希望数が出荷指示予定数量 + 出荷指示済数の合計より少なくなっています。" & vbCr
-            '    Error_Flg = False
-            'ElseIf Integer.Parse(DataGridView1.Rows(Count).Cells(5).Value()) > (Integer.Parse(DataGridView1.Rows(Count).Cells(7).Value()) + Integer.Parse(DataGridView1.Rows(Count).Cells(8).Value())) And DataGridView1.Rows(Count).Cells(17).Value() = "伝票出力のみ" Then
-            '    DataGridView1(5, Count).Style.BackColor = Color.Salmon
-            '    DataGridErrorMessage &= Count + 1 & "行目の出荷希望数が出荷指示予定数量 + 出荷指示済数の合計より少なくなっています。" & vbCr
-            '    Error_Flg = False
-            'End If
+            OutUpdate_Data(Count).FIX_NUM = Trim(DataGridView1.Rows(Count).Cells(8).Value())
         Next
 
         If Error_Flg = False Then
@@ -192,10 +178,8 @@
         '左5項目を固定
         DataGridView1.Columns(1).Frozen = True
 
-
-        DataGridView1.Columns(5).HeaderCell.Style.Font = New Font("MS UI Gothic", 9, FontStyle.Bold)
-
-        DataGridView1.Columns(7).HeaderCell.Style.Font = New Font("MS UI Gothic", 9, FontStyle.Bold)
+        'DataGridView1.Columns(5).HeaderCell.Style.Font = New Font("MS UI Gothic", 9, FontStyle.Bold)
+        'DataGridView1.Columns(7).HeaderCell.Style.Font = New Font("MS UI Gothic", 9, FontStyle.Bold)
 
     End Sub
 End Class

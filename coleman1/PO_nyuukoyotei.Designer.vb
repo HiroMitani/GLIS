@@ -32,6 +32,9 @@ Partial Class PO_nyuukoyotei
         Me.Button1 = New System.Windows.Forms.Button
         Me.Button2 = New System.Windows.Forms.Button
         Me.DataGridView1 = New System.Windows.Forms.DataGridView
+        Me.Button4 = New System.Windows.Forms.Button
+        Me.Button5 = New System.Windows.Forms.Button
+        Me.Button6 = New System.Windows.Forms.Button
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn
@@ -52,9 +55,6 @@ Partial Class PO_nyuukoyotei
         Me.Column12 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.Column13 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.Column20 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Button4 = New System.Windows.Forms.Button
-        Me.Button5 = New System.Windows.Forms.Button
-        Me.Button6 = New System.Windows.Forms.Button
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -104,8 +104,35 @@ Partial Class PO_nyuukoyotei
         Me.DataGridView1.Location = New System.Drawing.Point(11, 112)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowTemplate.Height = 21
-        Me.DataGridView1.Size = New System.Drawing.Size(1168, 313)
+        Me.DataGridView1.Size = New System.Drawing.Size(1211, 313)
         Me.DataGridView1.TabIndex = 3
+        '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(954, 454)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(100, 30)
+        Me.Button4.TabIndex = 4
+        Me.Button4.Text = "登録"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(1080, 454)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(100, 30)
+        Me.Button5.TabIndex = 5
+        Me.Button5.Text = "閉じる"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'Button6
+        '
+        Me.Button6.Location = New System.Drawing.Point(837, 66)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(86, 40)
+        Me.Button6.TabIndex = 15
+        Me.Button6.Text = "現在の行以降に反映"
+        Me.Button6.UseVisualStyleBackColor = True
         '
         'Column3
         '
@@ -118,6 +145,7 @@ Partial Class PO_nyuukoyotei
         Me.Column4.HeaderText = "商品コード"
         Me.Column4.Name = "Column4"
         Me.Column4.ReadOnly = True
+        Me.Column4.Width = 95
         '
         'Column5
         '
@@ -242,39 +270,13 @@ Partial Class PO_nyuukoyotei
         Me.Column20.HeaderText = "P_ID"
         Me.Column20.Name = "Column20"
         Me.Column20.ReadOnly = True
-        '
-        'Button4
-        '
-        Me.Button4.Location = New System.Drawing.Point(954, 454)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(100, 30)
-        Me.Button4.TabIndex = 4
-        Me.Button4.Text = "登録"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'Button5
-        '
-        Me.Button5.Location = New System.Drawing.Point(1080, 454)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(100, 30)
-        Me.Button5.TabIndex = 5
-        Me.Button5.Text = "閉じる"
-        Me.Button5.UseVisualStyleBackColor = True
-        '
-        'Button6
-        '
-        Me.Button6.Location = New System.Drawing.Point(837, 66)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(86, 40)
-        Me.Button6.TabIndex = 15
-        Me.Button6.Text = "現在の行以降に反映"
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.Column20.Visible = False
         '
         'PO_nyuukoyotei
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1192, 496)
+        Me.ClientSize = New System.Drawing.Size(1234, 496)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)

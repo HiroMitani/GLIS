@@ -39,6 +39,7 @@ Partial Class LoginForm1
         Me.OK = New System.Windows.Forms.Button
         Me.Cancel = New System.Windows.Forms.Button
         Me.Label1 = New System.Windows.Forms.Label
+        Me.Label2 = New System.Windows.Forms.Label
         CType(Me.LogoPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -105,13 +106,23 @@ Partial Class LoginForm1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("MS UI Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label1.Font = New System.Drawing.Font("MS UI Gothic", 11.25!, System.Drawing.FontStyle.Bold)
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Label1.Location = New System.Drawing.Point(27, 139)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(103, 15)
         Me.Label1.TabIndex = 6
-        Me.Label1.Text = "Version 1.1.3"
+        Me.Label1.Text = "Version 1.1.4"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("MS UI Gothic", 11.25!, System.Drawing.FontStyle.Bold)
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Label2.Location = New System.Drawing.Point(59, 166)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(0, 15)
+        Me.Label2.TabIndex = 7
         '
         'LoginForm1
         '
@@ -120,6 +131,7 @@ Partial Class LoginForm1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.CancelButton = Me.Cancel
         Me.ClientSize = New System.Drawing.Size(394, 189)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Cancel)
         Me.Controls.Add(Me.OK)
@@ -141,5 +153,6 @@ Partial Class LoginForm1
 
     End Sub
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
 
 End Class

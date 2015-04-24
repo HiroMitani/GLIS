@@ -201,9 +201,12 @@ Public Class mcustomer
                     Sheet_Check_Flg = True
                 End If
 
-                '掛け率
-                .Cells(4).Value = Trim(OBJ.Worksheets(SheetName).Cells(Count, 10).value)
-
+                '掛け率（空白だったら0を入れる）
+                If Trim(OBJ.Worksheets(SheetName).Cells(Count, 10).value) = "" Then
+                    .Cells(4).Value = 0
+                Else
+                    .Cells(4).Value = Trim(OBJ.Worksheets(SheetName).Cells(Count, 10).value)
+                End If
 
                 '納品先名
                 .Cells(5).Value = Trim(OBJ.Worksheets(SheetName).Cells(Count, 4).value)
@@ -300,7 +303,12 @@ Public Class mcustomer
                 MCustomer_Data(Count).SHEET_TYPE = 3
             End If
             '掛け率
-            MCustomer_Data(Count).DISCOUNT_RATE = DataGridView1(4, Count).Value
+            If DataGridView1(4, Count).Value = "" Then
+                MCustomer_Data(Count).DISCOUNT_RATE = 0
+            Else
+                MCustomer_Data(Count).DISCOUNT_RATE = DataGridView1(4, Count).Value
+            End If
+
             '納品先名
             MCustomer_Data(Count).D_NAME = DataGridView1(5, Count).Value
             '納品先郵便番号

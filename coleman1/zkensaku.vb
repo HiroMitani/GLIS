@@ -861,6 +861,13 @@
                 .Cells(11).Value = SearchResult(Count).I_ID
                 'P_ID
                 .Cells(12).Value = SearchResult(Count).P_ID
+
+                'SHIPPING_NUM（受注残数）
+                .Cells(13).Value = SearchResult(Count).SHIPPING_NUM
+                'OUT_NUM（出荷予定数）
+                .Cells(14).Value = SearchResult(Count).OUT_NUM
+                '出荷可能数（在庫数 - 受注残数 - 出荷予定数 ）
+                .Cells(15).Value = SearchResult(Count).NUM - SearchResult(Count).SHIPPING_NUM - SearchResult(Count).OUT_NUM
             End With
             DataGridView1.Rows.Add(SR_List)
         Next
@@ -872,7 +879,7 @@
     Private Sub CheckBox1_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckBox1.CheckedChanged
         Dim loopcnt As Integer = DataGridView1.Rows.Count
         Dim Count As Integer = 0
-        Dim IndexCount As Integer = 12
+        Dim IndexCount As Integer = 13
 
         'For i = 0 To loopcnt - 1
         '    If DataGridView1(0, i).Value = 1 Then
@@ -955,7 +962,7 @@
             ByVal e As DataGridViewCellEventArgs) _
             Handles DataGridView1.CellValueChanged
         Dim count As Integer
-        Dim IndexCount As Integer = 12
+        Dim IndexCount As Integer = 13
         '列のインデックスを確認する
         If e.ColumnIndex = 0 Then
             If FormLord = True Then
@@ -995,7 +1002,7 @@
         Dim nSvPaperLength As Long
         Dim nSvPaperWidth As Long
         Dim nSvDefaultSource As Long
-        Dim sSvPrinterName As String
+        Dim sSvPrinterName As String = Nothing
 
         'データが０件ならエラー
         If DataGridView1.Rows.Count = 0 Then
@@ -1043,6 +1050,18 @@
 
         'データがなければ何もしない。
         If RackCard_List.Length <> 0 Then
+
+            'ページ設定ダイアログを開く
+            Call AxReport1.PrinterSetupDlg()
+            '設定を変数に保存
+            nSvOrientation = AxReport1.Orientation
+            nSvPaperSize = AxReport1.PaperSize
+            nSvPaperLength = AxReport1.PaperLength
+            nSvPaperWidth = AxReport1.PaperWidth
+            nSvDefaultSource = AxReport1.DefaultSource
+            sSvPrinterName = AxReport1.PrinterName
+            'レポートを閉じる
+            AxReport1.ReportPath = ""
 
             'レポートを開く
             AxReport1.ReportPath = PrtForm & "ShelfCard.crp"
@@ -1369,7 +1388,7 @@
         'CSVファイル名と、項目行の設定
         Dim Sheet1_Name As String = "在庫データ" & dtNow.ToString("yyyyMMddHHmm") & ".csv"
         'Header設定
-        Dim Sheet1_Header As String = "商品コード,商品名,JANコード,数量,ロケーション,プロダクトライン名,セット商品ステータス,不良区分,倉庫"
+        Dim Sheet1_Header As String = "商品コード,商品名,JANコード,数量,ロケーション,プロダクトライン名,セット商品ステータス,不良区分,倉庫,受注残数,出荷予定数,出荷可能数"
 
         '文字コード設定
         strEncoding = System.Text.Encoding.GetEncoding("Shift_JIS")
@@ -1410,7 +1429,13 @@
             'H列に不良区分
             LineData &= """" & SearchResult(i).I_STATUS & ""","
             'I列に倉庫
-            LineData &= """" & SearchResult(i).PLACE & """"
+            LineData &= """" & SearchResult(i).PLACE & ""","
+            'J列に受注数
+            LineData &= """" & SearchResult(i).SHIPPING_NUM & ""","
+            'K列に出荷予定数
+            LineData &= """" & SearchResult(i).OUT_NUM & ""","
+            'L列に出荷予定数
+            LineData &= """" & SearchResult(i).NUM - SearchResult(i).SHIPPING_NUM - SearchResult(i).OUT_NUM & """"
             '1行にしたデータを登録
             strStreamWriter.WriteLine(LineData)
         Next

@@ -233,8 +233,8 @@ Public Class po_import
         '登録したTMP_P_ORDERを読み込む。
         Result = GET_TMP_P_ORDER(Search_List, Result, ErrorMessage)
 
-        If ExcelResult = False Then
-            MsgBox(ExcelErrorMessage)
+        If Result = False Then
+            MsgBox(ErrorMessage)
             Exit Sub
         End If
 

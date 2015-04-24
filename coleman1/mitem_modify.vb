@@ -485,6 +485,7 @@
         Dim C_ID As Integer = 0
         Dim C_Code As String = Nothing
         Dim ChkCustomerCodeString As String = Nothing
+        Dim Discount_rate As Decimal
 
         'ベンダーコードをクリアする。
         Label3.Text = ""
@@ -501,7 +502,7 @@
                 e.Handled = True
                 '入力された商品コードを元に商品名を取得する。
                 'ログインチェックFunction
-                Result = GetCustomerName(ChkCustomerCodeString, 1, CustomerName, C_ID, C_Code, Result, ErrorMessage)
+                Result = GetCustomerName(ChkCustomerCodeString, 1, CustomerName, C_ID, C_Code, Discount_rate, Result, ErrorMessage)
                 If Result = "True" Then
                     Label3.Text = CustomerName
                     TextBox7.BackColor = Color.White

@@ -305,12 +305,26 @@ Public Class mitem
             MItem_Data(Count).JAN = DataGridView1(2, Count).Value
             '価格
             MItem_Data(Count).PRICE = DataGridView1(3, Count).Value
-            '仕入金額
-            MItem_Data(Count).PURCHASE_PRICE = DataGridView1(4, Count).Value
-            '免責金額
-            MItem_Data(Count).IMMUNITY_PRICE = DataGridView1(5, Count).Value
-            '修理金額
-            MItem_Data(Count).REPAIR_PRICE = DataGridView1(6, Count).Value
+            '仕入金額（もし空だったら0を入れる）
+            If DataGridView1(4, Count).Value = "" Then
+                MItem_Data(Count).PURCHASE_PRICE = 0
+            Else
+                MItem_Data(Count).PURCHASE_PRICE = DataGridView1(4, Count).Value
+            End If
+
+            '免責金額（もし空だったら0を入れる）
+            If DataGridView1(5, Count).Value = "" Then
+                MItem_Data(Count).IMMUNITY_PRICE = 0
+            Else
+                MItem_Data(Count).IMMUNITY_PRICE = DataGridView1(5, Count).Value
+            End If
+
+            '修理金額（もし空だったら0を入れる）
+            If DataGridView1(6, Count).Value = "" Then
+                MItem_Data(Count).REPAIR_PRICE = 0
+            Else
+                MItem_Data(Count).REPAIR_PRICE = DataGridView1(6, Count).Value
+            End If
 
             'プロダクトラインコード
             MItem_Data(Count).PL_CODE = DataGridView1(7, Count).Value

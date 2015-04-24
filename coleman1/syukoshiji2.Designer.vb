@@ -44,6 +44,15 @@ Partial Class syukoshiji2
         Me.Button1 = New System.Windows.Forms.Button
         Me.Label9 = New System.Windows.Forms.Label
         Me.DataGridView1 = New System.Windows.Forms.DataGridView
+        Me.Button2 = New System.Windows.Forms.Button
+        Me.Button3 = New System.Windows.Forms.Button
+        Me.Button4 = New System.Windows.Forms.Button
+        Me.CheckBox9 = New System.Windows.Forms.CheckBox
+        Me.Button5 = New System.Windows.Forms.Button
+        Me.Label10 = New System.Windows.Forms.Label
+        Me.Label11 = New System.Windows.Forms.Label
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker
+        Me.Label2 = New System.Windows.Forms.Label
         Me.Column1 = New System.Windows.Forms.DataGridViewCheckBoxColumn
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn
@@ -59,15 +68,6 @@ Partial Class syukoshiji2
         Me.Column15 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.Column16 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.Column18 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Button2 = New System.Windows.Forms.Button
-        Me.Button3 = New System.Windows.Forms.Button
-        Me.Button4 = New System.Windows.Forms.Button
-        Me.CheckBox9 = New System.Windows.Forms.CheckBox
-        Me.Button5 = New System.Windows.Forms.Button
-        Me.Label10 = New System.Windows.Forms.Label
-        Me.Label11 = New System.Windows.Forms.Label
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker
-        Me.Label2 = New System.Windows.Forms.Label
         Me.GroupBox1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -245,119 +245,6 @@ Partial Class syukoshiji2
         Me.DataGridView1.Size = New System.Drawing.Size(880, 410)
         Me.DataGridView1.TabIndex = 22
         '
-        'Column1
-        '
-        Me.Column1.HeaderText = "チェック"
-        Me.Column1.Name = "Column1"
-        Me.Column1.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Column1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.Column1.Width = 80
-        '
-        'Column2
-        '
-        Me.Column2.HeaderText = "商品コード"
-        Me.Column2.Name = "Column2"
-        Me.Column2.ReadOnly = True
-        Me.Column2.Width = 95
-        '
-        'Column3
-        '
-        Me.Column3.HeaderText = "商品名"
-        Me.Column3.Name = "Column3"
-        Me.Column3.ReadOnly = True
-        '
-        'Column4
-        '
-        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.Column4.DefaultCellStyle = DataGridViewCellStyle1
-        Me.Column4.HeaderText = "出荷希望数"
-        Me.Column4.Name = "Column4"
-        Me.Column4.ReadOnly = True
-        Me.Column4.Width = 90
-        '
-        'Column10
-        '
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.Column10.DefaultCellStyle = DataGridViewCellStyle2
-        Me.Column10.HeaderText = "出荷指示予定数"
-        Me.Column10.Name = "Column10"
-        Me.Column10.ReadOnly = True
-        Me.Column10.Width = 120
-        '
-        'Column8
-        '
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.Column8.DefaultCellStyle = DataGridViewCellStyle3
-        Me.Column8.HeaderText = "出荷予定数"
-        Me.Column8.Name = "Column8"
-        Me.Column8.ReadOnly = True
-        Me.Column8.Width = 90
-        '
-        'Column6
-        '
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.Column6.DefaultCellStyle = DataGridViewCellStyle4
-        Me.Column6.HeaderText = "現在庫数"
-        Me.Column6.Name = "Column6"
-        Me.Column6.ReadOnly = True
-        Me.Column6.Width = 90
-        '
-        'Column7
-        '
-        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.Column7.DefaultCellStyle = DataGridViewCellStyle5
-        Me.Column7.HeaderText = "差引在庫数"
-        Me.Column7.Name = "Column7"
-        Me.Column7.ReadOnly = True
-        Me.Column7.Width = 90
-        '
-        'Column12
-        '
-        Me.Column12.HeaderText = "出荷倉庫"
-        Me.Column12.Name = "Column12"
-        Me.Column12.ReadOnly = True
-        Me.Column12.Width = 90
-        '
-        'Column5
-        '
-        Me.Column5.HeaderText = "区分"
-        Me.Column5.Name = "Column5"
-        Me.Column5.ReadOnly = True
-        Me.Column5.Width = 80
-        '
-        'Column20
-        '
-        Me.Column20.HeaderText = "出荷ステータス"
-        Me.Column20.Name = "Column20"
-        Me.Column20.ReadOnly = True
-        '
-        'Column9
-        '
-        Me.Column9.HeaderText = "ステータス"
-        Me.Column9.Name = "Column9"
-        Me.Column9.ReadOnly = True
-        '
-        'Column15
-        '
-        Me.Column15.HeaderText = "ID"
-        Me.Column15.Name = "Column15"
-        Me.Column15.ReadOnly = True
-        Me.Column15.Width = 75
-        '
-        'Column16
-        '
-        Me.Column16.HeaderText = "P_ID"
-        Me.Column16.Name = "Column16"
-        Me.Column16.ReadOnly = True
-        Me.Column16.Width = 75
-        '
-        'Column18
-        '
-        Me.Column18.HeaderText = "I_ID"
-        Me.Column18.Name = "Column18"
-        Me.Column18.ReadOnly = True
-        Me.Column18.Width = 75
-        '
         'Button2
         '
         Me.Button2.Location = New System.Drawing.Point(792, 607)
@@ -439,6 +326,118 @@ Partial Class syukoshiji2
         Me.Label2.TabIndex = 31
         Me.Label2.Text = "出荷予定日"
         '
+        'Column1
+        '
+        Me.Column1.HeaderText = "チェック"
+        Me.Column1.Name = "Column1"
+        Me.Column1.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Column1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.Column1.Width = 80
+        '
+        'Column2
+        '
+        Me.Column2.HeaderText = "商品コード"
+        Me.Column2.Name = "Column2"
+        Me.Column2.ReadOnly = True
+        Me.Column2.Width = 95
+        '
+        'Column3
+        '
+        Me.Column3.HeaderText = "商品名"
+        Me.Column3.Name = "Column3"
+        Me.Column3.ReadOnly = True
+        '
+        'Column4
+        '
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column4.DefaultCellStyle = DataGridViewCellStyle1
+        Me.Column4.HeaderText = "受注数"
+        Me.Column4.Name = "Column4"
+        Me.Column4.ReadOnly = True
+        Me.Column4.Width = 90
+        '
+        'Column10
+        '
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column10.DefaultCellStyle = DataGridViewCellStyle2
+        Me.Column10.HeaderText = "受注残数"
+        Me.Column10.Name = "Column10"
+        Me.Column10.ReadOnly = True
+        '
+        'Column8
+        '
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column8.DefaultCellStyle = DataGridViewCellStyle3
+        Me.Column8.HeaderText = "出荷予定数"
+        Me.Column8.Name = "Column8"
+        Me.Column8.ReadOnly = True
+        Me.Column8.Width = 90
+        '
+        'Column6
+        '
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column6.DefaultCellStyle = DataGridViewCellStyle4
+        Me.Column6.HeaderText = "現在庫数"
+        Me.Column6.Name = "Column6"
+        Me.Column6.ReadOnly = True
+        Me.Column6.Width = 90
+        '
+        'Column7
+        '
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column7.DefaultCellStyle = DataGridViewCellStyle5
+        Me.Column7.HeaderText = "差引在庫数"
+        Me.Column7.Name = "Column7"
+        Me.Column7.ReadOnly = True
+        Me.Column7.Width = 90
+        '
+        'Column12
+        '
+        Me.Column12.HeaderText = "出荷倉庫"
+        Me.Column12.Name = "Column12"
+        Me.Column12.ReadOnly = True
+        Me.Column12.Width = 90
+        '
+        'Column5
+        '
+        Me.Column5.HeaderText = "区分"
+        Me.Column5.Name = "Column5"
+        Me.Column5.ReadOnly = True
+        Me.Column5.Width = 80
+        '
+        'Column20
+        '
+        Me.Column20.HeaderText = "出荷ステータス"
+        Me.Column20.Name = "Column20"
+        Me.Column20.ReadOnly = True
+        '
+        'Column9
+        '
+        Me.Column9.HeaderText = "ステータス"
+        Me.Column9.Name = "Column9"
+        Me.Column9.ReadOnly = True
+        '
+        'Column15
+        '
+        Me.Column15.HeaderText = "ID"
+        Me.Column15.Name = "Column15"
+        Me.Column15.ReadOnly = True
+        Me.Column15.Width = 75
+        '
+        'Column16
+        '
+        Me.Column16.HeaderText = "P_ID"
+        Me.Column16.Name = "Column16"
+        Me.Column16.ReadOnly = True
+        Me.Column16.Width = 75
+        '
+        'Column18
+        '
+        Me.Column18.HeaderText = "I_ID"
+        Me.Column18.Name = "Column18"
+        Me.Column18.ReadOnly = True
+        Me.Column18.Width = 75
+        '
         'syukoshiji2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
@@ -486,6 +485,10 @@ Partial Class syukoshiji2
     Friend WithEvents Label10 As System.Windows.Forms.Label
     Friend WithEvents Label11 As System.Windows.Forms.Label
     Friend WithEvents Label13 As System.Windows.Forms.Label
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents ComboBox2 As System.Windows.Forms.ComboBox
+    Friend WithEvents DateTimePicker1 As System.Windows.Forms.DateTimePicker
+    Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Column1 As System.Windows.Forms.DataGridViewCheckBoxColumn
     Friend WithEvents Column2 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Column3 As System.Windows.Forms.DataGridViewTextBoxColumn
@@ -501,8 +504,4 @@ Partial Class syukoshiji2
     Friend WithEvents Column15 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Column16 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Column18 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents ComboBox2 As System.Windows.Forms.ComboBox
-    Friend WithEvents DateTimePicker1 As System.Windows.Forms.DateTimePicker
-    Friend WithEvents Label2 As System.Windows.Forms.Label
 End Class

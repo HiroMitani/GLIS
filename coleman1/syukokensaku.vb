@@ -753,7 +753,7 @@ Public Class syukokensaku
         Result = GetOutSearch(FileNameCheckAfter, ChkSheetNoString, ChkOrderNoString, Date_From, Date_To, Fix_Date_From, Fix_Date_To, _
                             ItemJan_Flg, ChkItemJanString, ChkCommentString, ChkCCodeString, ChkClaimCodeString, CheckBox3.Checked, _
                             CheckBox11.Checked, CheckBox10.Checked, CheckBox4.Checked, CheckBox7.Checked, CheckBox5.Checked, _
-                            CheckBox6.Checked, CheckBox1.Checked, CheckBox2.Checked, PLACE_ID, _
+                            CheckBox6.Checked, CheckBox1.Checked, CheckBox2.Checked, CheckBox8.Checked, CheckBox12.Checked, CheckBox13.Checked, PLACE_ID, _
                             SearchResult, Data_Total, Data_Num_Total, Result, ErrorMessage)
 
         If Result = False Then
@@ -835,7 +835,10 @@ Public Class syukokensaku
                     .Cells(25).Value = SearchResult(Count).D_ZIP
                     '住所
                     .Cells(26).Value = SearchResult(Count).D_ADDRESS
-
+                    'TEL
+                    .Cells(27).Value = SearchResult(Count).D_TEL
+                    '問い合わせNo
+                    .Cells(28).Value = SearchResult(Count).INQUIRY_NO
                 End With
                 DataGridView1.Rows.Add(SR_List)
             Next
@@ -861,7 +864,7 @@ Public Class syukokensaku
             ByVal e As DataGridViewCellEventArgs) _
             Handles DataGridView1.CellValueChanged
         Dim count As Integer
-        Dim IndexCount As Integer = 24
+        Dim IndexCount As Integer = 28
         '列のインデックスを確認する
         If e.ColumnIndex = 0 Then
             If FormLord = True Then
@@ -1047,6 +1050,7 @@ Public Class syukokensaku
                 For Page = 1 To MaxPage
                     'Headerの設定（日付＋出荷指示ファイル名）
                     AxReport1.Item("", "header").Text = dtNow.ToString("yyyy/MM/dd") & "  " & "ピッキングリスト（" & Picking_Prt_List(0).FILE_NAME & "）"
+                    AxReport1.Item("", "I_STATUS").Text = Picking_Prt_List(0).I_STATUS
 
                     'カテゴリーの表示
                     AxReport1.Item("", "category").Text = Picking_Prt_List(0).PL_NAME
@@ -1086,7 +1090,11 @@ Public Class syukokensaku
                         '製品コードの表示
                         AxReport1.Item("", "Label" & LineCount & "-1").Text = Picking_Prt_List(DataCount).I_CODE
                         '製品名の表示
-                        AxReport1.Item("", "Label" & LineCount & "-2").Text = Picking_Prt_List(DataCount).I_NAME
+                        If Picking_Prt_List(DataCount).LOCATION <> "" Then
+                            AxReport1.Item("", "Label" & LineCount & "-2").Text = Picking_Prt_List(DataCount).I_NAME & "（" & Picking_Prt_List(DataCount).LOCATION & "）"
+                        Else
+                            AxReport1.Item("", "Label" & LineCount & "-2").Text = Picking_Prt_List(DataCount).I_NAME
+                        End If
                         '出荷数の表示
                         AxReport1.Item("", "Label" & LineCount & "-3").Text = Picking_Prt_List(DataCount).NUM
                         '在庫数の表示
@@ -1265,8 +1273,8 @@ Public Class syukokensaku
         Next
 
         FILE_NAME = Trim(TextBox3.Text)
-        C_Code = Trim(TextBox4.Text)
-        C_Code = C_Code.Replace("'", "''")
+        'C_Code = Trim(TextBox4.Text)
+        'C_Code = C_Code.Replace("'", "''")
 
         Delivery_Result = GetDeliveryList(FILE_NAME, C_Code, Delivery_Data_List, WhereSql, DataResultCount, Delivery_Result, Delivery_ErrorMessage)
         If Delivery_Result = False Then
@@ -1344,7 +1352,8 @@ Public Class syukokensaku
                     '2ページ目以降は納品先名と数量は表示しない。
                     If Page = 1 Then
                         '納品先名の設定
-                        AxReport1.Item("", "C_NAME").Text = "納品先：" & Delivery_Prt_List(0).D_NAME
+                        'AxReport1.Item("", "C_NAME").Text = "納品先名：" & Delivery_Prt_List(0).D_NAME
+                        AxReport1.Item("", "C_NAME").Text = "請求先名：" & Delivery_Data_List(Count).C_NAME
 
                         '納品先計を設定
                         AxReport1.Item("", "total").Text = TotalNum
@@ -2064,6 +2073,7 @@ Public Class syukokensaku
         Dim C_ID As Integer = 0
         Dim C_Code As String = Nothing
         Dim ChkCustomerCodeString As String = Nothing
+        Dim Discount_rate As Decimal
 
         '商品名欄をクリアする。
         Label18.Text = ""
@@ -2080,7 +2090,7 @@ Public Class syukokensaku
                 e.Handled = True
                 '入力された商品コードを元に商品名を取得する。
                 'ログインチェックFunction
-                Result = GetCustomerName(ChkCustomerCodeString, 1, CustomerName, C_ID, C_Code, Result, ErrorMessage)
+                Result = GetCustomerName(ChkCustomerCodeString, 1, CustomerName, C_ID, C_Code, Discount_rate, Result, ErrorMessage)
                 If Result = "True" Then
                     Label18.Text = CustomerName
                     TextBox4.BackColor = Color.White
@@ -2131,40 +2141,10 @@ Public Class syukokensaku
 
     End Sub
 
-    Private Sub Button7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        Dim IndexCount = 22
-
-        Dim sample() As Integer = Nothing
-        Dim SelectCount As Integer = 0
-        Dim LoopCount As Integer = 0
-
-        For Each Row As DataGridViewRow In DataGridView1.SelectedRows
-            ReDim Preserve sample(0 To SelectCount)
-            sample(SelectCount) = Row.Index
-            SelectCount += 1
-        Next Row
-
-        For LoopCount = 0 To sample.Length - 1
-            'MsgBox(sample(LoopCount))
-
-            If DataGridView1(0, sample(LoopCount)).Value = 1 Then
-                DataGridView1(0, sample(LoopCount)).Value = 0
-                For Count = 0 To IndexCount
-                    DataGridView1.Item(Count, sample(LoopCount)).Style.BackColor = Color.White
-                Next
-            ElseIf DataGridView1(0, sample(LoopCount)).Value = 0 Then
-                DataGridView1(0, sample(LoopCount)).Value = 1
-                For Count = 0 To IndexCount
-                    DataGridView1.Item(Count, sample(LoopCount)).Style.BackColor = Color.PaleGreen
-                Next
-            End If
-        Next
-    End Sub
-
     Private Sub CheckBox9_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckBox9.CheckedChanged
         Dim loopcnt As Integer = DataGridView1.Rows.Count
         Dim Count As Integer = 0
-        Dim IndexCount = 24
+        Dim IndexCount = 28
 
         Dim CheckDataCount As Integer = 0
 
@@ -2398,7 +2378,7 @@ Public Class syukokensaku
         Result = GetOutSearch(FileNameCheckAfter, ChkSheetNoString, ChkOrderNoString, Date_From, Date_To, Fix_Date_From, Fix_Date_To, _
                             ItemJan_Flg, ChkItemJanString, ChkCommentString, ChkCCodeString, ChkCLAIMCodeString, CheckBox3.Checked, _
                             CheckBox11.Checked, CheckBox10.Checked, CheckBox4.Checked, CheckBox7.Checked, CheckBox5.Checked, _
-                            CheckBox6.Checked, CheckBox1.Checked, CheckBox2.Checked, PLACE_ID, _
+                            CheckBox6.Checked, CheckBox1.Checked, CheckBox2.Checked, CheckBox8.Checked, CheckBox12.Checked, CheckBox13.Checked, PLACE_ID, _
                             SearchResult, Data_Total, Data_Num_Total, Result, ErrorMessage)
 
         If Result = False Then
@@ -2412,7 +2392,7 @@ Public Class syukokensaku
         'CSVファイル名と、項目行の設定
         Dim Sheet1_Name As String = "出庫関連データ" & dtNow.ToString("yyyyMMddHHmm") & ".csv"
         'Header設定
-        Dim Sheet1_Header As String = "伝票番号,オーダー番号,商品コード,商品名,出荷指示ファイル名,納品先コード,納品先名,予定数量,出荷予定日,出荷数量,出荷日,ステータス,出荷種別,商品ステータス,印刷日,納入単価,売単価,コメント１,コメント２,備考,倉庫,郵便番号,住所"
+        Dim Sheet1_Header As String = "伝票番号,オーダー番号,商品コード,商品名,出荷指示ファイル名,納品先コード,納品先名,予定数量,出荷予定日,出荷数量,出荷日,ステータス,出荷種別,商品ステータス,印刷日,納入単価,売単価,コメント１,コメント２,備考,倉庫,郵便番号,住所,TEL"
 
         '文字コード設定
         strEncoding = System.Text.Encoding.GetEncoding("Shift_JIS")
@@ -2478,11 +2458,12 @@ Public Class syukokensaku
             LineData &= """" & SearchResult(i).REMARKS & ""","
             'U列に倉庫
             LineData &= """" & SearchResult(i).PLACE & ""","
-            'V列に備考
+            'V列に郵便番号
             LineData &= """" & SearchResult(i).D_ZIP & ""","
-            'W列に倉庫
-            LineData &= """" & SearchResult(i).D_ADDRESS & """"
-
+            'W列に住所
+            LineData &= """" & SearchResult(i).D_ADDRESS & ""","
+            'X列に電話番号
+            LineData &= """" & SearchResult(i).D_TEL & """"
             '1行にしたデータを登録
             strStreamWriter.WriteLine(LineData)
         Next
@@ -2868,11 +2849,11 @@ Public Class syukokensaku
                 'Page No
                 AxReport1.Item("", "PageNo").Text = Page & " "
                 '発送日
-                AxReport1.Item("", "Shipping_Date").Text = DateTime.Today & " "
+                AxReport1.Item("", "Shipping_Date").Text = Delivery_Data_List(Count).OUT_DATE & " "
                 '納品番号
                 AxReport1.Item("", "Delivery_No").Text = Delivery_Data_List(Count).SHEET_NO & " "
 
-                'LEGITデザイン企業情報
+                '企業情報
                 '企業名
                 AxReport1.Item("", "CompanyName").Text = Com_NAME
                 '企業郵便番号
@@ -2884,7 +2865,8 @@ Public Class syukokensaku
                 '企業FAX
                 AxReport1.Item("", "CompanyFax").Text = Com_FAX
 
-
+                'オーダー番号
+                AxReport1.Item("", "OrderNo").Text = Delivery_Data_List(Count).ORDER_NO
                 '企業名
                 AxReport1.Item("", "CustomerName").Text = Delivery_Data_List(Count).C_NAME
                 '納品番号
@@ -3295,17 +3277,62 @@ Public Class syukokensaku
 
         MsgBox(Csv_Complete_Message)
 
+    End Sub
 
+    Private Sub Button15_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button15.Click
+        Dim Check_Flg As Boolean = False
+        Dim OutINQUIRY_NO_Data() As Out_Search_List = Nothing
+        Dim DataCount As Integer = 0
 
+        Dim UpdResult As Boolean = True
+        Dim UpdErrorMessage As String = Nothing
 
+        If sSearchFLg = True Then
+            MsgBox("出荷確定、出荷予定変更を行った後は再度検索を行って下さい。")
+            Exit Sub
+        End If
 
+        'データが０件ならエラー
+        If DataGridView1.Rows.Count = 0 Then
+            MsgBox("データが選択されていません。")
+            Exit Sub
+        End If
 
+        'チェックされた商品があるか確認
+        For Count = 0 To DataGridView1.Rows.Count - 1
+            If DataGridView1.Rows(Count).Cells(0).Value() = 1 Then
+                Check_Flg = True
+            End If
+        Next
 
+        If Check_Flg = False Then
+            MsgBox("チェックされた商品がありません。")
+            Exit Sub
+        End If
 
+        'DataGridViewからチェックされたデータのIDを配列に格納
+        For Count = 0 To DataGridView1.Rows.Count - 1
+            If DataGridView1.Rows(Count).Cells(0).Value() = 1 Then
+                ReDim Preserve OutINQUIRY_NO_Data(0 To DataCount)
+                'OUT.ID
+                OutINQUIRY_NO_Data(DataCount).ID = DataGridView1.Rows(Count).Cells(22).Value()
+                'OUT.ID
+                OutINQUIRY_NO_Data(DataCount).INQUIRY_NO = DataGridView1.Rows(Count).Cells(28).Value()
 
+                DataCount += 1
+            End If
+        Next
 
+        'UPDATE
+        UpdResult = UpdOutTbl_INQUIRY_NO(OutINQUIRY_NO_Data, UpdResult, UpdErrorMessage)
 
+        If UpdResult = False Then
+            MsgBox(UpdErrorMessage)
+            Exit Sub
+        End If
 
+        MsgBox("問合せNoの登録が完了しました。")
+        sSearchFLg = True
 
     End Sub
 End Class

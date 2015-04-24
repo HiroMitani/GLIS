@@ -325,7 +325,7 @@ Partial Class mitem_modify
         'Label17
         '
         Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(29, 373)
+        Me.Label17.Location = New System.Drawing.Point(27, 373)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(53, 12)
         Me.Label17.TabIndex = 29

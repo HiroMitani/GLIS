@@ -88,14 +88,14 @@
 
             If NumChkVal(Trim(DataGridView1.Rows(Count).Cells(4).Value()), "INTEGER", False, False, Minus_Check, NumChkResult, NumChkErrorMessage) = False Then
                 DataGridView1(4, Count).Style.BackColor = Color.Salmon
-                DataGridErrorMessage &= Count + 1 & "行目の出荷希望数が正しくありません。" & vbCr
+                DataGridErrorMessage &= Count + 1 & "行目の受注数が正しくありません。" & vbCr
 
                 Error_Flg = False
             Else
                 '伝票のみ出力なら、出荷希望数がプラスだとエラー。
                 If Trim(DataGridView1.Rows(Count).Cells(4).Value()) > 0 And DataGridView1.Rows(Count).Cells(12).Value() = "伝票出力のみ" Then
                     DataGridView1(4, Count).Style.BackColor = Color.Salmon
-                    DataGridErrorMessage &= Count + 1 & "行目の出荷希望数が正しくありません。" & vbCr
+                    DataGridErrorMessage &= Count + 1 & "行目の受注数が正しくありません。" & vbCr
                     Error_Flg = False
                 Else
                     'チェックに問題がなければ背景色を白に戻す。
@@ -112,7 +112,7 @@
             Check_FIX_Num = Trim(DataGridView1.Rows(Count).Cells(6).Value())
             If Check_Num < Check_FIX_Num Then
                 DataGridView1(4, Count).Style.BackColor = Color.Salmon
-                DataGridErrorMessage &= Count + 1 & "行目の出荷希望数は出荷指示済み数より小さい数値を入力できません。" & vbCr
+                DataGridErrorMessage &= Count + 1 & "行目の受注数は出荷指示済み数より小さい数値を入力できません。" & vbCr
                 Error_Flg = False
             End If
 

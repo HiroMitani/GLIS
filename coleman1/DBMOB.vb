@@ -8,6 +8,8 @@ Module DBMOB
     '画面の表示位置設定
     Public DisplayX As Integer = System.Configuration.ConfigurationManager.AppSettings("DisplayX")
     Public DisplayY As Integer = System.Configuration.ConfigurationManager.AppSettings("DisplayY")
+    '消費税額設定
+    Public Tax As String = System.Configuration.ConfigurationManager.AppSettings("Tax")
 
     '作成するグラフの拡張子
     Public ImageType As String = ".png"
@@ -21,6 +23,12 @@ Module DBMOB
     Public Com_ADDRESS As String = System.Configuration.ConfigurationManager.AppSettings("Com_ADDRESS")
     Public Com_TEL As String = System.Configuration.ConfigurationManager.AppSettings("Com_TEL")
     Public Com_FAX As String = System.Configuration.ConfigurationManager.AppSettings("Com_FAX")
+    Public Com_BANKNAME As String = System.Configuration.ConfigurationManager.AppSettings("Com_BANKNAME")
+    Public Com_ACCOUNTINFO As String = System.Configuration.ConfigurationManager.AppSettings("Com_ACCOUNTINFO")
+
+    'メモ欄情報
+    Public Memo1 As String = System.Configuration.ConfigurationManager.AppSettings("Memo1")
+    Public Memo2 As String = System.Configuration.ConfigurationManager.AppSettings("Memo2")
 
     'ログインしたユーザーのユーザーID、権限を格納
     Public R_User As Integer
@@ -43,6 +51,7 @@ Module DBMOB
     Public Structure C_List
         Dim ID As String
         Dim NAME As String
+        Dim DISCOUNT_RATE As String
     End Structure
 
     Public Structure PL_List
@@ -63,6 +72,8 @@ Module DBMOB
         Dim PURCHASE_PRICE As Integer
         Dim IMMUNITY_PRICE As Integer
         Dim REPAIR_PRICE As Integer
+        Dim DISCOUNT_RATE As Decimal
+
     End Structure
 
     Public Structure Ins_Item_List
@@ -206,7 +217,8 @@ Module DBMOB
         Dim P_ID As Integer
         Dim D_ZIP As String
         Dim D_ADDRESS As String
-
+        Dim D_TEL As String
+        Dim INQUIRY_NO As String
         Dim NO As Integer
         Dim LOT_NUMBER As String
         Dim WARRANTY_CARD_NUMBER As String
@@ -263,6 +275,7 @@ Module DBMOB
         Dim I_STATUS As String
         Dim PLACE_ID As Integer
         Dim C_CODE As String
+        Dim LOCATION As String
     End Structure
 
     Public Structure Check_Rsult_List
@@ -301,6 +314,8 @@ Module DBMOB
         Dim PACKAGE_FLG As Boolean
         Dim P_ID As Integer
         Dim PLACE As String
+        Dim SHIPPING_NUM As Integer
+        Dim OUT_NUM As Integer
     End Structure
 
     Public Structure Stock_Tanaoroshi_List
@@ -413,6 +428,7 @@ Module DBMOB
         Dim I_NAME As String
         Dim NUM As Integer
         Dim NUMTOTAL As Integer
+        Dim C_NAME As String
     End Structure
 
     Public Structure CheckID_List
@@ -476,6 +492,7 @@ Module DBMOB
         Dim PURCHASE_PRICE As Integer
         Dim IMMUNITY_PRICE As Integer
         Dim REPAIR_PRICE As Integer
+        Dim DISCOUNT_RATE As Decimal
     End Structure
 
     Public Structure MIns_Customer_List
@@ -488,7 +505,7 @@ Module DBMOB
         Dim D_ADDRESS As String
         Dim D_TEL As String
         Dim D_FAX As String
-        Dim DISCOUNT_RATE As Integer
+        Dim DISCOUNT_RATE As Decimal
         Dim CUSTOMER_TYPE As Integer
         Dim DELIVERY_OUTPUT_FLG As Integer
     End Structure
@@ -674,7 +691,7 @@ Module DBMOB
         Dim CUSTOMER_TYPE As String
         Dim DELIVERY_PRT_FLG As Integer
         Dim CLAIM_CODE As String
-        Dim DISCOUNT_RATE As Integer
+        Dim DISCOUNT_RATE As Decimal
     End Structure
 
     Public Structure IO_Balance_List
@@ -755,6 +772,8 @@ Module DBMOB
         Dim COMMENT1 As String
         Dim COMMENT2 As String
         Dim C_CODE As String
+        Dim OUT_DATE As String
+        Dim ORDER_NO As String
     End Structure
 
     Public Structure Delivery_DetailList
@@ -815,6 +834,30 @@ Module DBMOB
         Dim COMMENT2 As String
         Dim UNIT_PRICE As Integer
         Dim U_DATE As String
+    End Structure
+
+    Public Structure Claim_List
+        Dim STATUS As String
+        Dim SHEET_NO As String
+        Dim C_CODE As String
+        Dim D_NAME As String
+        Dim I_CODE As String
+        Dim I_NAME As String
+        Dim FIX_NUM As Integer
+        Dim UNIT_COST As Integer
+        Dim FILE_NAME As String
+        Dim ORDER_NO As String
+        Dim FIX_DATE As String
+        Dim P_NAME As String
+        Dim COMMENT1 As String
+        Dim COMMENT2 As String
+        Dim ID As Integer
+        Dim I_ID As Integer
+        Dim C_ID As Integer
+        Dim CLAIM_PRT_DATE As String
+        Dim C_NAME As String
+        Dim CLAIM_CODE As String
+        Dim CLAIM_NO As String
     End Structure
 
     '***********************************************
@@ -1047,7 +1090,7 @@ Module DBMOB
             Connection.Open()
             'コマンド作成
             Command = Connection.CreateCommand
-            Command.CommandText = "SELECT ID ,D_NAME AS NAME FROM M_CUSTOMER WHERE DEL_FLG=0 ORDER BY D_NAME"
+            Command.CommandText = "SELECT ID ,D_NAME AS NAME,DISCOUNT_RATE FROM M_CUSTOMER WHERE DEL_FLG=0 ORDER BY D_NAME"
 
             'データ取得
             CustmerListData = Command.ExecuteReader
@@ -1056,6 +1099,7 @@ Module DBMOB
                 ReDim Preserve ListData(0 To Count)
                 ListData(Count).ID = CustmerListData("ID")
                 ListData(Count).NAME = CustmerListData("NAME")
+                ListData(Count).DISCOUNT_RATE = CustmerListData("DISCOUNT_RATE")
                 Count += 1
             Loop
 
@@ -1094,6 +1138,7 @@ Module DBMOB
                                     ByRef CustomerName As String, _
                                     ByRef C_Id As Integer, _
                                     ByRef C_Code As String, _
+                                    ByRef C_DISCOUNT_RATE As Decimal, _
                                     ByRef Result As String, _
                                     ByRef ErrorMessage As String) As Boolean
         Dim CustmerData As MySqlDataReader
@@ -1112,12 +1157,12 @@ Module DBMOB
 
 
                 Command = Connection.CreateCommand
-                Command.CommandText = " SELECT ID AS C_ID,C_CODE,D_NAME AS NAME FROM M_CUSTOMER WHERE C_CODE='"
+                Command.CommandText = " SELECT ID AS C_ID,C_CODE,D_NAME AS NAME,DISCOUNT_RATE FROM M_CUSTOMER WHERE C_CODE='"
                 Command.CommandText &= SearchCode
                 Command.CommandText &= "' AND DEL_FLG=0"
             ElseIf Type = 2 Then
                 Command = Connection.CreateCommand
-                Command.CommandText = " SELECT ID AS C_ID,C_CODE,D_NAME AS NAME FROM M_CUSTOMER WHERE ID='"
+                Command.CommandText = " SELECT ID AS C_ID,C_CODE,D_NAME AS NAME,DISCOUNT_RATE FROM M_CUSTOMER WHERE ID='"
                 Command.CommandText &= SearchCode
                 Command.CommandText &= "' AND DEL_FLG=0"
             End If
@@ -1130,7 +1175,7 @@ Module DBMOB
                 CustomerName = CustmerData("NAME")
                 C_Id = CustmerData("C_ID")
                 C_Code = CustmerData("C_CODE")
-
+                C_DISCOUNT_RATE = CustmerData("DISCOUNT_RATE")
             Else
                 ' レコードが取得できなかった時の処理
                 ErrorMessage = "入力した企業コードに該当する企業名がみつかりません。"
@@ -3029,6 +3074,9 @@ Module DBMOB
     ' Category2 : 種別（返品出荷）
     ' Print_type1 : ピッキングリスト未印刷（未使用）
     ' Print_type2 : ピッキングリスト印刷済（未使用）
+    ' I_STATUS1 : 区分（良品）
+    ' I_STATUS2 : 区分（不良品）
+    ' I_STATUS3 : 区分（保管品）
     ' Place : 倉庫
     ' <戻り値>
     ' SearchResult : 検索結果
@@ -3058,6 +3106,9 @@ Module DBMOB
                                  ByVal Category2 As String, _
                                  ByVal Print_Type1 As String, _
                                  ByVal Print_Type2 As String, _
+                                 ByVal I_Status1 As String, _
+                                 ByVal I_Status2 As String, _
+                                 ByVal I_Status3 As String, _
                                  ByVal Place As Integer, _
                                  ByRef SearchResult() As Out_Search_List, _
                                  ByRef Data_Total As Integer, _
@@ -3071,6 +3122,7 @@ Module DBMOB
         Dim WhereSql As String = Nothing
         Dim Count As Integer = 0
         Dim StatusWhere As String = Nothing
+        Dim I_StatusWhere As String = Nothing
 
         Try
             '接続文字列を設定
@@ -3078,169 +3130,92 @@ Module DBMOB
 
             WhereSql = ""
             '検索条件よりWhereの作成
+
+            '倉庫（必須条件）
+            WhereSql = " OUT_TBL.PLACE_ID ="
+            WhereSql &= Place
+            WhereSql &= " "
+
             '出荷指示ファイル名
             If File_Name <> "" Then
-                WhereSql = " OUT_TBL.FILE_NAME Like '"
+                WhereSql &= "AND OUT_TBL.FILE_NAME Like '"
                 WhereSql &= File_Name
                 WhereSql &= "'"
             End If
 
-            '倉庫
-            If WhereSql = "" Then
-                WhereSql = " OUT_TBL.PLACE_ID ="
-                WhereSql &= Place
-                WhereSql &= " "
-            Else
-                WhereSql &= " AND OUT_TBL.PLACE_ID ="
-                WhereSql &= Place
-                WhereSql &= " "
-            End If
-
             '伝票番号
             If Sheet_No <> "" Then
-                If WhereSql = "" Then
-                    WhereSql = " OUT_TBL.SHEET_NO ='"
-                    WhereSql &= Sheet_No
-                    WhereSql &= "'"
-                Else
-                    WhereSql &= " AND OUT_TBL.SHEET_NO ='"
-                    WhereSql &= Sheet_No
-                    WhereSql &= "'"
-                End If
+                WhereSql &= " AND OUT_TBL.SHEET_NO ='"
+                WhereSql &= Sheet_No
+                WhereSql &= "'"
             End If
 
             'オーダー番号
             If Order_No <> "" Then
-                If WhereSql = "" Then
-                    WhereSql = " OUT_TBL.ORDER_NO ='"
-                    WhereSql &= Order_No
-                    WhereSql &= "'"
-                Else
-                    WhereSql &= " AND OUT_TBL.ORDER_NO ='"
-                    WhereSql &= Order_No
-                    WhereSql &= "' "
-                End If
+                WhereSql &= " AND OUT_TBL.ORDER_NO ='"
+                WhereSql &= Order_No
+                WhereSql &= "' "
             End If
 
             '納品先コード
             If C_Code <> "" Then
-                If WhereSql = "" Then
-                    WhereSql = " M_CUSTOMER.C_CODE ='"
-                    WhereSql &= C_Code
-                    WhereSql &= "'"
-                Else
-                    WhereSql &= " AND M_CUSTOMER.C_CODE ='"
-                    WhereSql &= C_Code
-                    WhereSql &= "' "
-                End If
+                WhereSql &= " AND M_CUSTOMER.C_CODE ='"
+                WhereSql &= C_Code
+                WhereSql &= "' "
             End If
 
             '請求先コード
             If Claim_Code <> "" Then
-                If WhereSql = "" Then
-                    WhereSql = " M_CUSTOMER.CLAIM_CODE ='"
-                    WhereSql &= Claim_Code
-                    WhereSql &= "'"
-                Else
-                    WhereSql &= " AND M_CUSTOMER.CLAIM_CODE ='"
-                    WhereSql &= Claim_Code
-                    WhereSql &= "' "
-                End If
+                WhereSql &= " AND M_CUSTOMER.CLAIM_CODE ='"
+                WhereSql &= Claim_Code
+                WhereSql &= "' "
             End If
 
             '出荷予定日From
             If Date_From <> "" Then
-                If WhereSql = "" Then
-                    WhereSql = " OUT_TBL.DATE >= '"
-                    WhereSql &= Date_From
-                    WhereSql &= "'"
-                Else
-                    WhereSql &= " AND OUT_TBL.DATE >= '"
-                    WhereSql &= Date_From
-                    WhereSql &= "'"
-                End If
+                WhereSql &= " AND OUT_TBL.DATE >= '"
+                WhereSql &= Date_From
+                WhereSql &= "'"
             End If
 
             '出荷予定日To
             If Date_To <> "" Then
-                If WhereSql = "" Then
-                    'Toのみ入力されている場合
-                    WhereSql = " OUT_TBL.DATE <= '"
-                    WhereSql &= Date_To
-                    WhereSql &= "'"
-                Else
-                    'Toのみ入力されている場合
-                    WhereSql &= " AND OUT_TBL.DATE <= '"
-                    WhereSql &= Date_To
-                    WhereSql &= "'"
-                End If
+                'Toのみ入力されている場合
+                WhereSql &= " AND OUT_TBL.DATE <= '"
+                WhereSql &= Date_To
+                WhereSql &= "'"
             End If
 
             '出荷日From
             If Fix_Date_From <> "" Then
-                If WhereSql = "" Then
-                    'WhereSql = " OUT_TBL.FIX_DATE >= '"
-                    WhereSql = " DATE_FORMAT(OUT_TBL.FIX_DATE, '%Y/%m/%d') >= '"
-                    WhereSql &= Fix_Date_From
-                    WhereSql &= "'"
-                Else
-                    'WhereSql &= " AND OUT_TBL.FIX_DATE >= '"
-                    WhereSql &= " AND DATE_FORMAT(OUT_TBL.FIX_DATE, '%Y/%m/%d') >= '"
-                    WhereSql &= Fix_Date_From
-                    WhereSql &= "'"
-                End If
+                WhereSql &= " AND DATE_FORMAT(OUT_TBL.FIX_DATE, '%Y/%m/%d') >= '"
+                WhereSql &= Fix_Date_From
+                WhereSql &= "'"
             End If
-            'DATE_FORMAT(OUT_TBL.FIX_DATE, '%Y/%m/%d')
 
             '出荷日To
             If Fix_Date_To <> "" Then
-                If WhereSql = "" Then
-                    'WhereSql = " OUT_TBL.FIX_DATE <= '"
-                    WhereSql = " DATE_FORMAT(OUT_TBL.FIX_DATE, '%Y/%m/%d') <= '"
-                    WhereSql &= Fix_Date_To
-                    WhereSql &= "'"
-                Else
-                    'WhereSql &= " AND OUT_TBL.FIX_DATE <= '"
-                    WhereSql &= " AND DATE_FORMAT(OUT_TBL.FIX_DATE, '%Y/%m/%d') <= '"
-                    WhereSql &= Fix_Date_To
-                    WhereSql &= "'"
-                End If
+                WhereSql &= " AND DATE_FORMAT(OUT_TBL.FIX_DATE, '%Y/%m/%d') <= '"
+                WhereSql &= Fix_Date_To
+                WhereSql &= "'"
             End If
 
             'ItemJan_Flgが1なら商品コードを検索する。
             If ItemJan_Flg = 1 And ItemJan_Code <> "" Then
-                If WhereSql = "" Then
-                    WhereSql &= " M_ITEM.I_CODE ='"
-                    WhereSql &= ItemJan_Code
-                    WhereSql &= "' "
-                Else
-                    WhereSql &= " AND M_ITEM.I_CODE ='"
-                    WhereSql &= ItemJan_Code
-                    WhereSql &= "' "
-                End If
+                WhereSql &= " AND M_ITEM.I_CODE ='"
+                WhereSql &= ItemJan_Code
+                WhereSql &= "' "
             ElseIf ItemJan_Flg = 2 And ItemJan_Code <> "" Then
-                If WhereSql = "" Then
-                    WhereSql &= " M_ITEM.JAN ='"
-                    WhereSql &= ItemJan_Code
-                    WhereSql &= "' "
-                Else
-                    WhereSql &= " AND M_ITEM.JAN ='"
-                    WhereSql &= ItemJan_Code
-                    WhereSql &= "' "
-                End If
+                WhereSql &= " AND M_ITEM.JAN ='"
+                WhereSql &= ItemJan_Code
+                WhereSql &= "' "
             End If
 
             'コメント１（備考） : あいまい検索
             If Comment1 <> "" Then
-                If WhereSql = "" Then
-                    WhereSql = " OUT_TBL.COMMENT1 like '%"
-                    WhereSql &= Comment1
-                    WhereSql &= "%'"
-                Else
-                    WhereSql &= " AND OUT_TBL.COMMENT1 like '%"
-                    WhereSql &= Comment1
-                    WhereSql &= "%'"
-                End If
+                WhereSql &= " AND OUT_TBL.COMMENT1 like '%"
+                WhereSql &= Comment1
+                WhereSql &= "%'"
             End If
 
             'ステータスの出荷予定、ピッキング済み、ピッキング戻し、出荷済みの全てもチェックが入っているか
@@ -3275,11 +3250,8 @@ Module DBMOB
                         StatusWhere &= ",5"
                     End If
                     StatusWhere &= ")"
-                    If WhereSql = "" Then
-                        WhereSql &= StatusWhere
-                    Else
-                        WhereSql &= " AND " & StatusWhere
-                    End If
+
+                    WhereSql &= " AND " & StatusWhere
                 End If
             End If
 
@@ -3287,37 +3259,35 @@ Module DBMOB
             If Category1 = "True" And Category2 = "True" Then
                 '両方チェック、もしくは両方チェックなしは全件対象なので条件作成無し。
             ElseIf Category1 = "True" And Category2 = "False" Then
-                If WhereSql = "" Then
-                    WhereSql = " OUT_TBL.CATEGORY = 1"
-                Else
-                    WhereSql &= " AND OUT_TBL.CATEGORY = 1"
-                End If
-
+                WhereSql &= " AND OUT_TBL.CATEGORY = 1"
             ElseIf Category1 = "False" And Category2 = "True" Then
-                If WhereSql = "" Then
-                    WhereSql = " OUT_TBL.CATEGORY = 2"
-                Else
-                    WhereSql &= " AND OUT_TBL.CATEGORY = 2"
-                End If
+                WhereSql &= " AND OUT_TBL.CATEGORY = 2"
             End If
 
-            '印刷ステータス
-            'If Print_Type1 = "True" And Print_Type2 = "True" Then
-            '    '両方チェック、もしくは両方チェックなしは全件対象なので条件作成無し。
-            'ElseIf Print_Type1 = "True" And Print_Type2 = "False" Then
-            '    If WhereSql = "" Then
-            '        WhereSql = " OUT_TBL.PRT_DATE = ""0000/00/00"""
-            '    Else
-            '        WhereSql &= " AND OUT_TBL.PRT_DATE = ""0000/00/00"""
-            '    End If
-
-            'ElseIf Print_Type1 = "False" And Print_Type2 = "True" Then
-            '    If WhereSql = "" Then
-            '        WhereSql = " OUT_TBL.PRT_DATE <> ""0000/00/00"""
-            '    Else
-            '        WhereSql &= " AND OUT_TBL.PRT_DATE <> ""0000/00/00"""
-            '    End If
-            'End If
+            '種別の通常出荷、返品出荷のどちらにもチェックが入っている
+            If I_Status1 = "True" And I_Status2 = "True" And I_Status3 = "True" Then
+                '両方チェック、もしくは両方チェックなしは全件対象なので条件作成無し。
+            Else
+                I_StatusWhere = ""
+                'どれかにチェックが入っていれば、以下の処理を行う。
+                If I_Status1 = True Or I_Status2 = True Or I_Status3 = True Then
+                    If I_Status1 = True Then
+                        I_StatusWhere &= "OUT_TBL.I_STATUS in (1"
+                    End If
+                    If I_Status2 = True And I_StatusWhere = "" Then
+                        I_StatusWhere &= "OUT_TBL.I_STATUS in (2"
+                    ElseIf I_Status2 = True And I_StatusWhere <> "" Then
+                        I_StatusWhere &= ",2"
+                    End If
+                    If I_Status3 = True And I_StatusWhere = "" Then
+                        I_StatusWhere &= "OUT_TBL.I_STATUS in (3"
+                    ElseIf I_Status3 = True And I_StatusWhere <> "" Then
+                        I_StatusWhere &= ",3"
+                    End If
+                    I_StatusWhere &= ")"
+                    WhereSql &= " AND " & I_StatusWhere
+                End If
+            End If
 
             If WhereSql <> "" Then
                 WhereSql = "WHERE " & WhereSql
@@ -3376,8 +3346,8 @@ Module DBMOB
             Command = Connection.CreateCommand
             Command.CommandText = "select OUT_TBL.ID,OUT_TBL.C_ID,OUT_TBL.SHEET_NO,OUT_TBL.ORDER_NO,OUT_TBL.I_ID,"
             Command.CommandText &= "M_ITEM.I_CODE,M_ITEM.I_NAME,OUT_TBL.C_ID,M_CUSTOMER.C_CODE,M_CUSTOMER.D_NAME AS C_NAME,"
-            Command.CommandText &= "OUT_TBL.NUM,OUT_TBL.FIX_NUM,OUT_TBL.DATE,OUT_TBL.FIX_DATE,"
-            Command.CommandText &= "OUT_TBL.FILE_NAME,OUT_TBL.STATUS,OUT_TBL.CATEGORY,OUT_TBL.I_STATUS,M_CUSTOMER.D_ZIP,M_CUSTOMER.D_ADDRESS,"
+            Command.CommandText &= "OUT_TBL.NUM,OUT_TBL.FIX_NUM,OUT_TBL.DATE,OUT_TBL.FIX_DATE,OUT_TBL.INQUIRY_NO,"
+            Command.CommandText &= "OUT_TBL.FILE_NAME,OUT_TBL.STATUS,OUT_TBL.CATEGORY,OUT_TBL.I_STATUS,M_CUSTOMER.D_ZIP,M_CUSTOMER.D_ADDRESS,M_CUSTOMER.D_TEL,"
             Command.CommandText &= "OUT_TBL.UNIT_PRICE, OUT_TBL.UNIT_COST,DATE_FORMAT(OUT_TBL.PRT_DATE, '%Y/%m/%d') AS PRT_DATE,"
             Command.CommandText &= "OUT_TBL.COMMENT1, OUT_TBL.COMMENT2, OUT_TBL.REMARKS,OUT_TBL.PLACE_ID as P_ID,M_PLACE.NAME AS P_NAME "
             Command.CommandText &= "FROM (OUT_TBL) INNER JOIN M_ITEM ON OUT_TBL.I_ID=M_ITEM.ID "
@@ -3462,6 +3432,18 @@ Module DBMOB
                     SearchResult(Count).D_ADDRESS = ""
                 Else
                     SearchResult(Count).D_ADDRESS = SearchData("D_ADDRESS")
+                End If
+                'TEL
+                If IsDBNull(SearchData("D_TEL")) Then
+                    SearchResult(Count).D_TEL = ""
+                Else
+                    SearchResult(Count).D_TEL = SearchData("D_TEL")
+                End If
+                '問い合わせ番号
+                If IsDBNull(SearchData("INQUIRY_NO")) Then
+                    SearchResult(Count).INQUIRY_NO = ""
+                Else
+                    SearchResult(Count).INQUIRY_NO = SearchData("INQUIRY_NO")
                 End If
 
                 Count += 1
@@ -4810,8 +4792,12 @@ Module DBMOB
             'コマンド作成
             Command = Connection.CreateCommand
             Command.CommandText = " SELECT STOCK.ID ,STOCK.I_ID, M_ITEM.I_CODE, M_ITEM.I_NAME,M_ITEM.JAN,M_PLINE.NAME AS PL_NAME,"
-            Command.CommandText &= " M_ITEM.PACKAGE_FLG,STOCK.NUM, STOCK.LOCATION, STOCK.I_STATUS,STOCK.PLACE_ID,M_PLACE.NAME AS P_NAME FROM"
-            Command.CommandText &= " STOCK INNER JOIN M_ITEM ON STOCK.I_ID=M_ITEM.ID "
+            Command.CommandText &= " M_ITEM.PACKAGE_FLG,STOCK.NUM, STOCK.LOCATION, STOCK.I_STATUS,STOCK.PLACE_ID,M_PLACE.NAME AS P_NAME, "
+            Command.CommandText &= " M_ITEM.PACKAGE_FLG,STOCK.NUM, STOCK.LOCATION, STOCK.I_STATUS,STOCK.PLACE_ID,M_PLACE.NAME AS P_NAME, "
+            Command.CommandText &= " (SELECT IFNULL( SUM(PLAN_NUM) , 0 ) FROM OUT_SHIPPING_PLAN WHERE STOCK.I_ID = OUT_SHIPPING_PLAN.I_ID AND OUT_SHIPPING_PLAN.PLACE_ID=STOCK.PLACE_ID AND OUT_SHIPPING_PLAN.I_STATUS = STOCK.I_STATUS AND OUT_SHIPPING_PLAN.STATUS='通常出荷' AND OUT_SHIPPING_PLAN.S_STATUS =  '出荷予定') as SHIPPING_NUM, "
+            Command.CommandText &= " (SELECT IFNULL( SUM(NUM) , 0 ) FROM OUT_TBL WHERE OUT_TBL.I_ID = STOCK.I_ID AND OUT_TBL.PLACE_ID=STOCK.PLACE_ID AND OUT_TBL.I_STATUS = STOCK.I_STATUS AND OUT_TBL.STATUS='出荷予定') as OUT_NUM "
+
+            Command.CommandText &= " FROM STOCK INNER JOIN M_ITEM ON STOCK.I_ID=M_ITEM.ID "
             Command.CommandText &= " INNER JOIN M_PLACE ON STOCK.PLACE_ID=M_PLACE.ID "
             Command.CommandText &= " INNER JOIN M_PLINE ON M_PLINE.ID=M_ITEM.PL_CODE "
             Command.CommandText &= WhereSql
@@ -4840,6 +4826,9 @@ Module DBMOB
                 ListData(Count).PACKAGE_FLG = StockListData("PACKAGE_FLG")
                 ListData(Count).P_ID = StockListData("PLACE_ID")
                 ListData(Count).PLACE = StockListData("P_NAME")
+
+                ListData(Count).SHIPPING_NUM = StockListData("SHIPPING_NUM")
+                ListData(Count).OUT_NUM = StockListData("OUT_NUM")
                 Count += 1
             Loop
 
@@ -5495,8 +5484,8 @@ Module DBMOB
 
             'コマンド作成
             Command = Connection.CreateCommand
-            Command.CommandText = "SELECT OUT_TBL.ID,OUT_TBL.FILE_NAME,M_PLINE.ID AS PL_ID,M_PLINE.NAME AS PL_NAME,"
-            Command.CommandText &= "M_ITEM.ID AS I_ID,M_ITEM.I_CODE,M_ITEM.I_NAME,STOCK.NUM AS STOCK_NUM,"
+            Command.CommandText = "SELECT OUT_TBL.ID,OUT_TBL.FILE_NAME,M_PLINE.ID AS PL_ID,M_PLINE.NAME AS PL_NAME,STOCK.LOCATION,"
+            Command.CommandText &= "M_ITEM.ID AS I_ID,M_ITEM.I_CODE,M_ITEM.I_NAME,STOCK.NUM AS STOCK_NUM,OUT_TBL.I_STATUS,"
             Command.CommandText &= "(SELECT SUM(OUT_TBL.NUM) FROM OUT_TBL INNER JOIN M_ITEM AS ITEM ON OUT_TBL.I_ID = ITEM.ID "
             Command.CommandText &= " WHERE OUT_TBL.FILE_NAME ='"
             Command.CommandText &= FILE_NAME
@@ -5529,7 +5518,15 @@ Module DBMOB
                     Picking_Prt_List_Data(DataCount).STOCK_NUM = PickingListData("STOCK_NUM")
                 End If
 
+                Picking_Prt_List_Data(DataCount).I_STATUS = PickingListData("I_STATUS")
+
                 NumCount += PickingListData("NUM")
+
+                If IsDBNull(PickingListData("LOCATION")) Then
+                    Picking_Prt_List_Data(DataCount).LOCATION = ""
+                Else
+                    Picking_Prt_List_Data(DataCount).LOCATION = PickingListData("LOCATION")
+                End If
                 DataCount += 1
                 Count += 1
             Loop
@@ -5927,6 +5924,7 @@ Module DBMOB
 
     '***********************************************
     ' 納品先の一覧を取得する（納品先別出荷リスト向け）
+    ' 請求先コードでサマリーするよう対応（2015/4/22）
     ' <引数>
     ' FILE_NAME : 出荷指示ファイル名
     ' <戻り値>
@@ -5955,36 +5953,39 @@ Module DBMOB
             Connection.Open()
 
             '納品先コードが入っていなければ、M_CUSTOMERのDELIVERY_PRT_FLG=1のデータのみ納品先チェックリストを作成する。
-            If C_CODE = "" Then
+            'If C_CODE = "" Then
 
-                'コマンド作成
-                Command = Connection.CreateCommand
-                Command.CommandText = "SELECT OUT_TBL.ID,OUT_TBL.C_ID"
-                Command.CommandText &= " FROM (OUT_TBL) INNER JOIN M_CUSTOMER ON OUT_TBL.C_ID=M_CUSTOMER.ID"
-                Command.CommandText &= " WHERE OUT_TBL.FILE_NAME ='"
-                Command.CommandText &= FILE_NAME
-                Command.CommandText &= "' AND M_CUSTOMER.DELIVERY_PRT_FLG=1 GROUP BY OUT_TBL.C_ID;"
+            'コマンド作成
+            Command = Connection.CreateCommand
+            Command.CommandText = "SELECT OUT_TBL.ID,OUT_TBL.C_ID,M_CUSTOMER.C_NAME "
+            Command.CommandText &= " FROM (OUT_TBL) INNER JOIN M_CUSTOMER ON OUT_TBL.C_ID=M_CUSTOMER.ID"
+            Command.CommandText &= " WHERE OUT_TBL.FILE_NAME ='"
+            Command.CommandText &= FILE_NAME
+            Command.CommandText &= "' AND M_CUSTOMER.DELIVERY_PRT_FLG=1 GROUP BY OUT_TBL.C_ID;"
 
-                'データ取得
-                DeliveryGroupListData = Command.ExecuteReader()
-            Else
-                'C_CODEにコードが入っていれば、指定のコードの情報のみの納品先チェックリストを作成する。
-                'コマンド作成
-                Command = Connection.CreateCommand
-                Command.CommandText = "SELECT OUT_TBL.ID,OUT_TBL.C_ID"
-                Command.CommandText &= " FROM (OUT_TBL) INNER JOIN M_CUSTOMER ON OUT_TBL.C_ID=M_CUSTOMER.ID"
-                Command.CommandText &= " WHERE OUT_TBL.FILE_NAME ='"
-                Command.CommandText &= FILE_NAME
-                Command.CommandText &= "' AND M_CUSTOMER.C_CODE='"
-                Command.CommandText &= C_CODE
-                Command.CommandText &= "' GROUP BY OUT_TBL.C_ID;"
-                'データ取得
-                DeliveryGroupListData = Command.ExecuteReader()
-            End If
+            'データ取得
+            DeliveryGroupListData = Command.ExecuteReader()
+            'Else
+            '    'C_CODEにコードが入っていれば、指定のコードの情報のみの納品先チェックリストを作成する。
+            '    'コマンド作成
+            '    Command = Connection.CreateCommand
+            '    Command.CommandText = "SELECT OUT_TBL.ID,OUT_TBL.C_ID"
+            '    Command.CommandText &= " FROM (OUT_TBL) INNER JOIN M_CUSTOMER ON OUT_TBL.C_ID=M_CUSTOMER.ID"
+            '    Command.CommandText &= " WHERE OUT_TBL.FILE_NAME ='"
+            '    Command.CommandText &= FILE_NAME
+            '    Command.CommandText &= "' AND M_CUSTOMER.C_CODE='"
+            '    Command.CommandText &= C_CODE
+            '    'Command.CommandText &= "' GROUP BY OUT_TBL.C_ID;"
+            '    Command.CommandText &= "' GROUP BY M_CUSTOMER.CLAIM_CODE;"
+
+            '    'データ取得
+            '    DeliveryGroupListData = Command.ExecuteReader()
+            'End If
 
             Do While (DeliveryGroupListData.Read)
                 ReDim Preserve Delivery_List_Data(0 To DataCount)
                 Delivery_List_Data(DataCount).C_ID = DeliveryGroupListData("C_ID")
+                Delivery_List_Data(DataCount).C_NAME = DeliveryGroupListData("C_NAME")
                 DataCount += 1
             Loop
 
@@ -6801,8 +6802,6 @@ Module DBMOB
             Loop
             'Close
             SearchData.Close()
-
-
 
             '在庫テーブルにデータ登録
             For Count = 0 To Search_Result.Length - 1
@@ -8891,6 +8890,12 @@ Module DBMOB
         Dim Connection As New MySqlConnection
         Dim Command As MySqlCommand = Nothing
 
+        Dim DBString As String = Constring
+
+        'DB接続用文字列からDB名を取得
+        Dim DBArrayData1 As String() = DBString.Split(";"c)
+        Dim DBArrayData2 As String() = DBArrayData1(0).Split("="c)
+
         Try
             '接続文字列を設定
             Connection.ConnectionString = Constring
@@ -8901,7 +8906,9 @@ Module DBMOB
 
             'コマンド作成
             Command = Connection.CreateCommand
-            Command.CommandText = "SHOW TABLES FROM pfj like 'TMP_P_ORDER'"
+            Command.CommandText = "SHOW TABLES FROM `"
+            Command.CommandText &= DBArrayData2(1)
+            Command.CommandText &= "` like 'TMP_P_ORDER'"
             'Select実行
             TableCheck = Command.ExecuteReader(CommandBehavior.SingleRow)
 
@@ -9792,7 +9799,7 @@ Module DBMOB
                 '登録する商品のC_ID情報を取得
                 Command = Connection.CreateCommand
                 Command.CommandText = "SELECT C_ID FROM M_ITEM WHERE ID="
-                Command.CommandText &= Data_List(i).ID
+                Command.CommandText &= Data_List(i).I_ID
                 Id_Data = Command.ExecuteReader(CommandBehavior.SingleRow)
                 'Command.CommandText = "SELECT ID AS C_ID FROM M_CUSTOMER WHERE C_CODE='"
                 'Command.CommandText &= Data_List(i).VENDER_CODE
@@ -9804,7 +9811,7 @@ Module DBMOB
                     C_ID = Id_Data("C_ID")
                 Else
                     ' レコードが取得できなかった時の処理
-                    ErrorMessage = "入力した商品コードに該当するデータがみつかりません。"
+                    ErrorMessage = "入力した商品コードに該当する企業データがみつかりません。"
                     Exit Function
                 End If
                 'MAX値を取得できたのでClose
@@ -12316,7 +12323,7 @@ Module DBMOB
 
             'コマンド作成
             Command = Connection.CreateCommand
-            Command.CommandText = "SELECT OUT_TBL.ID,OUT_TBL.C_ID,OUT_TBL.SHEET_NO,OUT_TBL.FIX_DATE,"
+            Command.CommandText = "SELECT OUT_TBL.ID,OUT_TBL.C_ID,OUT_TBL.SHEET_NO,OUT_TBL.DATE AS OUT_DATE,OUT_TBL.FIX_DATE,OUT_TBL.ORDER_NO,"
             Command.CommandText &= " M_CUSTOMER.C_NAME,M_CUSTOMER.D_NAME,OUT_TBL.COMMENT1,OUT_TBL.COMMENT2,M_CUSTOMER.C_CODE,M_CUSTOMER.D_NAME,M_CUSTOMER.claim_CODE "
             Command.CommandText &= " FROM (OUT_TBL) INNER JOIN M_CUSTOMER ON OUT_TBL.C_ID=M_CUSTOMER.ID"
             Command.CommandText &= " WHERE OUT_TBL.FILE_NAME='"
@@ -12336,6 +12343,8 @@ Module DBMOB
                 Else
                     Delivery_List_Data(DataCount).FIX_DATE = DeliveryGroupListData("FIX_DATE")
                 End If
+
+                Delivery_List_Data(DataCount).OUT_DATE = DeliveryGroupListData("OUT_DATE")
 
                 Delivery_List_Data(DataCount).C_NAME = DeliveryGroupListData("C_NAME")
                 Delivery_List_Data(DataCount).D_NAME = DeliveryGroupListData("D_NAME")
@@ -12357,6 +12366,8 @@ Module DBMOB
                 Else
                     Delivery_List_Data(DataCount).C_CODE = DeliveryGroupListData("C_CODE")
                 End If
+
+                Delivery_List_Data(DataCount).ORDER_NO = DeliveryGroupListData("ORDER_NO")
 
                 DataCount += 1
             Loop
@@ -13155,8 +13166,8 @@ Module DBMOB
             'データ件数分ループ
             For Count = 0 To Dt.Length - 1
                 sql = Nothing
-
-                If Dt(Count).PLAN_NUM = 0 Then
+                'もし、予定数と出荷済み数が同じなら予定数が０なら、もう出荷しないことになるのでステータス変更。
+                If Dt(Count).PLAN_NUM = 0 And Dt(Count).NUM = Dt(Count).FIX_NUM Then
                     sql = ", S_STATUS='出荷指示登録済' "
                 End If
 
@@ -13223,7 +13234,7 @@ Module DBMOB
         Dim SearchResult() As OutShipping_Search_List
         Dim ForInsertDataResult() As OutShipping_Search_List
         Dim Data_Total As Integer
-
+        Dim INS_Data_Total As Integer
         Dim Update_FIX_NUM As Integer
         Dim Update_PLAN_NUM As Integer
         Dim Update_S_Status As Boolean = False '(Trueのとき、アップデート）
@@ -13280,6 +13291,8 @@ Module DBMOB
             Command.CommandText &= ") AND OUT_SHIPPING_PLAN.S_STATUS='出荷予定'"
             Command.CommandText &= " AND OUT_SHIPPING_PLAN.PLACE_ID="
             Command.CommandText &= P_ID
+            'Command.CommandText &= " AND OUT_SHIPPING_PLAN.PLAN_NUM <> 0"
+
             'Select実行
             SearchData = Command.ExecuteReader(CommandBehavior.SingleRow)
             If SearchData.Read Then
@@ -13297,6 +13310,7 @@ Module DBMOB
 
             'COUNT値を取得できたのでClose
             SearchData.Close()
+
             'データ取得用コマンド作成（明細単位Ver）
             Command = Connection.CreateCommand
             Command.CommandText = "select OUT_SHIPPING_PLAN.ID,OUT_SHIPPING_PLAN.C_ID,"
@@ -13318,6 +13332,7 @@ Module DBMOB
             Command.CommandText &= ") AND OUT_SHIPPING_PLAN.S_STATUS='出荷予定'"
             Command.CommandText &= " AND OUT_SHIPPING_PLAN.PLACE_ID="
             Command.CommandText &= P_ID
+            'Command.CommandText &= " AND OUT_SHIPPING_PLAN.PLAN_NUM <> 0 ORDER BY OUT_SHIPPING_PLAN.I_ID,OUT_SHIPPING_PLAN.I_STATUS,OUT_SHIPPING_PLAN.STATUS"
             Command.CommandText &= " ORDER BY OUT_SHIPPING_PLAN.I_ID,OUT_SHIPPING_PLAN.I_STATUS,OUT_SHIPPING_PLAN.STATUS"
 
             'Select実行
@@ -13326,6 +13341,7 @@ Module DBMOB
             ReDim Preserve SearchResult(0 To Data_Total - 1)
             Count = 0
             Do While (SearchData.Read)
+                'If SearchData("PLAN_NUM") <> 0 Then
 
                 'OUT_SHIPPING_SCHEDULE.ID
                 SearchResult(Count).ID = SearchData("ID")
@@ -13360,12 +13376,50 @@ Module DBMOB
                 '出荷ステータス
                 SearchResult(Count).S_STATUS = SearchData("S_STATUS")
                 Count += 1
+                'End If
             Loop
 
             'Countが0の場合、データが0件ということなのでメッセージを入れてReturn
             If Count = 0 Then
-                ErrorMessage = "データがみつかりません。"
+                ErrorMessage = "出荷指示を行うデータがみつかりません。"
                 Result = False
+            End If
+
+            'COUNT値を取得できたのでClose
+            SearchData.Close()
+
+            'OUT_PRT、OUT_TBLに登録すべきデータ数を取得する
+            'データ件数を取得するコマンド作成
+            Command = Connection.CreateCommand
+            Command.CommandText = "select COUNT(*) AS COUNT "
+            Command.CommandText &= "FROM (OUT_SHIPPING_PLAN) INNER JOIN M_ITEM ON OUT_SHIPPING_PLAN.I_ID=M_ITEM.ID "
+            Command.CommandText &= "INNER JOIN M_CUSTOMER ON OUT_SHIPPING_PLAN.C_ID=M_CUSTOMER.ID "
+            Command.CommandText &= "INNER JOIN M_PLACE ON OUT_SHIPPING_PLAN.PLACE_ID=M_PLACE.ID "
+            Command.CommandText &= "INNER JOIN STOCK ON OUT_SHIPPING_PLAN.I_ID=STOCK.I_ID AND OUT_SHIPPING_PLAN.I_STATUS = STOCK.I_STATUS AND OUT_SHIPPING_PLAN.PLACE_ID = STOCK.PLACE_ID "
+            Command.CommandText &= "WHERE OUT_SHIPPING_PLAN.I_ID in ("
+            Command.CommandText &= I_ID
+            Command.CommandText &= ") AND OUT_SHIPPING_PLAN.I_STATUS in ("
+            Command.CommandText &= I_STATUS
+            Command.CommandText &= ") AND OUT_SHIPPING_PLAN.STATUS in ("
+            Command.CommandText &= STATUS
+            Command.CommandText &= ") AND OUT_SHIPPING_PLAN.S_STATUS='出荷予定'"
+            Command.CommandText &= " AND OUT_SHIPPING_PLAN.PLACE_ID="
+            Command.CommandText &= P_ID
+            Command.CommandText &= " AND OUT_SHIPPING_PLAN.PLAN_NUM <> 0 ORDER BY M_CUSTOMER.C_CODE,OUT_SHIPPING_PLAN.CUSTOMER_ORDER_NO,OUT_SHIPPING_PLAN.I_ID"
+
+            'Select実行
+            SearchData = Command.ExecuteReader(CommandBehavior.SingleRow)
+            If SearchData.Read Then
+                ' レコードが取得できた時の処理
+                If IsDBNull(SearchData("COUNT")) Then
+                    INS_Data_Total = 0
+                Else
+                    INS_Data_Total = SearchData("COUNT")
+                End If
+            Else
+                ' レコードが取得できなかった時の処理
+                ErrorMessage = "入力した検索条件に該当するデータがみつかりません。"
+                Exit Function
             End If
 
             'COUNT値を取得できたのでClose
@@ -13394,12 +13448,13 @@ Module DBMOB
             Command.CommandText &= " AND OUT_SHIPPING_PLAN.PLACE_ID="
             Command.CommandText &= P_ID
             'Command.CommandText &= " ORDER BY OUT_SHIPPING_PLAN.I_ID,OUT_SHIPPING_PLAN.I_STATUS,OUT_SHIPPING_PLAN.STATUS"
-            Command.CommandText &= " ORDER BY M_CUSTOMER.C_CODE,OUT_SHIPPING_PLAN.CUSTOMER_ORDER_NO,OUT_SHIPPING_PLAN.I_ID"
+            Command.CommandText &= " AND OUT_SHIPPING_PLAN.PLAN_NUM <> 0 ORDER BY M_CUSTOMER.C_CODE,OUT_SHIPPING_PLAN.CUSTOMER_ORDER_NO,OUT_SHIPPING_PLAN.I_ID"
+            'Command.CommandText &= " ORDER BY M_CUSTOMER.C_CODE,OUT_SHIPPING_PLAN.CUSTOMER_ORDER_NO,OUT_SHIPPING_PLAN.I_ID"
 
             'Select実行
             ForInsertData = Command.ExecuteReader()
 
-            ReDim Preserve ForInsertDataResult(0 To Data_Total - 1)
+            ReDim Preserve ForInsertDataResult(0 To INS_Data_Total - 1)
             Count = 0
             Do While (ForInsertData.Read)
 
@@ -13447,28 +13502,38 @@ Module DBMOB
             '出荷希望数 - (出荷指示予定数+出荷指示済み数)が0以上なら結果を出荷指示予定数に
             '上記で0なら、ステータスを出荷指示登録済みに変更
             For Count = 0 To SearchResult.Length - 1
-                Update_FIX_NUM = 0
-                Update_PLAN_NUM = 0
-                '出荷指示予定数+出荷指示済み数を出荷指示済み数にするため、数値を求める
-                Update_FIX_NUM = SearchResult(Count).PLAN_NUM + SearchResult(Count).FIX_NUM
+                If SearchResult(Count).PLAN_NUM <> 0 Then
 
-                '通常出荷の場合、出荷希望数 - 出荷指示予定数 - 出荷指示済数が0以上なら結果を出荷指示予定数に格納にするため、数値を求める
-                If SearchResult(Count).NUM - SearchResult(Count).PLAN_NUM - SearchResult(Count).FIX_NUM > 0 And SearchResult(Count).STATUS = "通常出荷" Then
-                    Update_PLAN_NUM = SearchResult(Count).NUM - SearchResult(Count).PLAN_NUM - SearchResult(Count).FIX_NUM
-                ElseIf SearchResult(Count).NUM - SearchResult(Count).PLAN_NUM - SearchResult(Count).FIX_NUM = 0 And SearchResult(Count).STATUS = "通常出荷" Then
-                    '通常出荷の場合、出荷希望数 - 出荷指示予定数 - 出荷指示済数が0ならPLAN_NUMに0をいれ、ステータスを出荷指示済み数にする
-                    Update_PLAN_NUM = 0
-                    Update_S_Status = True
-                ElseIf SearchResult(Count).NUM - SearchResult(Count).PLAN_NUM - SearchResult(Count).FIX_NUM < 0 And SearchResult(Count).STATUS = "伝票出力のみ" Then
-                    '伝票出力のみの場合、出荷希望数 - 出荷指示予定数 - 出荷指示済数が0以下なら結果を出荷指示予定数に格納にするため、数値を求める
-                    Update_PLAN_NUM = SearchResult(Count).NUM - SearchResult(Count).PLAN_NUM - SearchResult(Count).FIX_NUM
 
-                ElseIf SearchResult(Count).NUM - SearchResult(Count).PLAN_NUM - SearchResult(Count).FIX_NUM = 0 And SearchResult(Count).STATUS = "伝票出力のみ" Then
-                    '通常出荷の場合、出荷希望数 - 出荷指示予定数 - 出荷指示済数が0ならPLAN_NUMに0をいれ、ステータスを出荷指示済み数にする
+                    Update_FIX_NUM = 0
                     Update_PLAN_NUM = 0
-                    Update_S_Status = True
+                    '出荷指示予定数+出荷指示済み数を出荷指示済み数にするため、数値を求める
+                    Update_FIX_NUM = SearchResult(Count).PLAN_NUM + SearchResult(Count).FIX_NUM
+
+                    '通常出荷の場合、出荷希望数 - 出荷指示予定数 - 出荷指示済数が0以上なら結果を出荷指示予定数に格納にするため、数値を求める
+                    If SearchResult(Count).NUM - SearchResult(Count).PLAN_NUM - SearchResult(Count).FIX_NUM > 0 And SearchResult(Count).STATUS = "通常出荷" Then
+                        Update_PLAN_NUM = SearchResult(Count).NUM - SearchResult(Count).PLAN_NUM - SearchResult(Count).FIX_NUM
+                    ElseIf SearchResult(Count).NUM - SearchResult(Count).PLAN_NUM - SearchResult(Count).FIX_NUM = 0 And SearchResult(Count).STATUS = "通常出荷" Then
+                        '通常出荷の場合、出荷希望数 - 出荷指示予定数 - 出荷指示済数が0ならPLAN_NUMに0をいれ、ステータスを出荷指示済み数にする
+                        Update_PLAN_NUM = 0
+                        Update_S_Status = True
+                    ElseIf SearchResult(Count).NUM - SearchResult(Count).PLAN_NUM - SearchResult(Count).FIX_NUM < 0 And SearchResult(Count).STATUS = "伝票出力のみ" Then
+                        '伝票出力のみの場合、出荷希望数 - 出荷指示予定数 - 出荷指示済数が0以下なら結果を出荷指示予定数に格納にするため、数値を求める
+                        Update_PLAN_NUM = SearchResult(Count).NUM - SearchResult(Count).PLAN_NUM - SearchResult(Count).FIX_NUM
+
+                    ElseIf SearchResult(Count).NUM - SearchResult(Count).PLAN_NUM - SearchResult(Count).FIX_NUM = 0 And SearchResult(Count).STATUS = "伝票出力のみ" Then
+                        '通常出荷の場合、出荷希望数 - 出荷指示予定数 - 出荷指示済数が0ならPLAN_NUMに0をいれ、ステータスを出荷指示済み数にする
+                        Update_PLAN_NUM = 0
+                        Update_S_Status = True
+                    End If
+                Else
+                    'PLAN_NUMが0の場合、OUT_SHIPPING_PLANのPLAN_NUMに対して再計算（受注数 - 出荷指示済み数）を行い
+                    'PLAN_NUMに受注残数を修正する。
+                    Update_FIX_NUM = SearchResult(Count).FIX_NUM
+                    Update_PLAN_NUM = SearchResult(Count).NUM - SearchResult(Count).FIX_NUM
+                    Update_S_Status = False
+
                 End If
-
                 '出荷予定テーブル用　コマンド作成
                 Command = Connection.CreateCommand
                 Command.CommandText = "UPDATE OUT_SHIPPING_PLAN SET FIX_NUM="
@@ -13705,7 +13770,6 @@ Module DBMOB
         End Try
         Return Result
     End Function
-
 
     '***********************************************
     ' 受注データ検索
@@ -14165,7 +14229,6 @@ Module DBMOB
         Return Result
     End Function
 
-
     '***********************************************
     ' 出荷予定検索 - 出荷予定、出庫済み情報を取得する。
     ' <引数>
@@ -14313,6 +14376,601 @@ Module DBMOB
             Data_Count = DataCount
 
         Catch ex As Exception
+            ErrorMessage = ex.Message
+            Result = False
+        Finally
+            If Connection IsNot Nothing Then
+                Connection.Close()
+                Connection.Dispose()
+            End If
+            If Command IsNot Nothing Then Command.Dispose()
+        End Try
+        Return Result
+    End Function
+
+    '***********************************************
+    ' 請求書印刷データ検索
+    ' <引数>
+    ' DATE_FROM : 商品コード
+    ' DATE_TO : 出荷倉庫
+    ' PRT_STATUS1 : 通常出荷
+    ' PRT_STATUS2 : 伝票のみ
+    ' CLAIM_PRT_STATUS1 : 請求書出力済みデータ
+    ' CLAIM_PRT_STATUS2 : 請求書未印刷データ
+    ' <戻り値>
+    ' SearchResult : 検索結果
+    ' Result : True（成功） , False(失敗）
+    ' ErrorMessage : エラーメッセージ
+    '***********************************************
+    Public Function GetClaimSeach(ByVal DATE_FROM As String, _
+                                 ByVal DATE_TO As String, _
+                                 ByVal CLAIM_CODE As String, _
+                                 ByVal PRT_STATUS1 As String, _
+                                 ByVal PRT_STATUS2 As String, _
+                                 ByVal CLAIM_PRT_STATUS1 As String, _
+                                 ByVal CLAIM_PRT_STATUS2 As String, _
+                                 ByRef SearchResult() As Claim_List, _
+                                 ByRef Result As String, _
+                                 ByRef ErrorMessage As String) As Boolean
+
+        Dim SearchData As MySqlDataReader
+        Dim Connection As New MySqlConnection
+        Dim Command As MySqlCommand = Nothing
+        Dim WhereSql As String = Nothing
+        Dim Count As Integer = 0
+        Dim StatusWhere As String = Nothing
+
+        Try
+            '接続文字列を設定
+            Connection.ConnectionString = Constring
+
+            WhereSql = ""
+            '検索条件よりWhereの作成
+
+            '必須項目を検索条件に設定
+            '出荷日FROM
+            If DATE_FROM <> "" Then
+                WhereSql &= " WHERE OUT_TBL.FIX_DATE >='"
+                WhereSql &= DATE_FROM
+                WhereSql &= "' "
+            End If
+
+            '出荷日TO
+            If DATE_TO <> "" Then
+                If WhereSql = "" Then
+                    WhereSql = " WHERE "
+                Else
+                    WhereSql &= " AND "
+                End If
+
+                WhereSql &= " OUT_TBL.FIX_DATE <='"
+                WhereSql &= DATE_TO
+                WhereSql &= "' "
+            End If
+
+            '請求先コード
+            If CLAIM_CODE <> "" Then
+                If WhereSql = "" Then
+                    WhereSql = " WHERE "
+                Else
+                    WhereSql &= " AND "
+                End If
+                WhereSql &= " M_CUSTOMER.CLAIM_CODE ='"
+                WhereSql &= CLAIM_CODE
+                WhereSql &= "' "
+            End If
+
+
+            '出力区分
+            '種別の通常出荷、伝票のみ出力のどちらにもチェックが入っている
+            If (PRT_STATUS1 = "True" And PRT_STATUS2 = "True") Or (PRT_STATUS1 = "False" And PRT_STATUS2 = "False") Then
+                '両方チェック、もしくは両方チェックなしは全件対象なので条件作成無し。
+                If WhereSql = "" Then
+                    WhereSql = " WHERE "
+                Else
+                    WhereSql &= " AND "
+                End If
+                WhereSql &= " OUT_TBL.STATUS = '出荷済み' OR OUT_TBL.STATUS = '伝票出力のみ' "
+            ElseIf PRT_STATUS1 = "True" And PRT_STATUS2 = "False" Then
+                If WhereSql = "" Then
+                    WhereSql = " WHERE "
+                Else
+                    WhereSql &= " AND "
+                End If
+                WhereSql &= "  OUT_TBL.STATUS = '出荷済み'"
+            ElseIf PRT_STATUS1 = "False" And PRT_STATUS2 = "True" Then
+                If WhereSql = "" Then
+                    WhereSql = " WHERE "
+                Else
+                    WhereSql &= " AND "
+                End If
+                WhereSql &= " OUT_TBL.STATUS = '伝票出力のみ'"
+            End If
+
+            '印刷済みデータの出力有無
+
+            '種別の通常出荷、伝票のみ出力のどちらにもチェックが入っている
+            If CLAIM_PRT_STATUS1 = "True" And CLAIM_PRT_STATUS2 = "True" Then
+                '両方チェック、もしくは両方チェックなしは全件対象なので条件作成無し。
+            ElseIf CLAIM_PRT_STATUS1 = "True" And CLAIM_PRT_STATUS2 = "False" Then
+                'If WhereSql = "" Then
+                '    WhereSql = " WHERE "
+                'Else
+                '    WhereSql &= " AND "
+                'End If
+                'WhereSql &= " OUT_TBL.CLAIM_PRT_DATE IS NULL "
+            ElseIf CLAIM_PRT_STATUS1 = "False" And CLAIM_PRT_STATUS2 = "True" Then
+                If WhereSql = "" Then
+                    WhereSql = " WHERE "
+                Else
+                    WhereSql &= " AND "
+                End If
+                WhereSql &= " OUT_TBL.CLAIM_PRT_DATE IS NOT NULL"
+            End If
+
+            'オープン
+            Connection.Open()
+
+            'データ取得用コマンド作成（明細単位Ver）
+            Command = Connection.CreateCommand
+            Command.CommandText = "SELECT M_CUSTOMER.CLAIM_CODE,OUT_TBL.STATUS,OUT_TBL.SHEET_NO,M_CUSTOMER.C_CODE,M_CUSTOMER.D_NAME,"
+            Command.CommandText &= "M_ITEM.I_CODE,M_ITEM.I_NAME,OUT_TBL.FIX_NUM,OUT_TBL.UNIT_COST,OUT_TBL.CLAIM_NO,"
+            Command.CommandText &= "DATE_FORMAT(OUT_TBL.CLAIM_PRT_DATE, '%Y/%m/%d') AS CLAIM_PRT_DATE,OUT_TBL.FILE_NAME,"
+            Command.CommandText &= "OUT_TBL.ORDER_NO,DATE_FORMAT(OUT_TBL.FIX_DATE, '%Y/%m/%d') AS FIX_DATE,M_PLACE.NAME AS P_NAME,"
+            Command.CommandText &= "OUT_TBL.COMMENT1,OUT_TBL.COMMENT2,OUT_TBL.ID,OUT_TBL.I_ID,OUT_TBL.C_ID "
+            Command.CommandText &= "FROM (OUT_TBL) INNER JOIN M_ITEM ON OUT_TBL.I_ID=M_ITEM.ID "
+            Command.CommandText &= "INNER JOIN M_CUSTOMER ON OUT_TBL.C_ID=M_CUSTOMER.ID "
+            Command.CommandText &= "INNER JOIN M_PLACE ON OUT_TBL.PLACE_ID=M_PLACE.ID "
+            Command.CommandText &= WhereSql
+            Command.CommandText &= " ORDER BY OUT_TBL.ID"
+
+            'Select実行
+            SearchData = Command.ExecuteReader()
+
+            Do While (SearchData.Read)
+                ReDim Preserve SearchResult(0 To Count)
+                '請求先コード
+                SearchResult(Count).CLAIM_CODE = SearchData("CLAIM_CODE")
+                'ステータス
+                SearchResult(Count).STATUS = SearchData("STATUS")
+                '伝票番号
+                SearchResult(Count).SHEET_NO = SearchData("SHEET_NO")
+                '納品先コード
+                SearchResult(Count).C_CODE = SearchData("C_CODE")
+                '納品先名
+                SearchResult(Count).D_NAME = SearchData("D_NAME")
+                '商品コード
+                SearchResult(Count).I_CODE = SearchData("I_CODE")
+                '商品名
+                SearchResult(Count).I_NAME = SearchData("I_NAME")
+                '出荷数量
+                SearchResult(Count).FIX_NUM = SearchData("FIX_NUM")
+                '納品単価
+                SearchResult(Count).UNIT_COST = SearchData("UNIT_COST")
+                '出荷指示ファイル
+                SearchResult(Count).FILE_NAME = SearchData("FILE_NAME")
+
+                '請求書印刷日
+                If IsDBNull(SearchData("CLAIM_PRT_DATE")) Then
+                    SearchResult(Count).CLAIM_PRT_DATE = ""
+                Else
+                    SearchResult(Count).CLAIM_PRT_DATE = SearchData("CLAIM_PRT_DATE")
+                End If
+                'オーダー番号
+                SearchResult(Count).ORDER_NO = SearchData("ORDER_NO")
+                '出荷日
+                If IsDBNull(SearchData("FIX_DATE")) Then
+                    SearchResult(Count).FIX_DATE = ""
+                Else
+                    SearchResult(Count).FIX_DATE = SearchData("FIX_DATE")
+                End If
+
+                '出荷倉庫
+                SearchResult(Count).P_NAME = SearchData("P_NAME")
+                'コメント１
+                If IsDBNull(SearchData("COMMENT1")) Then
+                    SearchResult(Count).COMMENT1 = ""
+                Else
+                    SearchResult(Count).COMMENT1 = SearchData("COMMENT1")
+                End If
+                'コメント２
+                If IsDBNull(SearchData("COMMENT2")) Then
+                    SearchResult(Count).COMMENT2 = ""
+                Else
+                    SearchResult(Count).COMMENT2 = SearchData("COMMENT2")
+                End If
+                'OUT_TBL.ID
+                SearchResult(Count).ID = SearchData("ID")
+                'OU_TBL.I_ID
+                SearchResult(Count).I_ID = SearchData("I_ID")
+                'OUT_TBL.C_ID
+                SearchResult(Count).C_ID = SearchData("C_ID")
+                '請求書番号
+                SearchResult(Count).CLAIM_NO = SearchData("CLAIM_NO")
+                Count += 1
+            Loop
+
+            'Countが0の場合、データが0件ということなのでメッセージを入れてReturn
+            If Count = 0 Then
+                ErrorMessage = "データがみつかりません。"
+                Result = False
+            End If
+
+        Catch ex As Exception
+            ErrorMessage = ex.Message
+            Result = False
+        Finally
+            If Connection IsNot Nothing Then
+                Connection.Close()
+                Connection.Dispose()
+            End If
+            If Command IsNot Nothing Then Command.Dispose()
+        End Try
+        Return Result
+    End Function
+
+    '***********************************************
+    ' 納品単価を更新する
+    '
+    ' <引数>
+    ' Upd_Data : 変更データ格納配列
+    ' <戻り値>
+    ' Result : True（成功） , False(失敗）
+    ' ErrorMessage : エラーメッセージ
+    '***********************************************
+    Public Function UpdOutTbl_UnitCost(ByRef Upd_Data() As Claim_List, _
+                                   ByRef Result As String, _
+                                   ByRef ErrorMessage As String) As Boolean
+        Dim Tran As MySqlTransaction = Nothing
+        Dim Connection As New MySqlConnection
+        Dim Command As MySqlCommand = Nothing
+        Dim Count As Integer
+
+        Try
+            '接続文字列を設定
+            Connection.ConnectionString = Constring
+            'オープン
+            Connection.Open()
+            'begin
+            Tran = Connection.BeginTransaction
+
+            'データ件数ループ
+            For Count = 0 To Upd_Data.Length - 1
+
+                Command = Connection.CreateCommand
+                Command.CommandText = "UPDATE OUT_TBL SET UNIT_COST="
+                Command.CommandText &= Upd_Data(Count).UNIT_COST
+                Command.CommandText &= " WHERE ID="
+                Command.CommandText &= Upd_Data(Count).ID
+                Command.CommandText &= ";"
+
+                'UPDATE実行
+                Command.ExecuteNonQuery()
+
+            Next
+
+            'OUT_TBLテーブルに全てUPDATEが完了したらコミットを行う。
+            Tran.Commit()
+        Catch ex As Exception
+            'エラーが発生した場合、ロールバックを行う。
+            Tran.Rollback()
+            ErrorMessage = ex.Message
+            Result = False
+        Finally
+            If Connection IsNot Nothing Then
+                Connection.Close()
+                Connection.Dispose()
+            End If
+            If Command IsNot Nothing Then Command.Dispose()
+        End Try
+        Return Result
+    End Function
+
+    '***********************************************
+    ' 請求書印刷データ取得
+    ' <引数>
+    ' ClaimCode : 請求先コード
+    ' IDList : DataGridでチェックをつけられたデータのOUT_TBL.IDの配列データ
+    ' <戻り値>
+    ' SearchResult : 検索結果
+    ' ResultDataCount : 件数を返す
+    ' Total : 合計金額を返す（各行の納入単価*数量のサマリー）
+    ' Result : True（成功） , False(失敗）
+    ' ErrorMessage : エラーメッセージ
+    '***********************************************
+    Public Function GetClaimPrtData(ByVal ClaimCode As String, _
+                                  ByVal IDList() As Claim_List, _
+                                 ByRef SearchResult() As Claim_List, _
+                                 ByRef ResultDataCount As Integer, _
+                                 ByRef Total As Integer, _
+                                 ByRef Result As String, _
+                                 ByRef ErrorMessage As String) As Boolean
+
+        Dim SearchData As MySqlDataReader
+        Dim Connection As New MySqlConnection
+        Dim Command As MySqlCommand = Nothing
+        Dim WhereSql As String = Nothing
+        Dim Count As Integer = 0
+
+        Try
+            '接続文字列を設定
+            Connection.ConnectionString = Constring
+
+            WhereSql = " WHERE M_CUSTOMER.CLAIM_CODE ='"
+            WhereSql &= ClaimCode
+            WhereSql &= "' "
+            For i = 0 To IDList.Length - 1
+                If i = 0 Then
+                    WhereSql &= " AND OUT_TBL.ID in (" & IDList(i).ID
+                Else
+                    WhereSql &= "," & IDList(i).ID
+                End If
+            Next
+            WhereSql &= ") "
+
+            'オープン
+            Connection.Open()
+
+            Command = Connection.CreateCommand
+            Command.CommandText = "SELECT OUT_TBL.ID,M_CUSTOMER.CLAIM_CODE,M_CUSTOMER.C_NAME,OUT_TBL.FIX_DATE,OUT_TBL.SHEET_NO,M_CUSTOMER.C_CODE,M_CUSTOMER.D_NAME, "
+            Command.CommandText &= "OUT_TBL.FIX_NUM,OUT_TBL.UNIT_COST "
+            Command.CommandText &= "FROM (OUT_TBL) INNER JOIN M_CUSTOMER ON OUT_TBL.C_ID=M_CUSTOMER.ID  "
+            Command.CommandText &= WhereSql
+            Command.CommandText &= "ORDER BY OUT_TBL.FIX_DATE,OUT_TBL.SHEET_NO,OUT_TBL.ID "
+
+            'Select実行
+            SearchData = Command.ExecuteReader()
+
+            Do While (SearchData.Read)
+                ReDim Preserve SearchResult(0 To Count)
+
+                'OUT_TBL.ID
+                SearchResult(Count).ID = SearchData("ID")
+                '請求先コード
+                SearchResult(Count).CLAIM_CODE = SearchData("CLAIM_CODE")
+                '請求社名
+                SearchResult(Count).C_NAME = SearchData("C_NAME")
+                '発送日（出荷確定日）
+                SearchResult(Count).FIX_DATE = SearchData("FIX_DATE")
+                '伝票番号
+                SearchResult(Count).SHEET_NO = SearchData("SHEET_NO")
+                '納品先コード
+                SearchResult(Count).C_CODE = SearchData("C_CODE")
+                '納品先名
+                SearchResult(Count).D_NAME = SearchData("D_NAME")
+                '数量
+                SearchResult(Count).FIX_NUM = SearchData("FIX_NUM")
+                '納品単価
+                SearchResult(Count).UNIT_COST = SearchData("UNIT_COST")
+
+                Total += SearchData("FIX_NUM") * SearchData("UNIT_COST")
+
+                Count += 1
+            Loop
+
+            ResultDataCount = Count
+
+            'Countが0の場合、データが0件ということなのでメッセージを入れてReturn
+            If Count = 0 Then
+                ErrorMessage = "請求先データがみつかりません。"
+                Result = False
+            End If
+
+        Catch ex As Exception
+            ErrorMessage = ex.Message
+            Result = False
+        Finally
+            If Connection IsNot Nothing Then
+                Connection.Close()
+                Connection.Dispose()
+            End If
+            If Command IsNot Nothing Then Command.Dispose()
+        End Try
+        Return Result
+    End Function
+
+    '***********************************************
+    ' 請求書印刷したデータに対して請求書印刷日、請求書番号を更新する
+    '
+    ' <引数>
+    ' Claim_NO : 請求書番号
+    ' Claim_DATE : 請求書印刷日（発行日）
+    ' Upd_Data : 更新対象データ
+    ' <戻り値>
+    ' Result : True（成功） , False(失敗）
+    ' ErrorMessage : エラーメッセージ
+    '***********************************************
+    Public Function UpdOutTbl_ClaimDate(ByRef Claim_NO As String, _
+                                        ByRef Claim_DATE As String, _
+                                        ByRef Upd_Data() As Claim_List, _
+                                   ByRef Result As String, _
+                                   ByRef ErrorMessage As String) As Boolean
+        Dim Tran As MySqlTransaction = Nothing
+        Dim Connection As New MySqlConnection
+        Dim Command As MySqlCommand = Nothing
+        Dim Count As Integer
+
+        Try
+            '接続文字列を設定
+            Connection.ConnectionString = Constring
+            'オープン
+            Connection.Open()
+            'begin
+            Tran = Connection.BeginTransaction
+
+            'データ件数ループ
+            For Count = 0 To Upd_Data.Length - 1
+
+                Command = Connection.CreateCommand
+                Command.CommandText = "UPDATE OUT_TBL SET CLAIM_PRT_DATE='"
+                Command.CommandText &= Claim_DATE
+                Command.CommandText &= "', CLAIM_NO='"
+                Command.CommandText &= Claim_No
+                Command.CommandText &= "' WHERE ID = "
+                Command.CommandText &= Upd_Data(Count).ID
+                Command.CommandText &= ";"
+
+                'UPDATE実行
+                Command.ExecuteNonQuery()
+
+            Next
+
+            'OUT_TBLテーブルに全てUPDATEが完了したらコミットを行う。
+            Tran.Commit()
+        Catch ex As Exception
+            'エラーが発生した場合、ロールバックを行う。
+            Tran.Rollback()
+            ErrorMessage = ex.Message
+            Result = False
+        Finally
+            If Connection IsNot Nothing Then
+                Connection.Close()
+                Connection.Dispose()
+            End If
+            If Command IsNot Nothing Then Command.Dispose()
+        End Try
+        Return Result
+    End Function
+
+    '***********************************************
+    ' 請求書再印刷データ取得
+    ' <引数>
+    ' ClaimNO : 請求書番号
+    ' <戻り値>
+    ' SearchResult : 検索結果
+    ' ResultDataCount : 件数を返す
+    ' Total : 合計金額を返す（各行の納入単価*数量のサマリー）
+    ' Result : True（成功） , False(失敗）
+    ' ErrorMessage : エラーメッセージ
+    '***********************************************
+    Public Function GetReClaimPrtData(ByVal ClaimNo As String, _
+                                 ByRef SearchResult() As Claim_List, _
+                                 ByRef ResultDataCount As Integer, _
+                                 ByRef Total As Integer, _
+                                 ByRef Result As String, _
+                                 ByRef ErrorMessage As String) As Boolean
+
+        Dim SearchData As MySqlDataReader
+        Dim Connection As New MySqlConnection
+        Dim Command As MySqlCommand = Nothing
+        Dim WhereSql As String = Nothing
+        Dim Count As Integer = 0
+
+        Try
+            '接続文字列を設定
+            Connection.ConnectionString = Constring
+
+            'オープン
+            Connection.Open()
+
+            Command = Connection.CreateCommand
+            Command.CommandText = "SELECT OUT_TBL.ID,M_CUSTOMER.CLAIM_CODE,M_CUSTOMER.C_NAME,OUT_TBL.FIX_DATE,OUT_TBL.SHEET_NO,M_CUSTOMER.C_CODE,M_CUSTOMER.D_NAME, "
+            Command.CommandText &= "OUT_TBL.FIX_NUM,OUT_TBL.UNIT_COST,DATE_FORMAT(OUT_TBL.CLAIM_PRT_DATE, '%Y/%m/%d') AS CLAIM_PRT_DATE,OUT_TBL.CLAIM_NO "
+            Command.CommandText &= "FROM (OUT_TBL) INNER JOIN M_CUSTOMER ON OUT_TBL.C_ID=M_CUSTOMER.ID  "
+            Command.CommandText &= "WHERE OUT_TBL.CLAIM_NO='"
+            Command.CommandText &= ClaimNo
+            Command.CommandText &= "' ORDER BY OUT_TBL.FIX_DATE,OUT_TBL.SHEET_NO,OUT_TBL.ID "
+
+            'Select実行
+            SearchData = Command.ExecuteReader()
+
+            Do While (SearchData.Read)
+                ReDim Preserve SearchResult(0 To Count)
+
+                'OUT_TBL.ID
+                SearchResult(Count).ID = SearchData("ID")
+                '請求先コード
+                SearchResult(Count).CLAIM_CODE = SearchData("CLAIM_CODE")
+                '請求社名
+                SearchResult(Count).C_NAME = SearchData("C_NAME")
+                '発送日（出荷確定日）
+                SearchResult(Count).FIX_DATE = SearchData("FIX_DATE")
+                '伝票番号
+                SearchResult(Count).SHEET_NO = SearchData("SHEET_NO")
+                '納品先コード
+                SearchResult(Count).C_CODE = SearchData("C_CODE")
+                '納品先名
+                SearchResult(Count).D_NAME = SearchData("D_NAME")
+                '数量
+                SearchResult(Count).FIX_NUM = SearchData("FIX_NUM")
+                '納品単価
+                SearchResult(Count).UNIT_COST = SearchData("UNIT_COST")
+                '請求書印刷日
+                SearchResult(Count).CLAIM_PRT_DATE = SearchData("CLAIM_PRT_DATE")
+                '請求書番号
+                SearchResult(Count).CLAIM_NO = SearchData("CLAIM_NO")
+
+                Total += SearchData("FIX_NUM") * SearchData("UNIT_COST")
+
+                Count += 1
+            Loop
+
+            ResultDataCount = Count
+
+            'Countが0の場合、データが0件ということなのでメッセージを入れてReturn
+            If Count = 0 Then
+                ErrorMessage = "請求先データがみつかりません。"
+                Result = False
+            End If
+
+        Catch ex As Exception
+            ErrorMessage = ex.Message
+            Result = False
+        Finally
+            If Connection IsNot Nothing Then
+                Connection.Close()
+                Connection.Dispose()
+            End If
+            If Command IsNot Nothing Then Command.Dispose()
+        End Try
+        Return Result
+    End Function
+
+    '***********************************************
+    ' 問合せNo更新
+    '
+    ' <引数>
+    ' Upd_Data : 更新対象データ
+    ' <戻り値>
+    ' Result : True（成功） , False(失敗）
+    ' ErrorMessage : エラーメッセージ
+    '***********************************************
+    Public Function UpdOutTbl_INQUIRY_NO(ByRef Upd_Data() As Out_Search_List, _
+                                   ByRef Result As String, _
+                                   ByRef ErrorMessage As String) As Boolean
+        Dim Tran As MySqlTransaction = Nothing
+        Dim Connection As New MySqlConnection
+        Dim Command As MySqlCommand = Nothing
+        Dim Count As Integer
+
+        Try
+            '接続文字列を設定
+            Connection.ConnectionString = Constring
+            'オープン
+            Connection.Open()
+            'begin
+            Tran = Connection.BeginTransaction
+
+            'データ件数ループ
+            For Count = 0 To Upd_Data.Length - 1
+
+                Command = Connection.CreateCommand
+                Command.CommandText = "UPDATE OUT_TBL SET INQUIRY_NO='"
+                Command.CommandText &= Upd_Data(Count).INQUIRY_NO
+                Command.CommandText &= "' WHERE ID = "
+                Command.CommandText &= Upd_Data(Count).ID
+                Command.CommandText &= ";"
+
+                'UPDATE実行
+                Command.ExecuteNonQuery()
+
+            Next
+
+            'OUT_TBLテーブルに全てUPDATEが完了したらコミットを行う。
+            Tran.Commit()
+        Catch ex As Exception
+            'エラーが発生した場合、ロールバックを行う。
+            Tran.Rollback()
             ErrorMessage = ex.Message
             Result = False
         Finally

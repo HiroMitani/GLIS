@@ -39,6 +39,10 @@ Partial Class syukokensaku
         Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
         Me.Label1 = New System.Windows.Forms.Label
         Me.GroupBox1 = New System.Windows.Forms.GroupBox
+        Me.CheckBox13 = New System.Windows.Forms.CheckBox
+        Me.CheckBox12 = New System.Windows.Forms.CheckBox
+        Me.CheckBox8 = New System.Windows.Forms.CheckBox
+        Me.Label20 = New System.Windows.Forms.Label
         Me.TextBox5 = New System.Windows.Forms.TextBox
         Me.Label12 = New System.Windows.Forms.Label
         Me.ComboBox4 = New System.Windows.Forms.ComboBox
@@ -70,9 +74,6 @@ Partial Class syukokensaku
         Me.CheckBox4 = New System.Windows.Forms.CheckBox
         Me.CheckBox3 = New System.Windows.Forms.CheckBox
         Me.Label10 = New System.Windows.Forms.Label
-        Me.CheckBox2 = New System.Windows.Forms.CheckBox
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox
-        Me.Label9 = New System.Windows.Forms.Label
         Me.TextBox7 = New System.Windows.Forms.TextBox
         Me.Label7 = New System.Windows.Forms.Label
         Me.Label6 = New System.Windows.Forms.Label
@@ -82,6 +83,9 @@ Partial Class syukokensaku
         Me.Label4 = New System.Windows.Forms.Label
         Me.Label3 = New System.Windows.Forms.Label
         Me.Label2 = New System.Windows.Forms.Label
+        Me.CheckBox2 = New System.Windows.Forms.CheckBox
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox
+        Me.Label9 = New System.Windows.Forms.Label
         Me.Button2 = New System.Windows.Forms.Button
         Me.Button3 = New System.Windows.Forms.Button
         Me.Button4 = New System.Windows.Forms.Button
@@ -100,6 +104,7 @@ Partial Class syukokensaku
         Me.Button13 = New System.Windows.Forms.Button
         Me.AxReport1 = New AxCOREPOXLib.AxReport
         Me.Button14 = New System.Windows.Forms.Button
+        Me.Button15 = New System.Windows.Forms.Button
         Me.Column1 = New System.Windows.Forms.DataGridViewCheckBoxColumn
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn
@@ -127,6 +132,8 @@ Partial Class syukokensaku
         Me.Column25 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.Column26 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.Column27 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.Column28 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.Column29 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.GroupBox1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.AxReport1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -143,6 +150,10 @@ Partial Class syukokensaku
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.CheckBox13)
+        Me.GroupBox1.Controls.Add(Me.CheckBox12)
+        Me.GroupBox1.Controls.Add(Me.CheckBox8)
+        Me.GroupBox1.Controls.Add(Me.Label20)
         Me.GroupBox1.Controls.Add(Me.TextBox5)
         Me.GroupBox1.Controls.Add(Me.Label12)
         Me.GroupBox1.Controls.Add(Me.ComboBox4)
@@ -174,9 +185,6 @@ Partial Class syukokensaku
         Me.GroupBox1.Controls.Add(Me.CheckBox4)
         Me.GroupBox1.Controls.Add(Me.CheckBox3)
         Me.GroupBox1.Controls.Add(Me.Label10)
-        Me.GroupBox1.Controls.Add(Me.CheckBox2)
-        Me.GroupBox1.Controls.Add(Me.CheckBox1)
-        Me.GroupBox1.Controls.Add(Me.Label9)
         Me.GroupBox1.Controls.Add(Me.TextBox7)
         Me.GroupBox1.Controls.Add(Me.Label7)
         Me.GroupBox1.Controls.Add(Me.Label6)
@@ -192,6 +200,45 @@ Partial Class syukokensaku
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "検索条件"
+        '
+        'CheckBox13
+        '
+        Me.CheckBox13.AutoSize = True
+        Me.CheckBox13.Location = New System.Drawing.Point(897, 154)
+        Me.CheckBox13.Name = "CheckBox13"
+        Me.CheckBox13.Size = New System.Drawing.Size(60, 16)
+        Me.CheckBox13.TabIndex = 120
+        Me.CheckBox13.Text = "保管品"
+        Me.CheckBox13.UseVisualStyleBackColor = True
+        '
+        'CheckBox12
+        '
+        Me.CheckBox12.AutoSize = True
+        Me.CheckBox12.Location = New System.Drawing.Point(798, 154)
+        Me.CheckBox12.Name = "CheckBox12"
+        Me.CheckBox12.Size = New System.Drawing.Size(60, 16)
+        Me.CheckBox12.TabIndex = 119
+        Me.CheckBox12.Text = "不良品"
+        Me.CheckBox12.UseVisualStyleBackColor = True
+        '
+        'CheckBox8
+        '
+        Me.CheckBox8.AutoSize = True
+        Me.CheckBox8.Location = New System.Drawing.Point(714, 154)
+        Me.CheckBox8.Name = "CheckBox8"
+        Me.CheckBox8.Size = New System.Drawing.Size(48, 16)
+        Me.CheckBox8.TabIndex = 118
+        Me.CheckBox8.Text = "良品"
+        Me.CheckBox8.UseVisualStyleBackColor = True
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Location = New System.Drawing.Point(631, 155)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(29, 12)
+        Me.Label20.TabIndex = 117
+        Me.Label20.Text = "区分"
         '
         'TextBox5
         '
@@ -468,37 +515,6 @@ Partial Class syukokensaku
         Me.Label10.TabIndex = 17
         Me.Label10.Text = "配送ステータス"
         '
-        'CheckBox2
-        '
-        Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Location = New System.Drawing.Point(799, 157)
-        Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(71, 16)
-        Me.CheckBox2.TabIndex = 16
-        Me.CheckBox2.Text = "印刷済み"
-        Me.CheckBox2.UseVisualStyleBackColor = True
-        Me.CheckBox2.Visible = False
-        '
-        'CheckBox1
-        '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(715, 158)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(60, 16)
-        Me.CheckBox1.TabIndex = 15
-        Me.CheckBox1.Text = "未印刷"
-        Me.CheckBox1.UseVisualStyleBackColor = True
-        Me.CheckBox1.Visible = False
-        '
-        'Label9
-        '
-        Me.Label9.Location = New System.Drawing.Point(631, 159)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(100, 14)
-        Me.Label9.TabIndex = 14
-        Me.Label9.Text = "ピッキングリスト"
-        Me.Label9.Visible = False
-        '
         'TextBox7
         '
         Me.TextBox7.Location = New System.Drawing.Point(121, 115)
@@ -573,6 +589,37 @@ Partial Class syukokensaku
         Me.Label2.Size = New System.Drawing.Size(53, 12)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "伝票番号"
+        '
+        'CheckBox2
+        '
+        Me.CheckBox2.AutoSize = True
+        Me.CheckBox2.Location = New System.Drawing.Point(822, 26)
+        Me.CheckBox2.Name = "CheckBox2"
+        Me.CheckBox2.Size = New System.Drawing.Size(71, 16)
+        Me.CheckBox2.TabIndex = 16
+        Me.CheckBox2.Text = "印刷済み"
+        Me.CheckBox2.UseVisualStyleBackColor = True
+        Me.CheckBox2.Visible = False
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Location = New System.Drawing.Point(738, 27)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(60, 16)
+        Me.CheckBox1.TabIndex = 15
+        Me.CheckBox1.Text = "未印刷"
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        Me.CheckBox1.Visible = False
+        '
+        'Label9
+        '
+        Me.Label9.Location = New System.Drawing.Point(654, 28)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(100, 14)
+        Me.Label9.TabIndex = 14
+        Me.Label9.Text = "ピッキングリスト"
+        Me.Label9.Visible = False
         '
         'Button2
         '
@@ -699,7 +746,7 @@ Partial Class syukokensaku
         Me.DataGridView1.AllowUserToAddRows = False
         Me.DataGridView1.AllowUserToDeleteRows = False
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column8, Me.Column7, Me.Column6, Me.Column14, Me.Column15, Me.Column13, Me.Column4, Me.Column20, Me.Column5, Me.Column10, Me.Column11, Me.Column12, Me.Column23, Me.Column16, Me.Column17, Me.Column9, Me.Column21, Me.Column22, Me.Column19, Me.Column18, Me.Column24, Me.Column25, Me.Column26, Me.Column27})
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column8, Me.Column7, Me.Column6, Me.Column14, Me.Column15, Me.Column13, Me.Column4, Me.Column20, Me.Column5, Me.Column10, Me.Column11, Me.Column12, Me.Column23, Me.Column16, Me.Column17, Me.Column9, Me.Column21, Me.Column22, Me.Column19, Me.Column18, Me.Column24, Me.Column25, Me.Column26, Me.Column27, Me.Column28, Me.Column29})
         Me.DataGridView1.Location = New System.Drawing.Point(16, 256)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowTemplate.Height = 21
@@ -741,6 +788,15 @@ Partial Class syukokensaku
         Me.Button14.TabIndex = 39
         Me.Button14.Text = "ロット番号CSV出力"
         Me.Button14.UseVisualStyleBackColor = True
+        '
+        'Button15
+        '
+        Me.Button15.Location = New System.Drawing.Point(789, 611)
+        Me.Button15.Name = "Button15"
+        Me.Button15.Size = New System.Drawing.Size(100, 30)
+        Me.Button15.TabIndex = 40
+        Me.Button15.Text = "問合せNo登録"
+        Me.Button15.UseVisualStyleBackColor = True
         '
         'Column1
         '
@@ -983,11 +1039,23 @@ Partial Class syukokensaku
         Me.Column27.ReadOnly = True
         Me.Column27.Width = 150
         '
+        'Column28
+        '
+        Me.Column28.HeaderText = "納品先TEL"
+        Me.Column28.Name = "Column28"
+        Me.Column28.ReadOnly = True
+        '
+        'Column29
+        '
+        Me.Column29.HeaderText = "*問合せNo"
+        Me.Column29.Name = "Column29"
+        '
         'syukokensaku
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1184, 702)
+        Me.Controls.Add(Me.Button15)
         Me.Controls.Add(Me.Button14)
         Me.Controls.Add(Me.Button13)
         Me.Controls.Add(Me.Button12)
@@ -1008,6 +1076,9 @@ Partial Class syukokensaku
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.CheckBox1)
+        Me.Controls.Add(Me.CheckBox2)
         Me.Name = "syukokensaku"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
@@ -1080,6 +1151,11 @@ Partial Class syukokensaku
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents Button13 As System.Windows.Forms.Button
     Friend WithEvents Button14 As System.Windows.Forms.Button
+    Friend WithEvents Label20 As System.Windows.Forms.Label
+    Friend WithEvents CheckBox13 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckBox12 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckBox8 As System.Windows.Forms.CheckBox
+    Friend WithEvents Button15 As System.Windows.Forms.Button
     Friend WithEvents Column1 As System.Windows.Forms.DataGridViewCheckBoxColumn
     Friend WithEvents Column2 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Column3 As System.Windows.Forms.DataGridViewTextBoxColumn
@@ -1107,4 +1183,6 @@ Partial Class syukokensaku
     Friend WithEvents Column25 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Column26 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Column27 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column28 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column29 As System.Windows.Forms.DataGridViewTextBoxColumn
 End Class

@@ -132,35 +132,32 @@ Partial Class syukohenko2
         '
         DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
         Me.Column22.DefaultCellStyle = DataGridViewCellStyle1
-        Me.Column22.HeaderText = "現出荷希望数"
+        Me.Column22.HeaderText = "現受注数"
         Me.Column22.Name = "Column22"
         Me.Column22.ReadOnly = True
-        Me.Column22.Width = 105
         '
         'Column9
         '
         DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
         DataGridViewCellStyle2.Font = New System.Drawing.Font("MS UI Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.Column9.DefaultCellStyle = DataGridViewCellStyle2
-        Me.Column9.HeaderText = "*出荷希望数"
+        Me.Column9.HeaderText = "*受注数"
         Me.Column9.Name = "Column9"
         '
         'Column23
         '
         DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
         Me.Column23.DefaultCellStyle = DataGridViewCellStyle3
-        Me.Column23.HeaderText = "現出荷指示予定数"
+        Me.Column23.HeaderText = "現受注残数"
         Me.Column23.Name = "Column23"
         Me.Column23.ReadOnly = True
-        Me.Column23.Width = 125
         '
         'Column24
         '
         DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
         Me.Column24.DefaultCellStyle = DataGridViewCellStyle4
-        Me.Column24.HeaderText = "*出荷指示予定数"
+        Me.Column24.HeaderText = "*受注残数"
         Me.Column24.Name = "Column24"
-        Me.Column24.Width = 130
         '
         'Column16
         '

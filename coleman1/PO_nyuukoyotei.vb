@@ -140,10 +140,13 @@
 
         Dim Place_Check_Flg As Boolean = True
 
+        Dim SetPlace As Integer
+
         '倉庫が指定されていなかったらめっせーじ表示。
         'チェックされた商品があるか確認
         For Count = 0 To DataGridView1.Rows.Count - 1
-            If DataGridView1.Rows(Count).Cells(8).Value() = Nothing Then
+            ' If DataGridView1.Rows(Count).Cells(8).Value() = Nothing Then
+            If DataGridView1.Item(8, Count).FormattedValue = "" Then
                 Place_Check_Flg = False
             End If
         Next
@@ -151,7 +154,6 @@
             MsgBox("倉庫が設定されていないデータが存在します。倉庫は必ず選択してください。")
             Exit Sub
         End If
-
 
         '倉庫情報の取得
         Result = GetPLACEList(PlaceData, Result, ErrorMessage)
@@ -231,6 +233,7 @@
                 'DataGridViewにも反映
                 DataGridView1.Rows(Count).Cells(7).Value = ChkDateAfter
             End If
+
             '倉庫
             'If DataGridView1.Rows(Count).Cells(8).Value() = "平和島" Then
             '    In_Schedule_Check(In_Schedule_Data_Count).PLACE = 1
@@ -241,7 +244,15 @@
             'ElseIf DataGridView1.Rows(Count).Cells(8).Value() = "八潮" Then
             'End If
 
-            In_Schedule_Check(In_Schedule_Data_Count).PLACE = PlaceData(DataGridView1.Rows(Count).Cells(8).Value()).ID
+            SetPlace = 0
+            For pcount = 0 To PlaceData.Length - 1
+                If DataGridView1.Item(8, Count).FormattedValue = PlaceData(pcount).NAME Then
+                    SetPlace = PlaceData(pcount).ID
+                End If
+            Next
+
+            'In_Schedule_Check(In_Schedule_Data_Count).PLACE = PlaceData(DataGridView1.Rows(Count).Cells(8).Value()).ID
+            In_Schedule_Check(In_Schedule_Data_Count).PLACE = SetPlace
 
             'ベンダー
             In_Schedule_Check(In_Schedule_Data_Count).VENDER_CODE = DataGridView1.Rows(Count).Cells(13).Value()
@@ -327,7 +338,8 @@
         Dim Row As Integer = DataGridView1.CurrentCell.RowIndex
 
         '現在の行のロケーションが入れられてなかったらエラーメッセージ表示
-        If DataGridView1.Rows(Row).Cells(8).Value() = "" Then
+        'If DataGridView1.Rows(Row).Cells(8).Value() = "" Then
+        If DataGridView1.Item(8, Row).FormattedValue = "" Then
             MsgBox(Row + 1 & "行目の倉庫が未選択です。")
             Exit Sub
         End If

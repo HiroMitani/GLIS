@@ -45,6 +45,7 @@ Partial Class topmenu
         Me.Button20 = New System.Windows.Forms.Button
         Me.Button21 = New System.Windows.Forms.Button
         Me.Button22 = New System.Windows.Forms.Button
+        Me.Button23 = New System.Windows.Forms.Button
         Me.SuspendLayout()
         '
         'Button1
@@ -320,12 +321,25 @@ Partial Class topmenu
         Me.Button22.UseVisualStyleBackColor = False
         Me.Button22.Visible = False
         '
+        'Button23
+        '
+        Me.Button23.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Button23.Font = New System.Drawing.Font("HGS創英角ｺﾞｼｯｸUB", 14.25!)
+        Me.Button23.Location = New System.Drawing.Point(415, 505)
+        Me.Button23.Name = "Button23"
+        Me.Button23.Size = New System.Drawing.Size(150, 50)
+        Me.Button23.TabIndex = 23
+        Me.Button23.Text = "請求書印刷"
+        Me.Button23.UseVisualStyleBackColor = False
+        Me.Button23.Visible = False
+        '
         'topmenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(584, 652)
+        Me.Controls.Add(Me.Button23)
         Me.Controls.Add(Me.Button22)
         Me.Controls.Add(Me.Button21)
         Me.Controls.Add(Me.Button20)
@@ -377,5 +391,6 @@ Partial Class topmenu
     Friend WithEvents Button20 As System.Windows.Forms.Button
     Friend WithEvents Button21 As System.Windows.Forms.Button
     Friend WithEvents Button22 As System.Windows.Forms.Button
+    Friend WithEvents Button23 As System.Windows.Forms.Button
 
 End Class

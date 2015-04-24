@@ -22,6 +22,7 @@ Partial Class nkensaku
     'コード エディタを使って変更しないでください。
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(nkensaku))
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
@@ -36,7 +37,6 @@ Partial Class nkensaku
         Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
         Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
         Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(nkensaku))
         Me.GroupBox1 = New System.Windows.Forms.GroupBox
         Me.ComboBox4 = New System.Windows.Forms.ComboBox
         Me.DateTimePicker4 = New System.Windows.Forms.DateTimePicker
@@ -68,6 +68,17 @@ Partial Class nkensaku
         Me.TextBox6 = New System.Windows.Forms.TextBox
         Me.Label6 = New System.Windows.Forms.Label
         Me.DataGridView1 = New System.Windows.Forms.DataGridView
+        Me.Button2 = New System.Windows.Forms.Button
+        Me.Button3 = New System.Windows.Forms.Button
+        Me.Button4 = New System.Windows.Forms.Button
+        Me.Button5 = New System.Windows.Forms.Button
+        Me.Button6 = New System.Windows.Forms.Button
+        Me.Label11 = New System.Windows.Forms.Label
+        Me.Label12 = New System.Windows.Forms.Label
+        Me.CheckBox7 = New System.Windows.Forms.CheckBox
+        Me.Label13 = New System.Windows.Forms.Label
+        Me.Button7 = New System.Windows.Forms.Button
+        Me.AxReport1 = New AxCOREPOXLib.AxReport
         Me.チェック = New System.Windows.Forms.DataGridViewCheckBoxColumn
         Me.ドキュメントNo = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn
@@ -89,17 +100,6 @@ Partial Class nkensaku
         Me.Column12 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.Column14 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.Column19 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Button2 = New System.Windows.Forms.Button
-        Me.Button3 = New System.Windows.Forms.Button
-        Me.Button4 = New System.Windows.Forms.Button
-        Me.Button5 = New System.Windows.Forms.Button
-        Me.Button6 = New System.Windows.Forms.Button
-        Me.Label11 = New System.Windows.Forms.Label
-        Me.Label12 = New System.Windows.Forms.Label
-        Me.CheckBox7 = New System.Windows.Forms.CheckBox
-        Me.Label13 = New System.Windows.Forms.Label
-        Me.Button7 = New System.Windows.Forms.Button
-        Me.AxReport1 = New AxCOREPOXLib.AxReport
         Me.GroupBox1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.AxReport1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -416,6 +416,105 @@ Partial Class nkensaku
         Me.DataGridView1.TabIndex = 1
         Me.DataGridView1.TabStop = False
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(15, 625)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(100, 30)
+        Me.Button2.TabIndex = 21
+        Me.Button2.Text = "入庫確定"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(150, 625)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(100, 30)
+        Me.Button3.TabIndex = 22
+        Me.Button3.Text = "入庫予定変更"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(290, 625)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(100, 30)
+        Me.Button4.TabIndex = 23
+        Me.Button4.Text = "入庫予定削除"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(430, 625)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(130, 30)
+        Me.Button5.TabIndex = 24
+        Me.Button5.Text = "検品チェックシート出力"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'Button6
+        '
+        Me.Button6.Location = New System.Drawing.Point(1080, 625)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(100, 30)
+        Me.Button6.TabIndex = 26
+        Me.Button6.Text = "閉　じ　る"
+        Me.Button6.UseVisualStyleBackColor = True
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(15, 220)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(47, 12)
+        Me.Label11.TabIndex = 30
+        Me.Label11.Text = "商品数："
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("HGS創英角ｺﾞｼｯｸUB", 15.75!)
+        Me.Label12.Location = New System.Drawing.Point(12, 9)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(0, 21)
+        Me.Label12.TabIndex = 31
+        '
+        'CheckBox7
+        '
+        Me.CheckBox7.AutoSize = True
+        Me.CheckBox7.Location = New System.Drawing.Point(100, 239)
+        Me.CheckBox7.Name = "CheckBox7"
+        Me.CheckBox7.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox7.TabIndex = 20
+        Me.CheckBox7.UseVisualStyleBackColor = True
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(120, 220)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(35, 12)
+        Me.Label13.TabIndex = 32
+        Me.Label13.Text = "総数："
+        '
+        'Button7
+        '
+        Me.Button7.Location = New System.Drawing.Point(932, 625)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(120, 30)
+        Me.Button7.TabIndex = 25
+        Me.Button7.Text = "検索結果CSV出力"
+        Me.Button7.UseVisualStyleBackColor = True
+        '
+        'AxReport1
+        '
+        Me.AxReport1.Enabled = True
+        Me.AxReport1.Location = New System.Drawing.Point(0, 0)
+        Me.AxReport1.Name = "AxReport1"
+        Me.AxReport1.OcxState = CType(resources.GetObject("AxReport1.OcxState"), System.Windows.Forms.AxHost.State)
+        Me.AxReport1.Size = New System.Drawing.Size(0, 0)
+        Me.AxReport1.TabIndex = 33
+        '
         'チェック
         '
         Me.チェック.FalseValue = "0"
@@ -577,105 +676,7 @@ Partial Class nkensaku
         Me.Column19.HeaderText = "P_ID"
         Me.Column19.Name = "Column19"
         Me.Column19.ReadOnly = True
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(15, 625)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(100, 30)
-        Me.Button2.TabIndex = 21
-        Me.Button2.Text = "入庫確定"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(150, 625)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(100, 30)
-        Me.Button3.TabIndex = 22
-        Me.Button3.Text = "入庫予定変更"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button4
-        '
-        Me.Button4.Location = New System.Drawing.Point(290, 625)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(100, 30)
-        Me.Button4.TabIndex = 23
-        Me.Button4.Text = "入庫予定削除"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'Button5
-        '
-        Me.Button5.Location = New System.Drawing.Point(430, 625)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(130, 30)
-        Me.Button5.TabIndex = 24
-        Me.Button5.Text = "検品チェックシート出力"
-        Me.Button5.UseVisualStyleBackColor = True
-        '
-        'Button6
-        '
-        Me.Button6.Location = New System.Drawing.Point(1080, 625)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(100, 30)
-        Me.Button6.TabIndex = 26
-        Me.Button6.Text = "閉　じ　る"
-        Me.Button6.UseVisualStyleBackColor = True
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(15, 220)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(47, 12)
-        Me.Label11.TabIndex = 30
-        Me.Label11.Text = "商品数："
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("HGS創英角ｺﾞｼｯｸUB", 15.75!)
-        Me.Label12.Location = New System.Drawing.Point(12, 9)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(0, 21)
-        Me.Label12.TabIndex = 31
-        '
-        'CheckBox7
-        '
-        Me.CheckBox7.AutoSize = True
-        Me.CheckBox7.Location = New System.Drawing.Point(100, 239)
-        Me.CheckBox7.Name = "CheckBox7"
-        Me.CheckBox7.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox7.TabIndex = 20
-        Me.CheckBox7.UseVisualStyleBackColor = True
-        '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(120, 220)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(35, 12)
-        Me.Label13.TabIndex = 32
-        Me.Label13.Text = "総数："
-        '
-        'Button7
-        '
-        Me.Button7.Location = New System.Drawing.Point(932, 625)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(120, 30)
-        Me.Button7.TabIndex = 25
-        Me.Button7.Text = "検索結果CSV出力"
-        Me.Button7.UseVisualStyleBackColor = True
-        '
-        'AxReport1
-        '
-        Me.AxReport1.Enabled = True
-        Me.AxReport1.Location = New System.Drawing.Point(0, 0)
-        Me.AxReport1.Name = "AxReport1"
-        Me.AxReport1.OcxState = CType(resources.GetObject("AxReport1.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.AxReport1.Size = New System.Drawing.Size(0, 0)
-        Me.AxReport1.TabIndex = 33
+        Me.Column19.Width = 70
         '
         'nkensaku
         '

@@ -89,6 +89,14 @@ Public Class LoginForm1
         'ウインドウのサイズ変更不可能にする。
         FormBorderStyle = FormBorderStyle.FixedSingle
 
+        Dim DBString As String = Constring
+
+        'DB接続用文字列からDB名を取得
+        Dim DBArrayData1 As String() = DBString.Split(";"c)
+        Dim DBArrayData2 As String() = DBArrayData1(0).Split("="c)
+
+        Label2.Text = DBArrayData2(1)
+
         Dim insProcess As Process() 'プロセスインスタンス
         Dim strProcessName As String  'プロセス名
 

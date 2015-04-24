@@ -595,7 +595,7 @@ Public Class PO_kensaku
                 'I_ID
                 .Cells(18).Value = PO_Check(Count).I_ID
                 'PLACE_ID
-                .Cells(18).Value = ListData(0).ID
+                '.Cells(18).Value = ListData(0).ID
 
             End With
             PO_nyuukoyotei.DataGridView1.Rows.Add(IN_Schedule_Data_list)

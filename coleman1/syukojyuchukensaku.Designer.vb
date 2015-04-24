@@ -63,6 +63,11 @@ Partial Class syukojyuchukensaku
         Me.Button1 = New System.Windows.Forms.Button
         Me.Label1 = New System.Windows.Forms.Label
         Me.DataGridView1 = New System.Windows.Forms.DataGridView
+        Me.Button5 = New System.Windows.Forms.Button
+        Me.Button4 = New System.Windows.Forms.Button
+        Me.Button3 = New System.Windows.Forms.Button
+        Me.Button2 = New System.Windows.Forms.Button
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox
         Me.Column1 = New System.Windows.Forms.DataGridViewCheckBoxColumn
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn
@@ -85,11 +90,6 @@ Partial Class syukojyuchukensaku
         Me.Column14 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.Column15 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.Column16 = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.Button5 = New System.Windows.Forms.Button
-        Me.Button4 = New System.Windows.Forms.Button
-        Me.Button3 = New System.Windows.Forms.Button
-        Me.Button2 = New System.Windows.Forms.Button
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox
         Me.GroupBox1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -451,6 +451,51 @@ Partial Class syukojyuchukensaku
         Me.DataGridView1.Size = New System.Drawing.Size(861, 335)
         Me.DataGridView1.TabIndex = 36
         '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(772, 576)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(100, 30)
+        Me.Button5.TabIndex = 40
+        Me.Button5.Text = "閉じる"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(609, 576)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(120, 30)
+        Me.Button4.TabIndex = 39
+        Me.Button4.Text = "検索結果CSV出力"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(161, 576)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(100, 30)
+        Me.Button3.TabIndex = 38
+        Me.Button3.Text = "削除"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(12, 576)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(100, 30)
+        Me.Button2.TabIndex = 37
+        Me.Button2.Text = "変更"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Location = New System.Drawing.Point(98, 239)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox1.TabIndex = 41
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        '
         'Column1
         '
         Me.Column1.FalseValue = "0"
@@ -495,7 +540,7 @@ Partial Class syukojyuchukensaku
         '
         DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
         Me.Column6.DefaultCellStyle = DataGridViewCellStyle1
-        Me.Column6.HeaderText = "出荷希望数"
+        Me.Column6.HeaderText = "受注数"
         Me.Column6.Name = "Column6"
         Me.Column6.ReadOnly = True
         Me.Column6.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
@@ -504,7 +549,7 @@ Partial Class syukojyuchukensaku
         '
         DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
         Me.Column7.DefaultCellStyle = DataGridViewCellStyle2
-        Me.Column7.HeaderText = "出荷予定指示数"
+        Me.Column7.HeaderText = "受注残数"
         Me.Column7.Name = "Column7"
         Me.Column7.ReadOnly = True
         Me.Column7.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
@@ -617,51 +662,6 @@ Partial Class syukojyuchukensaku
         Me.Column16.Name = "Column16"
         Me.Column16.ReadOnly = True
         Me.Column16.Width = 85
-        '
-        'Button5
-        '
-        Me.Button5.Location = New System.Drawing.Point(772, 576)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(100, 30)
-        Me.Button5.TabIndex = 40
-        Me.Button5.Text = "閉じる"
-        Me.Button5.UseVisualStyleBackColor = True
-        '
-        'Button4
-        '
-        Me.Button4.Location = New System.Drawing.Point(609, 576)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(120, 30)
-        Me.Button4.TabIndex = 39
-        Me.Button4.Text = "検索結果CSV出力"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(161, 576)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(100, 30)
-        Me.Button3.TabIndex = 38
-        Me.Button3.Text = "削除"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(12, 576)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(100, 30)
-        Me.Button2.TabIndex = 37
-        Me.Button2.Text = "変更"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'CheckBox1
-        '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(98, 239)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox1.TabIndex = 41
-        Me.CheckBox1.UseVisualStyleBackColor = True
         '
         'syukojyuchukensaku
         '

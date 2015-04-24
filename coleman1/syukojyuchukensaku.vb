@@ -440,6 +440,7 @@ Public Class syukojyuchukensaku
         Dim ID As Integer = 0
         Dim C_Code As String = Nothing
         Dim ChkCustomerCodeString As String = Nothing
+        Dim Discount_rate As Decimal
 
         '出荷先コード欄をクリアする。
         Label6.Text = ""
@@ -456,7 +457,7 @@ Public Class syukojyuchukensaku
                 e.Handled = True
                 '入力された出荷先コードを元に商品名を取得する。
                 'ログインチェックFunction
-                Result = GetCustomerName(ChkCustomerCodeString, 1, CustomerName, ID, C_Code, Result, ErrorMessage)
+                Result = GetCustomerName(ChkCustomerCodeString, 1, CustomerName, ID, C_Code, Discount_rate, Result, ErrorMessage)
                 If Result = "True" Then
                     Label16.Text = CustomerName
                     TextBox2.BackColor = Color.White
@@ -885,7 +886,7 @@ Public Class syukojyuchukensaku
         'CSVファイル名と、項目行の設定
         Dim Sheet1_Name As String = "受注検索データ" & dtNow.ToString("yyyyMMddHHmm") & ".csv"
         'Header設定
-        Dim Sheet1_Header As String = "出荷先コード,出荷先名,商品コード,商品名,出荷希望数,出荷予定指示数,出荷指示済数,納品単価,オーダー番号,出荷倉庫,区分,出荷ステータス,ステータス,コメント１,コメント２,出荷予定日,登録日時"
+        Dim Sheet1_Header As String = "出荷先コード,出荷先名,商品コード,商品名,受注数,受注残数,出荷指示済数,納品単価,オーダー番号,出荷倉庫,区分,出荷ステータス,ステータス,コメント１,コメント２,出荷予定日,登録日時"
 
         '文字コード設定
         strEncoding = System.Text.Encoding.GetEncoding("Shift_JIS")
@@ -909,7 +910,7 @@ Public Class syukojyuchukensaku
             'A列に出荷先コード
             LineData = """" & SearchResult(i).C_CODE & ""","
             'B列に出荷先名
-            LineData &= """" & SearchResult(i).C_NAME & ""","
+            LineData &= """" & SearchResult(i).D_NAME & ""","
             'C列に商品コード
             LineData &= """" & SearchResult(i).I_CODE & ""","
             'D列に商品名
