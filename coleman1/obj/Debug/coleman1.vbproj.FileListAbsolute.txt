@@ -559,3 +559,7 @@ C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver
 C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.ztyousei.resources
 C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\PureFishingJapan.syukodenpyou.resources
 C:\Users\Owner\Desktop\Live-C\Pure Fishing Japan2_グラフ勉強用20130412_Ver1.1.1\Pure Fishing Japan2\coleman1\obj\Debug\coleman1.vbproj.GenerateResource.Cache
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20150424_1_Ver1.1.4（ベース倉庫版・表示サマリー版）\Pure Fishing Japan2\coleman1\bin\Debug\GLIS.exe.config
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20150424_1_Ver1.1.4（ベース倉庫版・表示サマリー版）\Pure Fishing Japan2\coleman1\obj\Debug\Interop.COREPOXLib.dll
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20150424_1_Ver1.1.4（ベース倉庫版・表示サマリー版）\Pure Fishing Japan2\coleman1\obj\Debug\AxInterop.COREPOXLib.dll
+C:\Users\Owner\Desktop\Live-C\LiveCruster発注・在庫管理システム20150424_1_Ver1.1.4（ベース倉庫版・表示サマリー版）\Pure Fishing Japan2\coleman1\obj\Debug\coleman1.vbproj.ResolveComReference.cache

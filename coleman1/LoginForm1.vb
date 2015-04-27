@@ -61,8 +61,7 @@ Public Class LoginForm1
 
         loginid = Trim(loginidCheckAfter)
         password = Trim(passwordCheckAfter)
-        'ログインチェックFunction
-        'result = LoginCheck(constring, loginid, password, result, errorMessage)
+
         result = LoginCheck(loginid, password, displist, result, errorMessage)
         If result = "true" Then
             topmenu.Show()
@@ -112,7 +111,6 @@ Public Class LoginForm1
         End If
 
         UsernameTextBox.Focus()
-
 
     End Sub
 

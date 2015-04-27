@@ -13513,6 +13513,7 @@ Module DBMOB
                     '通常出荷の場合、出荷希望数 - 出荷指示予定数 - 出荷指示済数が0以上なら結果を出荷指示予定数に格納にするため、数値を求める
                     If SearchResult(Count).NUM - SearchResult(Count).PLAN_NUM - SearchResult(Count).FIX_NUM > 0 And SearchResult(Count).STATUS = "通常出荷" Then
                         Update_PLAN_NUM = SearchResult(Count).NUM - SearchResult(Count).PLAN_NUM - SearchResult(Count).FIX_NUM
+                        Update_S_Status = False
                     ElseIf SearchResult(Count).NUM - SearchResult(Count).PLAN_NUM - SearchResult(Count).FIX_NUM = 0 And SearchResult(Count).STATUS = "通常出荷" Then
                         '通常出荷の場合、出荷希望数 - 出荷指示予定数 - 出荷指示済数が0ならPLAN_NUMに0をいれ、ステータスを出荷指示済み数にする
                         Update_PLAN_NUM = 0
@@ -13520,7 +13521,7 @@ Module DBMOB
                     ElseIf SearchResult(Count).NUM - SearchResult(Count).PLAN_NUM - SearchResult(Count).FIX_NUM < 0 And SearchResult(Count).STATUS = "伝票出力のみ" Then
                         '伝票出力のみの場合、出荷希望数 - 出荷指示予定数 - 出荷指示済数が0以下なら結果を出荷指示予定数に格納にするため、数値を求める
                         Update_PLAN_NUM = SearchResult(Count).NUM - SearchResult(Count).PLAN_NUM - SearchResult(Count).FIX_NUM
-
+                        Update_S_Status = False
                     ElseIf SearchResult(Count).NUM - SearchResult(Count).PLAN_NUM - SearchResult(Count).FIX_NUM = 0 And SearchResult(Count).STATUS = "伝票出力のみ" Then
                         '通常出荷の場合、出荷希望数 - 出荷指示予定数 - 出荷指示済数が0ならPLAN_NUMに0をいれ、ステータスを出荷指示済み数にする
                         Update_PLAN_NUM = 0
@@ -14505,7 +14506,7 @@ Module DBMOB
                 Else
                     WhereSql &= " AND "
                 End If
-                WhereSql &= " OUT_TBL.CLAIM_PRT_DATE IS NOT NULL"
+                WhereSql &= " OUT_TBL.CLAIM_PRT_DATE IS NULL"
             End If
 
             'オープン
@@ -14586,7 +14587,12 @@ Module DBMOB
                 'OUT_TBL.C_ID
                 SearchResult(Count).C_ID = SearchData("C_ID")
                 '請求書番号
-                SearchResult(Count).CLAIM_NO = SearchData("CLAIM_NO")
+                If IsDBNull(SearchData("CLAIM_NO")) Then
+                    SearchResult(Count).CLAIM_NO = ""
+                Else
+                    SearchResult(Count).CLAIM_NO = SearchData("CLAIM_NO")
+                End If
+
                 Count += 1
             Loop
 

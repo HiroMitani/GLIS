@@ -17,13 +17,6 @@
         'ウインドウのサイズ変更不可能にする。
         FormBorderStyle = FormBorderStyle.FixedSingle
 
-        '機能リスト取得
-        'Result = GetFunctionList(FunctionData, Result, ErrorMessage)
-        'If Result = False Then
-        '    MsgBox(ErrorMessage)
-        '    Exit Sub
-        'End If
-
         'メニュー表示
         For i = 0 To DISPLIST.Length - 1
             'ボタンを表示する。
